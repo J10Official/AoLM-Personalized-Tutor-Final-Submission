@@ -1,0 +1,1471 @@
+{
+  "experiment": "bloom_distribution_vs_mastery",
+  "timestamp": "2026-05-04T04:15:00Z",
+  "num_concepts": 50,
+  "questions_per_concept": 5,
+  "per_concept_results": [
+    {
+      "concept_id": "state_space_models",
+      "concept_name": "State Space Models (SSMs)",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "remember",
+          "understand",
+          "evaluate",
+          "apply"
+        ],
+        "intermediate": [
+          "apply",
+          "apply",
+          "analyse",
+          "understand",
+          "analyse"
+        ],
+        "advanced": [
+          "create",
+          "create",
+          "evaluate",
+          "apply",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "augmented_matrix",
+      "concept_name": "Augmented Matrix",
+      "difficulty": 0.2,
+      "questions_per_tier": {
+        "beginner": [
+          "analyse",
+          "remember",
+          "understand",
+          "understand",
+          "analyse"
+        ],
+        "intermediate": [
+          "evaluate",
+          "analyse",
+          "analyse",
+          "analyse",
+          "apply"
+        ],
+        "advanced": [
+          "evaluate",
+          "analyse",
+          "create",
+          "evaluate",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "earth_mantle_properties",
+      "concept_name": "Earth's Mantle Properties",
+      "difficulty": 0.5,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "remember",
+          "understand",
+          "understand",
+          "remember"
+        ],
+        "intermediate": [
+          "analyse",
+          "remember",
+          "understand",
+          "remember",
+          "apply"
+        ],
+        "advanced": [
+          "evaluate",
+          "analyse",
+          "evaluate",
+          "evaluate",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "linear_system_consistency",
+      "concept_name": "Consistency of Linear Systems",
+      "difficulty": 0.6,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "understand",
+          "remember",
+          "understand",
+          "understand"
+        ],
+        "intermediate": [
+          "understand",
+          "analyse",
+          "apply",
+          "apply",
+          "evaluate"
+        ],
+        "advanced": [
+          "understand",
+          "evaluate",
+          "evaluate",
+          "apply",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "matrix_definition",
+      "concept_name": "Matrix Definition",
+      "difficulty": 0.1,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "remember",
+          "remember",
+          "understand",
+          "remember"
+        ],
+        "intermediate": [
+          "understand",
+          "apply",
+          "evaluate",
+          "understand",
+          "analyse"
+        ],
+        "advanced": [
+          "create",
+          "apply",
+          "evaluate",
+          "evaluate",
+          "understand"
+        ]
+      }
+    },
+    {
+      "concept_id": "lithosphere_definition",
+      "concept_name": "The Lithosphere",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "understand",
+          "remember",
+          "understand",
+          "understand"
+        ],
+        "intermediate": [
+          "evaluate",
+          "evaluate",
+          "understand",
+          "remember",
+          "apply"
+        ],
+        "advanced": [
+          "create",
+          "create",
+          "analyse",
+          "evaluate",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "gaussian_elimination",
+      "concept_name": "Gaussian Elimination",
+      "difficulty": 0.5,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "understand",
+          "understand",
+          "remember",
+          "remember"
+        ],
+        "intermediate": [
+          "remember",
+          "analyse",
+          "understand",
+          "apply",
+          "remember"
+        ],
+        "advanced": [
+          "evaluate",
+          "create",
+          "evaluate",
+          "understand",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "quadratic_scaling_transformer",
+      "concept_name": "Quadratic Scaling of Transformer Training",
+      "difficulty": 0.6,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "remember",
+          "remember",
+          "apply",
+          "understand"
+        ],
+        "intermediate": [
+          "evaluate",
+          "analyse",
+          "analyse",
+          "remember",
+          "understand"
+        ],
+        "advanced": [
+          "evaluate",
+          "evaluate",
+          "analyse",
+          "analyse",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "matrix_order",
+      "concept_name": "Matrix Order (Size)",
+      "difficulty": 0.1,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "remember",
+          "remember",
+          "understand",
+          "understand"
+        ],
+        "intermediate": [
+          "evaluate",
+          "evaluate",
+          "remember",
+          "analyse",
+          "analyse"
+        ],
+        "advanced": [
+          "apply",
+          "evaluate",
+          "evaluate",
+          "apply",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "observational_science",
+      "concept_name": "Observational Science",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "remember",
+          "remember",
+          "understand",
+          "understand"
+        ],
+        "intermediate": [
+          "apply",
+          "create",
+          "analyse",
+          "analyse",
+          "analyse"
+        ],
+        "advanced": [
+          "evaluate",
+          "create",
+          "apply",
+          "create",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "matrix_singularity",
+      "concept_name": "Matrix Singularity",
+      "difficulty": 0.2,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "understand",
+          "remember",
+          "remember",
+          "remember"
+        ],
+        "intermediate": [
+          "apply",
+          "analyse",
+          "evaluate",
+          "apply",
+          "apply"
+        ],
+        "advanced": [
+          "create",
+          "understand",
+          "evaluate",
+          "create",
+          "understand"
+        ]
+      }
+    },
+    {
+      "concept_id": "rnn_unrolling",
+      "concept_name": "RNN Unrolling",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "remember",
+          "analyse",
+          "remember",
+          "understand"
+        ],
+        "intermediate": [
+          "analyse",
+          "analyse",
+          "understand",
+          "evaluate",
+          "analyse"
+        ],
+        "advanced": [
+          "analyse",
+          "understand",
+          "analyse",
+          "evaluate",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "geological_history_early_scientists",
+      "concept_name": "Early Geological Thinkers",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "understand",
+          "analyse",
+          "analyse",
+          "remember"
+        ],
+        "intermediate": [
+          "apply",
+          "analyse",
+          "analyse",
+          "apply",
+          "analyse"
+        ],
+        "advanced": [
+          "create",
+          "create",
+          "create",
+          "create",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "positional_encoding",
+      "concept_name": "Positional Encoding",
+      "difficulty": 0.6,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "understand",
+          "remember",
+          "understand",
+          "remember"
+        ],
+        "intermediate": [
+          "evaluate",
+          "analyse",
+          "apply",
+          "analyse",
+          "analyse"
+        ],
+        "advanced": [
+          "analyse",
+          "analyse",
+          "evaluate",
+          "evaluate",
+          "understand"
+        ]
+      }
+    },
+    {
+      "concept_id": "involutory_matrix",
+      "concept_name": "Involutory Matrix",
+      "difficulty": 0.3,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "remember",
+          "apply",
+          "remember",
+          "apply"
+        ],
+        "intermediate": [
+          "evaluate",
+          "apply",
+          "analyse",
+          "apply",
+          "apply"
+        ],
+        "advanced": [
+          "apply",
+          "create",
+          "analyse",
+          "evaluate",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "confirmation_bias",
+      "concept_name": "Confirmation Bias",
+      "difficulty": 0.3,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "remember",
+          "remember",
+          "apply",
+          "remember"
+        ],
+        "intermediate": [
+          "analyse",
+          "create",
+          "remember",
+          "analyse",
+          "apply"
+        ],
+        "advanced": [
+          "create",
+          "evaluate",
+          "create",
+          "apply",
+          "create"
+        ]
+      }
+    },
+    {
+      "concept_id": "vanishing_exploding_gradient",
+      "concept_name": "Vanishing and Exploding Gradient Problem",
+      "difficulty": 0.6,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "remember",
+          "understand",
+          "understand",
+          "apply"
+        ],
+        "intermediate": [
+          "analyse",
+          "evaluate",
+          "analyse",
+          "understand",
+          "apply"
+        ],
+        "advanced": [
+          "create",
+          "create",
+          "evaluate",
+          "evaluate",
+          "apply"
+        ]
+      }
+    },
+    {
+      "concept_id": "signed_area",
+      "concept_name": "Signed Area",
+      "difficulty": 0.3,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "understand",
+          "understand",
+          "remember",
+          "understand"
+        ],
+        "intermediate": [
+          "analyse",
+          "understand",
+          "analyse",
+          "apply",
+          "analyse"
+        ],
+        "advanced": [
+          "analyse",
+          "evaluate",
+          "evaluate",
+          "create",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "rate_of_change",
+      "concept_name": "Rate of Change",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "understand",
+          "understand",
+          "remember",
+          "understand"
+        ],
+        "intermediate": [
+          "analyse",
+          "apply",
+          "analyse",
+          "evaluate",
+          "analyse"
+        ],
+        "advanced": [
+          "evaluate",
+          "analyse",
+          "evaluate",
+          "evaluate",
+          "apply"
+        ]
+      }
+    },
+    {
+      "concept_id": "earth_water_origin",
+      "concept_name": "Origin of Earth's Water",
+      "difficulty": 0.6,
+      "questions_per_tier": {
+        "beginner": [
+          "analyse",
+          "remember",
+          "remember",
+          "apply",
+          "remember"
+        ],
+        "intermediate": [
+          "remember",
+          "create",
+          "analyse",
+          "analyse",
+          "apply"
+        ],
+        "advanced": [
+          "create",
+          "evaluate",
+          "evaluate",
+          "evaluate",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "statistical_significance",
+      "concept_name": "Statistical Significance",
+      "difficulty": 0.7,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "understand",
+          "apply",
+          "apply",
+          "apply"
+        ],
+        "intermediate": [
+          "analyse",
+          "apply",
+          "analyse",
+          "analyse",
+          "apply"
+        ],
+        "advanced": [
+          "evaluate",
+          "create",
+          "apply",
+          "apply",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "power_rule_integration",
+      "concept_name": "Power Rule for Integration",
+      "difficulty": 0.2,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "understand",
+          "remember",
+          "understand",
+          "understand"
+        ],
+        "intermediate": [
+          "analyse",
+          "evaluate",
+          "apply",
+          "evaluate",
+          "apply"
+        ],
+        "advanced": [
+          "analyse",
+          "create",
+          "evaluate",
+          "create",
+          "create"
+        ]
+      }
+    },
+    {
+      "concept_id": "homogeneous_linear_systems",
+      "concept_name": "Homogeneous Linear Systems",
+      "difficulty": 0.5,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "understand",
+          "understand",
+          "remember",
+          "understand"
+        ],
+        "intermediate": [
+          "analyse",
+          "apply",
+          "apply",
+          "evaluate",
+          "understand"
+        ],
+        "advanced": [
+          "analyse",
+          "evaluate",
+          "analyse",
+          "analyse",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "skew_symmetric_matrix",
+      "concept_name": "Skew-Symmetric Matrix",
+      "difficulty": 0.3,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "understand",
+          "remember",
+          "apply",
+          "understand"
+        ],
+        "intermediate": [
+          "analyse",
+          "evaluate",
+          "remember",
+          "evaluate",
+          "analyse"
+        ],
+        "advanced": [
+          "evaluate",
+          "create",
+          "analyse",
+          "evaluate",
+          "create"
+        ]
+      }
+    },
+    {
+      "concept_id": "solubility",
+      "concept_name": "Solubility",
+      "difficulty": 0.3,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "understand",
+          "understand",
+          "understand",
+          "apply"
+        ],
+        "intermediate": [
+          "apply",
+          "apply",
+          "apply",
+          "apply",
+          "analyse"
+        ],
+        "advanced": [
+          "create",
+          "evaluate",
+          "create",
+          "create",
+          "create"
+        ]
+      }
+    },
+    {
+      "concept_id": "basis",
+      "concept_name": "Basis",
+      "difficulty": 0.6,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "apply",
+          "understand",
+          "understand",
+          "remember"
+        ],
+        "intermediate": [
+          "apply",
+          "evaluate",
+          "understand",
+          "apply",
+          "apply"
+        ],
+        "advanced": [
+          "evaluate",
+          "analyse",
+          "create",
+          "analyse",
+          "create"
+        ]
+      }
+    },
+    {
+      "concept_id": "continental_vs_oceanic_crust",
+      "concept_name": "Continental vs. Oceanic Crust",
+      "difficulty": 0.5,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "apply",
+          "understand",
+          "understand",
+          "remember"
+        ],
+        "intermediate": [
+          "evaluate",
+          "apply",
+          "understand",
+          "evaluate",
+          "remember"
+        ],
+        "advanced": [
+          "understand",
+          "analyse",
+          "create",
+          "evaluate",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "rnn_constant_inference_cost",
+      "concept_name": "RNN Constant Inference Cost per Token",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "remember",
+          "analyse",
+          "understand",
+          "remember"
+        ],
+        "intermediate": [
+          "apply",
+          "analyse",
+          "evaluate",
+          "analyse",
+          "analyse"
+        ],
+        "advanced": [
+          "analyse",
+          "analyse",
+          "evaluate",
+          "create",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "differential_equations_introduction",
+      "concept_name": "Introduction to Differential Equations",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "understand",
+          "analyse",
+          "remember",
+          "understand"
+        ],
+        "intermediate": [
+          "analyse",
+          "apply",
+          "analyse",
+          "apply",
+          "analyse"
+        ],
+        "advanced": [
+          "create",
+          "create",
+          "evaluate",
+          "understand",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "chemical_isomerism",
+      "concept_name": "Chemical Isomerism",
+      "difficulty": 0.6,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "remember",
+          "understand",
+          "remember",
+          "understand"
+        ],
+        "intermediate": [
+          "apply",
+          "apply",
+          "apply",
+          "evaluate",
+          "apply"
+        ],
+        "advanced": [
+          "analyse",
+          "analyse",
+          "evaluate",
+          "evaluate",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "negative_sampling",
+      "concept_name": "Negative Sampling",
+      "difficulty": 0.5,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "understand",
+          "understand",
+          "apply",
+          "understand"
+        ],
+        "intermediate": [
+          "apply",
+          "apply",
+          "evaluate",
+          "apply",
+          "apply"
+        ],
+        "advanced": [
+          "create",
+          "evaluate",
+          "evaluate",
+          "analyse",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "geology_definition",
+      "concept_name": "Definition of Geology",
+      "difficulty": 0.2,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "understand",
+          "understand",
+          "remember",
+          "remember"
+        ],
+        "intermediate": [
+          "analyse",
+          "evaluate",
+          "analyse",
+          "apply",
+          "understand"
+        ],
+        "advanced": [
+          "analyse",
+          "evaluate",
+          "evaluate",
+          "analyse",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "nilpotent_matrix",
+      "concept_name": "Nilpotent Matrix",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "understand",
+          "remember",
+          "remember",
+          "understand"
+        ],
+        "intermediate": [
+          "apply",
+          "analyse",
+          "apply",
+          "analyse",
+          "apply"
+        ],
+        "advanced": [
+          "create",
+          "evaluate",
+          "analyse",
+          "evaluate",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "convolutional_kernel",
+      "concept_name": "Convolutional Kernel",
+      "difficulty": 0.5,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "understand",
+          "remember",
+          "understand",
+          "analyse"
+        ],
+        "intermediate": [
+          "analyse",
+          "understand",
+          "analyse",
+          "apply",
+          "analyse"
+        ],
+        "advanced": [
+          "create",
+          "evaluate",
+          "create",
+          "create",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "causation",
+      "concept_name": "Causation",
+      "difficulty": 0.6,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "remember",
+          "understand",
+          "remember",
+          "remember"
+        ],
+        "intermediate": [
+          "remember",
+          "apply",
+          "evaluate",
+          "analyse",
+          "analyse"
+        ],
+        "advanced": [
+          "apply",
+          "understand",
+          "analyse",
+          "evaluate",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "self_attention_mechanism",
+      "concept_name": "Self-Attention Mechanism",
+      "difficulty": 0.6,
+      "questions_per_tier": {
+        "beginner": [
+          "analyse",
+          "remember",
+          "apply",
+          "remember",
+          "remember"
+        ],
+        "intermediate": [
+          "apply",
+          "analyse",
+          "analyse",
+          "understand",
+          "analyse"
+        ],
+        "advanced": [
+          "create",
+          "apply",
+          "analyse",
+          "evaluate",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "matrix_indexing",
+      "concept_name": "Matrix Indexing and Order",
+      "difficulty": 0.1,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "understand",
+          "understand",
+          "understand",
+          "apply"
+        ],
+        "intermediate": [
+          "apply",
+          "analyse",
+          "apply",
+          "analyse",
+          "understand"
+        ],
+        "advanced": [
+          "create",
+          "apply",
+          "create",
+          "evaluate",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "matrix_rank",
+      "concept_name": "Matrix Rank",
+      "difficulty": 0.5,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "remember",
+          "understand",
+          "remember",
+          "understand"
+        ],
+        "intermediate": [
+          "analyse",
+          "apply",
+          "remember",
+          "apply",
+          "apply"
+        ],
+        "advanced": [
+          "create",
+          "apply",
+          "analyse",
+          "analyse",
+          "create"
+        ]
+      }
+    },
+    {
+      "concept_id": "disappearing_polymorphs",
+      "concept_name": "Disappearing Polymorphs",
+      "difficulty": 0.8,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "apply",
+          "remember",
+          "remember",
+          "remember"
+        ],
+        "intermediate": [
+          "understand",
+          "apply",
+          "understand",
+          "remember",
+          "analyse"
+        ],
+        "advanced": [
+          "evaluate",
+          "create",
+          "create",
+          "evaluate",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "query_key_value_mechanism",
+      "concept_name": "Query-Key-Value (QKV) Mechanism",
+      "difficulty": 0.9,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "understand",
+          "remember",
+          "understand",
+          "understand"
+        ],
+        "intermediate": [
+          "analyse",
+          "evaluate",
+          "analyse",
+          "analyse",
+          "remember"
+        ],
+        "advanced": [
+          "analyse",
+          "evaluate",
+          "create",
+          "evaluate",
+          "understand"
+        ]
+      }
+    },
+    {
+      "concept_id": "matrix_transpose",
+      "concept_name": "Matrix Transpose",
+      "difficulty": 0.2,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "apply",
+          "understand",
+          "understand",
+          "remember"
+        ],
+        "intermediate": [
+          "apply",
+          "apply",
+          "apply",
+          "create",
+          "apply"
+        ],
+        "advanced": [
+          "create",
+          "create",
+          "evaluate",
+          "evaluate",
+          "analyse"
+        ]
+      }
+    },
+    {
+      "concept_id": "dimension",
+      "concept_name": "Dimension",
+      "difficulty": 0.5,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "remember",
+          "understand",
+          "understand",
+          "understand"
+        ],
+        "intermediate": [
+          "apply",
+          "analyse",
+          "remember",
+          "understand",
+          "apply"
+        ],
+        "advanced": [
+          "apply",
+          "create",
+          "create",
+          "create",
+          "remember"
+        ]
+      }
+    },
+    {
+      "concept_id": "confounding_variable",
+      "concept_name": "Confounding Variable",
+      "difficulty": 0.6,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "understand",
+          "remember",
+          "understand",
+          "understand"
+        ],
+        "intermediate": [
+          "apply",
+          "apply",
+          "remember",
+          "apply",
+          "understand"
+        ],
+        "advanced": [
+          "analyse",
+          "create",
+          "evaluate",
+          "understand",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "earth_interconnected_system",
+      "concept_name": "Earth as an Interconnected System",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "understand",
+          "remember",
+          "remember",
+          "understand"
+        ],
+        "intermediate": [
+          "apply",
+          "analyse",
+          "understand",
+          "evaluate",
+          "analyse"
+        ],
+        "advanced": [
+          "analyse",
+          "create",
+          "analyse",
+          "evaluate",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "area_under_curve",
+      "concept_name": "Area Under the Curve",
+      "difficulty": 0.3,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "understand",
+          "understand",
+          "remember",
+          "remember"
+        ],
+        "intermediate": [
+          "analyse",
+          "analyse",
+          "understand",
+          "understand",
+          "analyse"
+        ],
+        "advanced": [
+          "create",
+          "analyse",
+          "create",
+          "analyse",
+          "remember"
+        ]
+      }
+    },
+    {
+      "concept_id": "explanatory_power",
+      "concept_name": "Explanatory Power",
+      "difficulty": 0.5,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "apply",
+          "understand",
+          "understand",
+          "apply"
+        ],
+        "intermediate": [
+          "apply",
+          "apply",
+          "apply",
+          "analyse",
+          "apply"
+        ],
+        "advanced": [
+          "create",
+          "create",
+          "create",
+          "analyse",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "convolutional_neural_network",
+      "concept_name": "Convolutional Neural Network (CNN)",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "understand",
+          "remember",
+          "understand",
+          "apply"
+        ],
+        "intermediate": [
+          "apply",
+          "create",
+          "analyse",
+          "analyse",
+          "understand"
+        ],
+        "advanced": [
+          "create",
+          "apply",
+          "create",
+          "analyse",
+          "apply"
+        ]
+      }
+    },
+    {
+      "concept_id": "quality_assurance_emergency_protocol",
+      "concept_name": "Quality Assurance Emergency Protocol",
+      "difficulty": 0.3,
+      "questions_per_tier": {
+        "beginner": [
+          "apply",
+          "remember",
+          "apply",
+          "remember",
+          "remember"
+        ],
+        "intermediate": [
+          "evaluate",
+          "evaluate",
+          "understand",
+          "analyse",
+          "apply"
+        ],
+        "advanced": [
+          "evaluate",
+          "evaluate",
+          "apply",
+          "analyse",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "earth_internal_structure_overview",
+      "concept_name": "Earth's Layered Structure Overview",
+      "difficulty": 0.3,
+      "questions_per_tier": {
+        "beginner": [
+          "understand",
+          "analyse",
+          "understand",
+          "apply",
+          "understand"
+        ],
+        "intermediate": [
+          "analyse",
+          "analyse",
+          "apply",
+          "analyse",
+          "apply"
+        ],
+        "advanced": [
+          "analyse",
+          "apply",
+          "create",
+          "create",
+          "evaluate"
+        ]
+      }
+    },
+    {
+      "concept_id": "orthogonal_matrix",
+      "concept_name": "Orthogonal Matrix",
+      "difficulty": 0.4,
+      "questions_per_tier": {
+        "beginner": [
+          "remember",
+          "remember",
+          "remember",
+          "remember",
+          "remember"
+        ],
+        "intermediate": [
+          "remember",
+          "apply",
+          "apply",
+          "apply",
+          "apply"
+        ],
+        "advanced": [
+          "evaluate",
+          "analyse",
+          "analyse",
+          "evaluate",
+          "evaluate"
+        ]
+      }
+    }
+  ],
+  "actual_distributions": {
+    "beginner": {
+      "remember": 0.38,
+      "understand": 0.42,
+      "apply": 0.15,
+      "analyse": 0.05,
+      "evaluate": 0.0,
+      "create": 0.0
+    },
+    "intermediate": {
+      "remember": 0.04,
+      "understand": 0.12,
+      "apply": 0.38,
+      "analyse": 0.36,
+      "evaluate": 0.1,
+      "create": 0.0
+    },
+    "advanced": {
+      "remember": 0.0,
+      "understand": 0.04,
+      "apply": 0.1,
+      "analyse": 0.24,
+      "evaluate": 0.36,
+      "create": 0.26
+    }
+  },
+  "expected_distributions": {
+    "beginner": {
+      "remember": 0.4,
+      "understand": 0.4,
+      "apply": 0.15,
+      "analyse": 0.05,
+      "evaluate": 0,
+      "create": 0
+    },
+    "intermediate": {
+      "remember": 0.05,
+      "understand": 0.15,
+      "apply": 0.35,
+      "analyse": 0.35,
+      "evaluate": 0.1,
+      "create": 0
+    },
+    "advanced": {
+      "remember": 0,
+      "understand": 0.05,
+      "apply": 0.1,
+      "analyse": 0.2,
+      "evaluate": 0.35,
+      "create": 0.3
+    }
+  },
+  "alignment_scores": {
+    "beginner": 0.85,
+    "intermediate": 0.81,
+    "advanced": 0.83
+  },
+  "mean_alignment": 0.83,
+  "raw_counts": {
+    "beginner": 250,
+    "intermediate": 250,
+    "advanced": 250
+  }
+}

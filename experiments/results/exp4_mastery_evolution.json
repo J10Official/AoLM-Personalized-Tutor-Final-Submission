@@ -1,0 +1,2215 @@
+{
+  "experiment": "mastery_evolution",
+  "timestamp": "2026-05-04T04:50:00Z",
+  "iterations": 5,
+  "num_concepts": 50,
+  "per_concept_results": [
+    {
+      "mode": "with_kg",
+      "concept_id": "state_space_models",
+      "concept_name": "State Space Models (SSMs)",
+      "mastery_trajectory": [
+        0.0,
+        0.2064,
+        0.4176,
+        0.616,
+        0.7406,
+        0.875
+      ],
+      "score_trajectory": [
+        0.72,
+        0.94,
+        0.96,
+        0.99,
+        0.97
+      ],
+      "final_mastery": 0.875,
+      "mastery_gain": 0.875
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "state_space_models",
+      "concept_name": "State Space Models (SSMs)",
+      "mastery_trajectory": [
+        0.0,
+        0.2024,
+        0.3972,
+        0.4997,
+        0.653,
+        0.7739
+      ],
+      "score_trajectory": [
+        0.67,
+        0.76,
+        0.81,
+        0.88,
+        0.73
+      ],
+      "final_mastery": 0.7739,
+      "mastery_gain": 0.7739
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "augmented_matrix",
+      "concept_name": "Augmented Matrix",
+      "mastery_trajectory": [
+        0.0,
+        0.2161,
+        0.4096,
+        0.577,
+        0.7152,
+        0.8817
+      ],
+      "score_trajectory": [
+        0.8,
+        0.9,
+        0.97,
+        1.0,
+        0.91
+      ],
+      "final_mastery": 0.8817,
+      "mastery_gain": 0.8817
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "augmented_matrix",
+      "concept_name": "Augmented Matrix",
+      "mastery_trajectory": [
+        0.0,
+        0.0452,
+        0.2254,
+        0.4003,
+        0.5663,
+        0.7037
+      ],
+      "score_trajectory": [
+        0.46,
+        0.65,
+        0.92,
+        0.94,
+        1.0
+      ],
+      "final_mastery": 0.7037,
+      "mastery_gain": 0.7037
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "earth_mantle_properties",
+      "concept_name": "Earth's Mantle Properties",
+      "mastery_trajectory": [
+        0.0,
+        0.2253,
+        0.3941,
+        0.5836,
+        0.7239,
+        0.8815
+      ],
+      "score_trajectory": [
+        0.8,
+        0.59,
+        0.89,
+        1.0,
+        0.98
+      ],
+      "final_mastery": 0.8815,
+      "mastery_gain": 0.8815
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "earth_mantle_properties",
+      "concept_name": "Earth's Mantle Properties",
+      "mastery_trajectory": [
+        0.0,
+        0.1976,
+        0.3895,
+        0.5241,
+        0.7049,
+        0.8171
+      ],
+      "score_trajectory": [
+        0.74,
+        0.97,
+        0.62,
+        0.8,
+        0.76
+      ],
+      "final_mastery": 0.8171,
+      "mastery_gain": 0.8171
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "linear_system_consistency",
+      "concept_name": "Consistency of Linear Systems",
+      "mastery_trajectory": [
+        0.0,
+        0.2351,
+        0.4191,
+        0.5659,
+        0.7272,
+        0.9039
+      ],
+      "score_trajectory": [
+        0.71,
+        0.67,
+        0.74,
+        0.87,
+        0.88
+      ],
+      "final_mastery": 0.9039,
+      "mastery_gain": 0.9039
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "linear_system_consistency",
+      "concept_name": "Consistency of Linear Systems",
+      "mastery_trajectory": [
+        0.0,
+        0.2069,
+        0.3817,
+        0.5117,
+        0.6607,
+        0.8134
+      ],
+      "score_trajectory": [
+        0.71,
+        0.79,
+        0.61,
+        0.84,
+        0.75
+      ],
+      "final_mastery": 0.8134,
+      "mastery_gain": 0.8134
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "matrix_definition",
+      "concept_name": "Matrix Definition",
+      "mastery_trajectory": [
+        0.0,
+        0.2082,
+        0.4146,
+        0.5518,
+        0.6903,
+        0.8141
+      ],
+      "score_trajectory": [
+        0.79,
+        0.96,
+        0.78,
+        0.84,
+        0.8
+      ],
+      "final_mastery": 0.8141,
+      "mastery_gain": 0.8141
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "matrix_definition",
+      "concept_name": "Matrix Definition",
+      "mastery_trajectory": [
+        0.0,
+        0.1945,
+        0.381,
+        0.48,
+        0.633,
+        0.7478
+      ],
+      "score_trajectory": [
+        0.8,
+        0.79,
+        0.68,
+        0.86,
+        0.8
+      ],
+      "final_mastery": 0.7478,
+      "mastery_gain": 0.7478
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "lithosphere_definition",
+      "concept_name": "The Lithosphere",
+      "mastery_trajectory": [
+        0.0,
+        0.2274,
+        0.4279,
+        0.5719,
+        0.716,
+        0.8648
+      ],
+      "score_trajectory": [
+        0.77,
+        1.0,
+        0.68,
+        0.8,
+        1.0
+      ],
+      "final_mastery": 0.8648,
+      "mastery_gain": 0.8648
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "lithosphere_definition",
+      "concept_name": "The Lithosphere",
+      "mastery_trajectory": [
+        0.0,
+        0.2226,
+        0.3627,
+        0.5307,
+        0.6882,
+        0.7962
+      ],
+      "score_trajectory": [
+        0.92,
+        0.64,
+        0.66,
+        0.83,
+        0.71
+      ],
+      "final_mastery": 0.7962,
+      "mastery_gain": 0.7962
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "gaussian_elimination",
+      "concept_name": "Gaussian Elimination",
+      "mastery_trajectory": [
+        0.0,
+        0.2377,
+        0.4307,
+        0.5907,
+        0.7296,
+        0.8663
+      ],
+      "score_trajectory": [
+        0.93,
+        0.86,
+        0.88,
+        0.9,
+        0.85
+      ],
+      "final_mastery": 0.8663,
+      "mastery_gain": 0.8663
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "gaussian_elimination",
+      "concept_name": "Gaussian Elimination",
+      "mastery_trajectory": [
+        0.0,
+        0.2148,
+        0.3706,
+        0.5399,
+        0.6302,
+        0.7656
+      ],
+      "score_trajectory": [
+        0.69,
+        0.74,
+        0.77,
+        0.88,
+        0.86
+      ],
+      "final_mastery": 0.7656,
+      "mastery_gain": 0.7656
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "quadratic_scaling_transformer",
+      "concept_name": "Quadratic Scaling of Transformer Training",
+      "mastery_trajectory": [
+        0.0,
+        0.2275,
+        0.423,
+        0.6039,
+        0.7454,
+        0.9068
+      ],
+      "score_trajectory": [
+        0.66,
+        0.84,
+        0.81,
+        1.0,
+        0.85
+      ],
+      "final_mastery": 0.9068,
+      "mastery_gain": 0.9068
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "quadratic_scaling_transformer",
+      "concept_name": "Quadratic Scaling of Transformer Training",
+      "mastery_trajectory": [
+        0.0,
+        0.2142,
+        0.4111,
+        0.5668,
+        0.6926,
+        0.8781
+      ],
+      "score_trajectory": [
+        0.86,
+        0.79,
+        0.83,
+        0.79,
+        1.0
+      ],
+      "final_mastery": 0.8781,
+      "mastery_gain": 0.8781
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "matrix_order",
+      "concept_name": "Matrix Order (Size)",
+      "mastery_trajectory": [
+        0.0,
+        0.1984,
+        0.3751,
+        0.5374,
+        0.6979,
+        0.8557
+      ],
+      "score_trajectory": [
+        0.68,
+        0.77,
+        0.78,
+        0.69,
+        0.93
+      ],
+      "final_mastery": 0.8557,
+      "mastery_gain": 0.8557
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "matrix_order",
+      "concept_name": "Matrix Order (Size)",
+      "mastery_trajectory": [
+        0.0,
+        0.1855,
+        0.3689,
+        0.5223,
+        0.6714,
+        0.8014
+      ],
+      "score_trajectory": [
+        0.77,
+        1.0,
+        0.73,
+        0.86,
+        0.82
+      ],
+      "final_mastery": 0.8014,
+      "mastery_gain": 0.8014
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "observational_science",
+      "concept_name": "Observational Science",
+      "mastery_trajectory": [
+        0.0,
+        0.2105,
+        0.402,
+        0.5827,
+        0.7341,
+        0.8708
+      ],
+      "score_trajectory": [
+        0.67,
+        0.77,
+        0.92,
+        0.87,
+        0.98
+      ],
+      "final_mastery": 0.8708,
+      "mastery_gain": 0.8708
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "observational_science",
+      "concept_name": "Observational Science",
+      "mastery_trajectory": [
+        0.0,
+        0.0408,
+        0.2434,
+        0.3836,
+        0.5028,
+        0.6546
+      ],
+      "score_trajectory": [
+        0.46,
+        0.87,
+        0.82,
+        0.58,
+        0.95
+      ],
+      "final_mastery": 0.6546,
+      "mastery_gain": 0.6546
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "matrix_singularity",
+      "concept_name": "Matrix Singularity",
+      "mastery_trajectory": [
+        0.0,
+        0.2115,
+        0.3725,
+        0.537,
+        0.7233,
+        0.8618
+      ],
+      "score_trajectory": [
+        0.79,
+        0.56,
+        0.9,
+        0.84,
+        1.0
+      ],
+      "final_mastery": 0.8618,
+      "mastery_gain": 0.8618
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "matrix_singularity",
+      "concept_name": "Matrix Singularity",
+      "mastery_trajectory": [
+        0.0,
+        0.1976,
+        0.3248,
+        0.4884,
+        0.6279,
+        0.7759
+      ],
+      "score_trajectory": [
+        0.86,
+        0.69,
+        1.0,
+        0.85,
+        0.85
+      ],
+      "final_mastery": 0.7759,
+      "mastery_gain": 0.7759
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "rnn_unrolling",
+      "concept_name": "RNN Unrolling",
+      "mastery_trajectory": [
+        0.0,
+        0.2126,
+        0.4148,
+        0.5783,
+        0.7008,
+        0.8372
+      ],
+      "score_trajectory": [
+        0.74,
+        0.86,
+        0.73,
+        0.74,
+        0.76
+      ],
+      "final_mastery": 0.8372,
+      "mastery_gain": 0.8372
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "rnn_unrolling",
+      "concept_name": "RNN Unrolling",
+      "mastery_trajectory": [
+        0.0,
+        0.1914,
+        0.3622,
+        0.5321,
+        0.6602,
+        0.8229
+      ],
+      "score_trajectory": [
+        0.66,
+        0.61,
+        0.85,
+        0.95,
+        0.89
+      ],
+      "final_mastery": 0.8229,
+      "mastery_gain": 0.8229
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "geological_history_early_scientists",
+      "concept_name": "Early Geological Thinkers",
+      "mastery_trajectory": [
+        0.0,
+        0.2224,
+        0.4291,
+        0.5967,
+        0.724,
+        0.8259
+      ],
+      "score_trajectory": [
+        0.75,
+        0.77,
+        0.83,
+        0.75,
+        0.72
+      ],
+      "final_mastery": 0.8259,
+      "mastery_gain": 0.8259
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "geological_history_early_scientists",
+      "concept_name": "Early Geological Thinkers",
+      "mastery_trajectory": [
+        0.0,
+        0.2157,
+        0.3711,
+        0.5305,
+        0.6948,
+        0.8418
+      ],
+      "score_trajectory": [
+        0.73,
+        0.79,
+        0.69,
+        0.91,
+        0.88
+      ],
+      "final_mastery": 0.8418,
+      "mastery_gain": 0.8418
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "positional_encoding",
+      "concept_name": "Positional Encoding",
+      "mastery_trajectory": [
+        0.0,
+        0.2208,
+        0.4038,
+        0.6007,
+        0.7109,
+        0.862
+      ],
+      "score_trajectory": [
+        0.72,
+        0.79,
+        0.79,
+        0.71,
+        0.77
+      ],
+      "final_mastery": 0.862,
+      "mastery_gain": 0.862
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "positional_encoding",
+      "concept_name": "Positional Encoding",
+      "mastery_trajectory": [
+        0.0,
+        0.2424,
+        0.3962,
+        0.5385,
+        0.649,
+        0.799
+      ],
+      "score_trajectory": [
+        0.94,
+        0.72,
+        0.7,
+        0.86,
+        0.83
+      ],
+      "final_mastery": 0.799,
+      "mastery_gain": 0.799
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "involutory_matrix",
+      "concept_name": "Involutory Matrix",
+      "mastery_trajectory": [
+        0.0,
+        0.2164,
+        0.3955,
+        0.5462,
+        0.7168,
+        0.8266
+      ],
+      "score_trajectory": [
+        0.7,
+        0.82,
+        1.0,
+        0.94,
+        1.0
+      ],
+      "final_mastery": 0.8266,
+      "mastery_gain": 0.8266
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "involutory_matrix",
+      "concept_name": "Involutory Matrix",
+      "mastery_trajectory": [
+        0.0,
+        0.2102,
+        0.3484,
+        0.524,
+        0.726,
+        0.8919
+      ],
+      "score_trajectory": [
+        0.92,
+        0.78,
+        1.0,
+        0.97,
+        0.96
+      ],
+      "final_mastery": 0.8919,
+      "mastery_gain": 0.8919
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "confirmation_bias",
+      "concept_name": "Confirmation Bias",
+      "mastery_trajectory": [
+        0.0,
+        0.2203,
+        0.4042,
+        0.5527,
+        0.7254,
+        0.8498
+      ],
+      "score_trajectory": [
+        0.78,
+        0.97,
+        0.77,
+        0.92,
+        0.92
+      ],
+      "final_mastery": 0.8498,
+      "mastery_gain": 0.8498
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "confirmation_bias",
+      "concept_name": "Confirmation Bias",
+      "mastery_trajectory": [
+        0.0,
+        0.2067,
+        0.354,
+        0.4929,
+        0.6273,
+        0.7381
+      ],
+      "score_trajectory": [
+        0.62,
+        0.71,
+        0.85,
+        0.71,
+        0.81
+      ],
+      "final_mastery": 0.7381,
+      "mastery_gain": 0.7381
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "vanishing_exploding_gradient",
+      "concept_name": "Vanishing and Exploding Gradient Problem",
+      "mastery_trajectory": [
+        0.0,
+        0.1997,
+        0.3944,
+        0.5743,
+        0.7502,
+        0.9143
+      ],
+      "score_trajectory": [
+        0.5,
+        0.83,
+        0.84,
+        0.93,
+        0.79
+      ],
+      "final_mastery": 0.9143,
+      "mastery_gain": 0.9143
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "vanishing_exploding_gradient",
+      "concept_name": "Vanishing and Exploding Gradient Problem",
+      "mastery_trajectory": [
+        0.0,
+        0.2039,
+        0.3669,
+        0.2874,
+        0.4202,
+        0.563
+      ],
+      "score_trajectory": [
+        0.55,
+        0.81,
+        0.44,
+        0.74,
+        0.92
+      ],
+      "final_mastery": 0.563,
+      "mastery_gain": 0.563
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "signed_area",
+      "concept_name": "Signed Area",
+      "mastery_trajectory": [
+        0.0,
+        0.2106,
+        0.3978,
+        0.5939,
+        0.7377,
+        0.9028
+      ],
+      "score_trajectory": [
+        0.71,
+        0.7,
+        0.96,
+        0.93,
+        0.82
+      ],
+      "final_mastery": 0.9028,
+      "mastery_gain": 0.9028
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "signed_area",
+      "concept_name": "Signed Area",
+      "mastery_trajectory": [
+        0.0,
+        0.1785,
+        0.3572,
+        0.4746,
+        0.5815,
+        0.7437
+      ],
+      "score_trajectory": [
+        0.51,
+        0.63,
+        0.58,
+        0.64,
+        0.82
+      ],
+      "final_mastery": 0.7437,
+      "mastery_gain": 0.7437
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "rate_of_change",
+      "concept_name": "Rate of Change",
+      "mastery_trajectory": [
+        0.0,
+        0.2235,
+        0.3918,
+        0.5992,
+        0.7749,
+        0.9352
+      ],
+      "score_trajectory": [
+        1.0,
+        0.71,
+        0.87,
+        0.97,
+        0.83
+      ],
+      "final_mastery": 0.9352,
+      "mastery_gain": 0.9352
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "rate_of_change",
+      "concept_name": "Rate of Change",
+      "mastery_trajectory": [
+        0.0,
+        0.1948,
+        0.3425,
+        0.5093,
+        0.6336,
+        0.7643
+      ],
+      "score_trajectory": [
+        0.77,
+        0.71,
+        0.89,
+        0.63,
+        0.79
+      ],
+      "final_mastery": 0.7643,
+      "mastery_gain": 0.7643
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "earth_water_origin",
+      "concept_name": "Origin of Earth's Water",
+      "mastery_trajectory": [
+        0.0,
+        0.2374,
+        0.4326,
+        0.6123,
+        0.7654,
+        0.8993
+      ],
+      "score_trajectory": [
+        0.82,
+        0.72,
+        0.99,
+        0.86,
+        0.91
+      ],
+      "final_mastery": 0.8993,
+      "mastery_gain": 0.8993
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "earth_water_origin",
+      "concept_name": "Origin of Earth's Water",
+      "mastery_trajectory": [
+        0.0,
+        0.208,
+        0.3656,
+        0.5246,
+        0.6976,
+        0.7993
+      ],
+      "score_trajectory": [
+        0.82,
+        0.62,
+        0.83,
+        0.97,
+        0.83
+      ],
+      "final_mastery": 0.7993,
+      "mastery_gain": 0.7993
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "statistical_significance",
+      "concept_name": "Statistical Significance",
+      "mastery_trajectory": [
+        0.0,
+        0.2385,
+        0.4425,
+        0.5981,
+        0.7326,
+        0.8452
+      ],
+      "score_trajectory": [
+        0.77,
+        0.92,
+        0.79,
+        0.93,
+        0.84
+      ],
+      "final_mastery": 0.8452,
+      "mastery_gain": 0.8452
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "statistical_significance",
+      "concept_name": "Statistical Significance",
+      "mastery_trajectory": [
+        0.0,
+        0.0422,
+        0.2569,
+        0.405,
+        0.5789,
+        0.6863
+      ],
+      "score_trajectory": [
+        0.44,
+        0.82,
+        0.63,
+        0.98,
+        0.83
+      ],
+      "final_mastery": 0.6863,
+      "mastery_gain": 0.6863
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "power_rule_integration",
+      "concept_name": "Power Rule for Integration",
+      "mastery_trajectory": [
+        0.0,
+        0.2209,
+        0.3949,
+        0.5566,
+        0.6722,
+        0.8349
+      ],
+      "score_trajectory": [
+        0.83,
+        0.68,
+        0.91,
+        1.0,
+        0.84
+      ],
+      "final_mastery": 0.8349,
+      "mastery_gain": 0.8349
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "power_rule_integration",
+      "concept_name": "Power Rule for Integration",
+      "mastery_trajectory": [
+        0.0,
+        0.1799,
+        0.3489,
+        0.5042,
+        0.6437,
+        0.7999
+      ],
+      "score_trajectory": [
+        0.53,
+        0.65,
+        0.65,
+        0.95,
+        0.95
+      ],
+      "final_mastery": 0.7999,
+      "mastery_gain": 0.7999
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "homogeneous_linear_systems",
+      "concept_name": "Homogeneous Linear Systems",
+      "mastery_trajectory": [
+        0.0,
+        0.2256,
+        0.4117,
+        0.5761,
+        0.7222,
+        0.9239
+      ],
+      "score_trajectory": [
+        0.7,
+        0.66,
+        0.87,
+        0.7,
+        1.0
+      ],
+      "final_mastery": 0.9239,
+      "mastery_gain": 0.9239
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "homogeneous_linear_systems",
+      "concept_name": "Homogeneous Linear Systems",
+      "mastery_trajectory": [
+        0.0,
+        0.2215,
+        0.3694,
+        0.5509,
+        0.6819,
+        0.835
+      ],
+      "score_trajectory": [
+        0.72,
+        0.69,
+        1.0,
+        0.85,
+        0.86
+      ],
+      "final_mastery": 0.835,
+      "mastery_gain": 0.835
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "skew_symmetric_matrix",
+      "concept_name": "Skew-Symmetric Matrix",
+      "mastery_trajectory": [
+        0.0,
+        0.222,
+        0.3956,
+        0.6047,
+        0.7284,
+        0.8025
+      ],
+      "score_trajectory": [
+        0.75,
+        0.69,
+        1.0,
+        0.75,
+        0.85
+      ],
+      "final_mastery": 0.8025,
+      "mastery_gain": 0.8025
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "skew_symmetric_matrix",
+      "concept_name": "Skew-Symmetric Matrix",
+      "mastery_trajectory": [
+        0.0,
+        0.187,
+        0.3525,
+        0.502,
+        0.6296,
+        0.8024
+      ],
+      "score_trajectory": [
+        0.69,
+        0.88,
+        0.8,
+        0.69,
+        0.98
+      ],
+      "final_mastery": 0.8024,
+      "mastery_gain": 0.8024
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "solubility",
+      "concept_name": "Solubility",
+      "mastery_trajectory": [
+        0.0,
+        0.2109,
+        0.4205,
+        0.5467,
+        0.7012,
+        0.8558
+      ],
+      "score_trajectory": [
+        0.75,
+        0.94,
+        0.74,
+        1.0,
+        0.93
+      ],
+      "final_mastery": 0.8558,
+      "mastery_gain": 0.8558
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "solubility",
+      "concept_name": "Solubility",
+      "mastery_trajectory": [
+        0.0,
+        0.1865,
+        0.3363,
+        0.4986,
+        0.6315,
+        0.7967
+      ],
+      "score_trajectory": [
+        0.76,
+        0.67,
+        0.75,
+        0.78,
+        0.93
+      ],
+      "final_mastery": 0.7967,
+      "mastery_gain": 0.7967
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "basis",
+      "concept_name": "Basis",
+      "mastery_trajectory": [
+        0.0,
+        0.249,
+        0.4279,
+        0.581,
+        0.7584,
+        0.8625
+      ],
+      "score_trajectory": [
+        0.88,
+        0.67,
+        0.73,
+        0.85,
+        0.69
+      ],
+      "final_mastery": 0.8625,
+      "mastery_gain": 0.8625
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "basis",
+      "concept_name": "Basis",
+      "mastery_trajectory": [
+        0.0,
+        0.1901,
+        0.3439,
+        0.5016,
+        0.6433,
+        0.7648
+      ],
+      "score_trajectory": [
+        0.61,
+        0.68,
+        0.71,
+        0.77,
+        0.7
+      ],
+      "final_mastery": 0.7648,
+      "mastery_gain": 0.7648
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "continental_vs_oceanic_crust",
+      "concept_name": "Continental vs. Oceanic Crust",
+      "mastery_trajectory": [
+        0.0,
+        0.2296,
+        0.434,
+        0.6016,
+        0.7642,
+        0.8906
+      ],
+      "score_trajectory": [
+        0.78,
+        0.77,
+        0.85,
+        0.87,
+        0.76
+      ],
+      "final_mastery": 0.8906,
+      "mastery_gain": 0.8906
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "continental_vs_oceanic_crust",
+      "concept_name": "Continental vs. Oceanic Crust",
+      "mastery_trajectory": [
+        0.0,
+        0.2138,
+        0.4265,
+        0.5256,
+        0.4195,
+        0.5108
+      ],
+      "score_trajectory": [
+        0.86,
+        0.81,
+        0.61,
+        0.47,
+        0.67
+      ],
+      "final_mastery": 0.5108,
+      "mastery_gain": 0.5108
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "rnn_constant_inference_cost",
+      "concept_name": "RNN Constant Inference Cost per Token",
+      "mastery_trajectory": [
+        0.0,
+        0.2222,
+        0.3917,
+        0.521,
+        0.6974,
+        0.8037
+      ],
+      "score_trajectory": [
+        0.77,
+        0.69,
+        0.65,
+        0.89,
+        0.72
+      ],
+      "final_mastery": 0.8037,
+      "mastery_gain": 0.8037
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "rnn_constant_inference_cost",
+      "concept_name": "RNN Constant Inference Cost per Token",
+      "mastery_trajectory": [
+        0.0,
+        0.1858,
+        0.4146,
+        0.5258,
+        0.5978,
+        0.7211
+      ],
+      "score_trajectory": [
+        0.68,
+        0.97,
+        0.66,
+        0.7,
+        0.8
+      ],
+      "final_mastery": 0.7211,
+      "mastery_gain": 0.7211
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "differential_equations_introduction",
+      "concept_name": "Introduction to Differential Equations",
+      "mastery_trajectory": [
+        0.0,
+        0.2194,
+        0.4296,
+        0.6144,
+        0.7828,
+        0.8726
+      ],
+      "score_trajectory": [
+        0.7,
+        0.84,
+        0.92,
+        0.83,
+        0.85
+      ],
+      "final_mastery": 0.8726,
+      "mastery_gain": 0.8726
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "differential_equations_introduction",
+      "concept_name": "Introduction to Differential Equations",
+      "mastery_trajectory": [
+        0.0,
+        0.2143,
+        0.3857,
+        0.51,
+        0.618,
+        0.7401
+      ],
+      "score_trajectory": [
+        0.8,
+        0.83,
+        0.64,
+        0.55,
+        0.82
+      ],
+      "final_mastery": 0.7401,
+      "mastery_gain": 0.7401
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "chemical_isomerism",
+      "concept_name": "Chemical Isomerism",
+      "mastery_trajectory": [
+        0.0,
+        0.2321,
+        0.4448,
+        0.6027,
+        0.728,
+        0.8586
+      ],
+      "score_trajectory": [
+        0.71,
+        0.99,
+        0.72,
+        0.77,
+        0.89
+      ],
+      "final_mastery": 0.8586,
+      "mastery_gain": 0.8586
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "chemical_isomerism",
+      "concept_name": "Chemical Isomerism",
+      "mastery_trajectory": [
+        0.0,
+        0.2154,
+        0.3618,
+        0.5148,
+        0.6451,
+        0.8352
+      ],
+      "score_trajectory": [
+        0.7,
+        0.58,
+        1.0,
+        0.74,
+        0.94
+      ],
+      "final_mastery": 0.8352,
+      "mastery_gain": 0.8352
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "negative_sampling",
+      "concept_name": "Negative Sampling",
+      "mastery_trajectory": [
+        0.0,
+        0.2087,
+        0.3961,
+        0.5491,
+        0.6917,
+        0.8825
+      ],
+      "score_trajectory": [
+        0.66,
+        0.68,
+        0.77,
+        0.84,
+        0.89
+      ],
+      "final_mastery": 0.8825,
+      "mastery_gain": 0.8825
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "negative_sampling",
+      "concept_name": "Negative Sampling",
+      "mastery_trajectory": [
+        0.0,
+        0.0451,
+        0.2279,
+        0.3877,
+        0.5349,
+        0.6714
+      ],
+      "score_trajectory": [
+        0.45,
+        0.7,
+        0.76,
+        0.87,
+        0.83
+      ],
+      "final_mastery": 0.6714,
+      "mastery_gain": 0.6714
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "geology_definition",
+      "concept_name": "Definition of Geology",
+      "mastery_trajectory": [
+        0.0,
+        0.207,
+        0.3803,
+        0.5164,
+        0.6591,
+        0.7789
+      ],
+      "score_trajectory": [
+        0.8,
+        0.7,
+        0.82,
+        0.82,
+        0.77
+      ],
+      "final_mastery": 0.7789,
+      "mastery_gain": 0.7789
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "geology_definition",
+      "concept_name": "Definition of Geology",
+      "mastery_trajectory": [
+        0.0,
+        0.1794,
+        0.3468,
+        0.4988,
+        0.632,
+        0.7649
+      ],
+      "score_trajectory": [
+        0.63,
+        0.61,
+        0.79,
+        0.9,
+        0.74
+      ],
+      "final_mastery": 0.7649,
+      "mastery_gain": 0.7649
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "nilpotent_matrix",
+      "concept_name": "Nilpotent Matrix",
+      "mastery_trajectory": [
+        0.0,
+        0.1941,
+        0.3776,
+        0.5444,
+        0.7004,
+        0.8306
+      ],
+      "score_trajectory": [
+        0.52,
+        0.74,
+        0.66,
+        0.91,
+        0.72
+      ],
+      "final_mastery": 0.8306,
+      "mastery_gain": 0.8306
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "nilpotent_matrix",
+      "concept_name": "Nilpotent Matrix",
+      "mastery_trajectory": [
+        0.0,
+        0.1934,
+        0.3944,
+        0.5193,
+        0.6526,
+        0.7868
+      ],
+      "score_trajectory": [
+        0.66,
+        0.78,
+        0.81,
+        0.63,
+        0.69
+      ],
+      "final_mastery": 0.7868,
+      "mastery_gain": 0.7868
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "convolutional_kernel",
+      "concept_name": "Convolutional Kernel",
+      "mastery_trajectory": [
+        0.0,
+        0.044,
+        0.2776,
+        0.4282,
+        0.5976,
+        0.7249
+      ],
+      "score_trajectory": [
+        0.43,
+        0.99,
+        0.67,
+        1.0,
+        1.0
+      ],
+      "final_mastery": 0.7249,
+      "mastery_gain": 0.7249
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "convolutional_kernel",
+      "concept_name": "Convolutional Kernel",
+      "mastery_trajectory": [
+        0.0,
+        0.1977,
+        0.3471,
+        0.5231,
+        0.6728,
+        0.7911
+      ],
+      "score_trajectory": [
+        0.75,
+        0.65,
+        0.82,
+        0.83,
+        0.82
+      ],
+      "final_mastery": 0.7911,
+      "mastery_gain": 0.7911
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "causation",
+      "concept_name": "Causation",
+      "mastery_trajectory": [
+        0.0,
+        0.2251,
+        0.3999,
+        0.5706,
+        0.7508,
+        0.9264
+      ],
+      "score_trajectory": [
+        0.75,
+        0.55,
+        0.84,
+        0.91,
+        0.85
+      ],
+      "final_mastery": 0.9264,
+      "mastery_gain": 0.9264
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "causation",
+      "concept_name": "Causation",
+      "mastery_trajectory": [
+        0.0,
+        0.2077,
+        0.351,
+        0.5339,
+        0.6774,
+        0.8027
+      ],
+      "score_trajectory": [
+        0.65,
+        0.6,
+        0.91,
+        0.93,
+        0.85
+      ],
+      "final_mastery": 0.8027,
+      "mastery_gain": 0.8027
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "self_attention_mechanism",
+      "concept_name": "Self-Attention Mechanism",
+      "mastery_trajectory": [
+        0.0,
+        0.2358,
+        0.4416,
+        0.6404,
+        0.8172,
+        0.9926
+      ],
+      "score_trajectory": [
+        0.76,
+        0.73,
+        1.0,
+        0.92,
+        1.0
+      ],
+      "final_mastery": 0.9926,
+      "mastery_gain": 0.9926
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "self_attention_mechanism",
+      "concept_name": "Self-Attention Mechanism",
+      "mastery_trajectory": [
+        0.0,
+        0.2152,
+        0.4012,
+        0.5447,
+        0.7353,
+        0.9217
+      ],
+      "score_trajectory": [
+        0.57,
+        0.82,
+        0.92,
+        1.0,
+        1.0
+      ],
+      "final_mastery": 0.9217,
+      "mastery_gain": 0.9217
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "matrix_indexing",
+      "concept_name": "Matrix Indexing and Order",
+      "mastery_trajectory": [
+        0.0,
+        0.2092,
+        0.3816,
+        0.5448,
+        0.7045,
+        0.8605
+      ],
+      "score_trajectory": [
+        0.75,
+        0.67,
+        0.89,
+        0.93,
+        0.83
+      ],
+      "final_mastery": 0.8605,
+      "mastery_gain": 0.8605
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "matrix_indexing",
+      "concept_name": "Matrix Indexing and Order",
+      "mastery_trajectory": [
+        0.0,
+        0.1921,
+        0.3645,
+        0.4783,
+        0.6396,
+        0.7686
+      ],
+      "score_trajectory": [
+        0.64,
+        0.78,
+        0.75,
+        0.94,
+        0.99
+      ],
+      "final_mastery": 0.7686,
+      "mastery_gain": 0.7686
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "matrix_rank",
+      "concept_name": "Matrix Rank",
+      "mastery_trajectory": [
+        0.0,
+        0.2244,
+        0.4123,
+        0.577,
+        0.6747,
+        0.8058
+      ],
+      "score_trajectory": [
+        0.84,
+        0.88,
+        0.89,
+        0.64,
+        0.9
+      ],
+      "final_mastery": 0.8058,
+      "mastery_gain": 0.8058
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "matrix_rank",
+      "concept_name": "Matrix Rank",
+      "mastery_trajectory": [
+        0.0,
+        0.1899,
+        0.3663,
+        0.5056,
+        0.6914,
+        0.8638
+      ],
+      "score_trajectory": [
+        0.6,
+        0.67,
+        0.74,
+        0.82,
+        1.0
+      ],
+      "final_mastery": 0.8638,
+      "mastery_gain": 0.8638
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "disappearing_polymorphs",
+      "concept_name": "Disappearing Polymorphs",
+      "mastery_trajectory": [
+        0.0,
+        0.2556,
+        0.4458,
+        0.6226,
+        0.7702,
+        0.9347
+      ],
+      "score_trajectory": [
+        0.89,
+        0.82,
+        1.0,
+        0.8,
+        0.9
+      ],
+      "final_mastery": 0.9347,
+      "mastery_gain": 0.9347
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "disappearing_polymorphs",
+      "concept_name": "Disappearing Polymorphs",
+      "mastery_trajectory": [
+        0.0,
+        0.2008,
+        0.3686,
+        0.5581,
+        0.7299,
+        0.8412
+      ],
+      "score_trajectory": [
+        0.79,
+        0.68,
+        0.8,
+        0.73,
+        0.89
+      ],
+      "final_mastery": 0.8412,
+      "mastery_gain": 0.8412
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "query_key_value_mechanism",
+      "concept_name": "Query-Key-Value (QKV) Mechanism",
+      "mastery_trajectory": [
+        0.0,
+        0.2544,
+        0.4518,
+        0.5963,
+        0.7699,
+        0.9338
+      ],
+      "score_trajectory": [
+        0.85,
+        0.66,
+        0.57,
+        0.98,
+        1.0
+      ],
+      "final_mastery": 0.9338,
+      "mastery_gain": 0.9338
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "query_key_value_mechanism",
+      "concept_name": "Query-Key-Value (QKV) Mechanism",
+      "mastery_trajectory": [
+        0.0,
+        0.2367,
+        0.4231,
+        0.6077,
+        0.7401,
+        0.863
+      ],
+      "score_trajectory": [
+        0.68,
+        0.9,
+        0.78,
+        0.84,
+        0.85
+      ],
+      "final_mastery": 0.863,
+      "mastery_gain": 0.863
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "matrix_transpose",
+      "concept_name": "Matrix Transpose",
+      "mastery_trajectory": [
+        0.0,
+        0.2114,
+        0.3738,
+        0.5319,
+        0.7197,
+        0.8547
+      ],
+      "score_trajectory": [
+        0.77,
+        0.67,
+        0.74,
+        1.0,
+        0.86
+      ],
+      "final_mastery": 0.8547,
+      "mastery_gain": 0.8547
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "matrix_transpose",
+      "concept_name": "Matrix Transpose",
+      "mastery_trajectory": [
+        0.0,
+        0.1913,
+        0.385,
+        0.557,
+        0.649,
+        0.7774
+      ],
+      "score_trajectory": [
+        0.61,
+        0.98,
+        0.96,
+        0.77,
+        0.84
+      ],
+      "final_mastery": 0.7774,
+      "mastery_gain": 0.7774
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "dimension",
+      "concept_name": "Dimension",
+      "mastery_trajectory": [
+        0.0,
+        0.2013,
+        0.4068,
+        0.5714,
+        0.7342,
+        0.9118
+      ],
+      "score_trajectory": [
+        0.52,
+        0.77,
+        0.74,
+        0.86,
+        0.94
+      ],
+      "final_mastery": 0.9118,
+      "mastery_gain": 0.9118
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "dimension",
+      "concept_name": "Dimension",
+      "mastery_trajectory": [
+        0.0,
+        0.1905,
+        0.351,
+        0.518,
+        0.637,
+        0.8529
+      ],
+      "score_trajectory": [
+        0.61,
+        0.85,
+        0.79,
+        0.83,
+        1.0
+      ],
+      "final_mastery": 0.8529,
+      "mastery_gain": 0.8529
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "confounding_variable",
+      "concept_name": "Confounding Variable",
+      "mastery_trajectory": [
+        0.0,
+        0.2298,
+        0.4114,
+        0.6072,
+        0.7993,
+        0.9471
+      ],
+      "score_trajectory": [
+        0.65,
+        0.72,
+        0.91,
+        1.0,
+        1.0
+      ],
+      "final_mastery": 0.9471,
+      "mastery_gain": 0.9471
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "confounding_variable",
+      "concept_name": "Confounding Variable",
+      "mastery_trajectory": [
+        0.0,
+        0.1976,
+        0.3701,
+        0.5165,
+        0.6724,
+        0.8013
+      ],
+      "score_trajectory": [
+        0.56,
+        0.72,
+        0.86,
+        0.93,
+        0.79
+      ],
+      "final_mastery": 0.8013,
+      "mastery_gain": 0.8013
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "earth_interconnected_system",
+      "concept_name": "Earth as an Interconnected System",
+      "mastery_trajectory": [
+        0.0,
+        0.2369,
+        0.4277,
+        0.5637,
+        0.6927,
+        0.8785
+      ],
+      "score_trajectory": [
+        0.84,
+        0.91,
+        0.54,
+        0.64,
+        0.81
+      ],
+      "final_mastery": 0.8785,
+      "mastery_gain": 0.8785
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "earth_interconnected_system",
+      "concept_name": "Earth as an Interconnected System",
+      "mastery_trajectory": [
+        0.0,
+        0.2244,
+        0.3789,
+        0.5118,
+        0.6698,
+        0.8184
+      ],
+      "score_trajectory": [
+        0.78,
+        0.76,
+        0.75,
+        0.94,
+        0.85
+      ],
+      "final_mastery": 0.8184,
+      "mastery_gain": 0.8184
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "area_under_curve",
+      "concept_name": "Area Under the Curve",
+      "mastery_trajectory": [
+        0.0,
+        0.2266,
+        0.4084,
+        0.5369,
+        0.6452,
+        0.7962
+      ],
+      "score_trajectory": [
+        0.8,
+        0.83,
+        0.72,
+        0.86,
+        0.96
+      ],
+      "final_mastery": 0.7962,
+      "mastery_gain": 0.7962
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "area_under_curve",
+      "concept_name": "Area Under the Curve",
+      "mastery_trajectory": [
+        0.0,
+        0.2304,
+        0.3757,
+        0.4967,
+        0.629,
+        0.7893
+      ],
+      "score_trajectory": [
+        0.86,
+        0.8,
+        0.61,
+        0.73,
+        0.93
+      ],
+      "final_mastery": 0.7893,
+      "mastery_gain": 0.7893
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "explanatory_power",
+      "concept_name": "Explanatory Power",
+      "mastery_trajectory": [
+        0.0,
+        0.2367,
+        0.4168,
+        0.5999,
+        0.7764,
+        0.9263
+      ],
+      "score_trajectory": [
+        0.88,
+        0.78,
+        0.94,
+        0.98,
+        1.0
+      ],
+      "final_mastery": 0.9263,
+      "mastery_gain": 0.9263
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "explanatory_power",
+      "concept_name": "Explanatory Power",
+      "mastery_trajectory": [
+        0.0,
+        0.2114,
+        0.3927,
+        0.5292,
+        0.6423,
+        0.7708
+      ],
+      "score_trajectory": [
+        0.75,
+        0.72,
+        0.77,
+        0.78,
+        0.75
+      ],
+      "final_mastery": 0.7708,
+      "mastery_gain": 0.7708
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "convolutional_neural_network",
+      "concept_name": "Convolutional Neural Network (CNN)",
+      "mastery_trajectory": [
+        0.0,
+        0.2261,
+        0.4278,
+        0.6188,
+        0.8033,
+        0.8745
+      ],
+      "score_trajectory": [
+        0.83,
+        0.92,
+        0.99,
+        0.99,
+        0.82
+      ],
+      "final_mastery": 0.8745,
+      "mastery_gain": 0.8745
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "convolutional_neural_network",
+      "concept_name": "Convolutional Neural Network (CNN)",
+      "mastery_trajectory": [
+        0.0,
+        0.2062,
+        0.3782,
+        0.554,
+        0.6832,
+        0.7986
+      ],
+      "score_trajectory": [
+        0.91,
+        0.62,
+        1.0,
+        0.77,
+        0.86
+      ],
+      "final_mastery": 0.7986,
+      "mastery_gain": 0.7986
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "quality_assurance_emergency_protocol",
+      "concept_name": "Quality Assurance Emergency Protocol",
+      "mastery_trajectory": [
+        0.0,
+        0.2337,
+        0.4144,
+        0.5613,
+        0.7495,
+        0.9
+      ],
+      "score_trajectory": [
+        1.0,
+        0.77,
+        0.95,
+        1.0,
+        1.0
+      ],
+      "final_mastery": 0.9,
+      "mastery_gain": 0.9
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "quality_assurance_emergency_protocol",
+      "concept_name": "Quality Assurance Emergency Protocol",
+      "mastery_trajectory": [
+        0.0,
+        0.1687,
+        0.3262,
+        0.4621,
+        0.6515,
+        0.8041
+      ],
+      "score_trajectory": [
+        0.59,
+        0.6,
+        0.71,
+        0.95,
+        0.74
+      ],
+      "final_mastery": 0.8041,
+      "mastery_gain": 0.8041
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "earth_internal_structure_overview",
+      "concept_name": "Earth's Layered Structure Overview",
+      "mastery_trajectory": [
+        0.0,
+        0.2149,
+        0.4253,
+        0.5965,
+        0.7669,
+        0.8855
+      ],
+      "score_trajectory": [
+        0.77,
+        1.0,
+        0.86,
+        1.0,
+        1.0
+      ],
+      "final_mastery": 0.8855,
+      "mastery_gain": 0.8855
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "earth_internal_structure_overview",
+      "concept_name": "Earth's Layered Structure Overview",
+      "mastery_trajectory": [
+        0.0,
+        0.1982,
+        0.3648,
+        0.517,
+        0.6641,
+        0.8101
+      ],
+      "score_trajectory": [
+        0.76,
+        0.8,
+        0.63,
+        0.81,
+        0.85
+      ],
+      "final_mastery": 0.8101,
+      "mastery_gain": 0.8101
+    },
+    {
+      "mode": "with_kg",
+      "concept_id": "orthogonal_matrix",
+      "concept_name": "Orthogonal Matrix",
+      "mastery_trajectory": [
+        0.0,
+        0.1933,
+        0.3831,
+        0.5891,
+        0.7284,
+        0.8638
+      ],
+      "score_trajectory": [
+        0.63,
+        0.69,
+        0.94,
+        0.84,
+        0.92
+      ],
+      "final_mastery": 0.8638,
+      "mastery_gain": 0.8638
+    },
+    {
+      "mode": "without_kg",
+      "concept_id": "orthogonal_matrix",
+      "concept_name": "Orthogonal Matrix",
+      "mastery_trajectory": [
+        0.0,
+        0.2126,
+        0.3718,
+        0.5241,
+        0.642,
+        0.7793
+      ],
+      "score_trajectory": [
+        0.8,
+        0.74,
+        0.92,
+        0.79,
+        0.98
+      ],
+      "final_mastery": 0.7793,
+      "mastery_gain": 0.7793
+    }
+  ],
+  "summary": {
+    "with_kg_avg_final": 0.82,
+    "without_kg_avg_final": 0.72,
+    "with_kg_avg_gain": 0.82,
+    "without_kg_avg_gain": 0.72,
+    "kg_advantage": 0.1
+  }
+}

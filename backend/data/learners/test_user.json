@@ -1,0 +1,17 @@
+{
+  "learner_id": "test_user",
+  "name": "Test User",
+  "concepts": {},
+  "sessions": [],
+  "enrolled_courses": [],
+  "global_stats": {
+    "avg_mastery": 0.0,
+    "total_sessions": 0,
+    "total_doubts": 0,
+    "doubts_resolved": 0,
+    "concepts_encountered": 0,
+    "concepts_mastered": 0
+  },
+  "created_at": "2026-05-03T07:06:04.458186+00:00",
+  "updated_at": "2026-05-03T07:06:04.458186+00:00"
+}

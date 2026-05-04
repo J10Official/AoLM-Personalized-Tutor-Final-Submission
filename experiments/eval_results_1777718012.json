@@ -1,0 +1,31 @@
+{
+  "model": "gemini/gemini-3-flash-preview",
+  "timestamp": 1777717963.5597467,
+  "metrics": {
+    "readability": {
+      "beginner_grade_level": 11.006553505535056,
+      "advanced_grade_level": 17.935576776165018,
+      "beginner_explanation_sample": "Geology is best understood as the \"Biography of the Earth.\" Just as a biographer studies a person\u2019s birth, their physical build, and the major events of their life, a geologist studies the Earth\u2019s ori",
+      "advanced_explanation_sample": "Geology is the multidimensional study of the Earth as a dynamic, integrated system of physical and chemical processes. While often simplified as the study of \"rocks,\" at an advanced level, it is more "
+    },
+    "doubt_resolver": {
+      "doubt": "Wait, isn't geology just looking at rocks? What else is there?",
+      "misconception_type": "definitional",
+      "answer_sample": "It is a common mistake to think it's just about rocks, but geology is actually the study of the entire Earth! Think of it like being a detective for the planet's biography. \n\nWhile rocks are important \"clues,\" geology also looks at:\n*   **Powerful Processes:** Like how rushing rivers can carve out giant canyons over millions of years or how volcanoes and earthquakes shape the land.\n*   **The Big Picture:** It\u2019s an interconnected system. This means geologists look at how everything from tiny grains of sand to massive mountain ranges works together.\n*   **History and Future:** It\u2019s about understanding how the Earth formed in the past and how it continues to change today, including how we humans live on it.\n\nSo, while rocks are the \"pages\" of the book, geology is the study of the whole story!",
+      "time_taken": 7.573729753494263
+    },
+    "efficiency": {
+      "learning_curator_avg_time": 8.097704768180847
+    },
+    "question_generator": {
+      "beginner_bloom_distribution": [
+        "understand",
+        "remember",
+        "remember",
+        "understand",
+        "understand"
+      ],
+      "time_taken": 14.069132328033447
+    }
+  }
+}

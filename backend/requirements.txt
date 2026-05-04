@@ -1,0 +1,23 @@
+# Personalised Learning System - Backend Dependencies
+
+# Core
+networkx>=3.2
+dspy-ai>=2.5
+pydantic>=2.0
+
+# API Server
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-dotenv>=1.0
+
+# Data & Evaluation
+scipy>=1.13
+numpy>=1.26
+statsmodels>=0.14
+
+# YouTube transcripts & playlist metadata
+youtube-transcript-api>=0.6
+yt-dlp>=2024.1
+
+# Google Generative AI (for RAG concept extraction)
+google-generativeai>=0.8

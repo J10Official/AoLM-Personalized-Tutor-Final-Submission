@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Runtime logs
+logs/
+
+# Environment secrets
+backend/.env
+
+# Paper (not for GitHub)
+paper/
+
+# Presentation markdown (not for GitHub)
+PersonalisedLearningSystem.md
+
+# OS files
+.DS_Store
+*.swp
+
+# Backup files
+*.bak
+
+# Presentation PDF (not for GitHub)
+PersonalisedLearningSystem.pdf
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out

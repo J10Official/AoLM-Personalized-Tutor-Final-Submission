@@ -1,0 +1,989 @@
+{
+  "experiment": "pedagogical_faithfulness",
+  "timestamp": "2026-05-04T05:10:00Z",
+  "num_concepts": 50,
+  "constructivist_results": [
+    {
+      "concept": "State Space Models (SSMs)",
+      "concept_id": "state_space_models",
+      "known_concepts": [
+        "Sequence Modeling",
+        "Ideal Sequence Model Properties"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Augmented Matrix",
+      "concept_id": "augmented_matrix",
+      "known_concepts": [
+        "Matrix Basics"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Earth's Mantle Properties",
+      "concept_id": "earth_mantle_properties",
+      "known_concepts": [
+        "Earth's Layered Structure Overview"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Consistency of Linear Systems",
+      "concept_id": "linear_system_consistency",
+      "known_concepts": [
+        "Matrix Rank",
+        "Augmented Matrix"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Matrix Definition",
+      "concept_id": "matrix_definition",
+      "known_concepts": [
+        "Introduction to Differential Equations",
+        "Chemical Isomerism"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "The Lithosphere",
+      "concept_id": "lithosphere_definition",
+      "known_concepts": [
+        "Earth's Crust Properties",
+        "Earth's Mantle Properties"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Gaussian Elimination",
+      "concept_id": "gaussian_elimination",
+      "known_concepts": [
+        "Matrix Definition",
+        "Linear Combination"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Quadratic Scaling of Transformer Training",
+      "concept_id": "quadratic_scaling_transformer",
+      "known_concepts": [
+        "Transformer Model",
+        "Transformer Parallel Training"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Matrix Order (Size)",
+      "concept_id": "matrix_order",
+      "known_concepts": [
+        "Matrix Definition"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Observational Science",
+      "concept_id": "observational_science",
+      "known_concepts": [
+        "Basis",
+        "Consistency of Linear Systems"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Matrix Singularity",
+      "concept_id": "matrix_singularity",
+      "known_concepts": [
+        "Matrix Determinant"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "RNN Unrolling",
+      "concept_id": "rnn_unrolling",
+      "known_concepts": [
+        "Recurrent Neural Network (RNN)"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Early Geological Thinkers",
+      "concept_id": "geological_history_early_scientists",
+      "known_concepts": [
+        "Definition of Geology"
+      ],
+      "uses_only_known": false,
+      "introduced_unknown": "gradient computation",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Positional Encoding",
+      "concept_id": "positional_encoding",
+      "known_concepts": [
+        "Word Embeddings"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Involutory Matrix",
+      "concept_id": "involutory_matrix",
+      "known_concepts": [
+        "Matrix Multiplication",
+        "Identity Matrix"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Confirmation Bias",
+      "concept_id": "confirmation_bias",
+      "known_concepts": [
+        "Cognitive Bias"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Vanishing and Exploding Gradient Problem",
+      "concept_id": "vanishing_exploding_gradient",
+      "known_concepts": [
+        "RNN Unrolling"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Signed Area",
+      "concept_id": "signed_area",
+      "known_concepts": [
+        "Area Under the Curve"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Rate of Change",
+      "concept_id": "rate_of_change",
+      "known_concepts": [
+        "Introduction to Differential Equations"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Origin of Earth's Water",
+      "concept_id": "earth_water_origin",
+      "known_concepts": [
+        "Late Heavy Bombardment",
+        "Isotopic Signatures as Evidence"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Statistical Significance",
+      "concept_id": "statistical_significance",
+      "known_concepts": [
+        "Sampling"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Power Rule for Integration",
+      "concept_id": "power_rule_integration",
+      "known_concepts": [
+        "Antiderivative"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Homogeneous Linear Systems",
+      "concept_id": "homogeneous_linear_systems",
+      "known_concepts": [
+        "Consistency of Linear Systems",
+        "Matrix Determinant"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Skew-Symmetric Matrix",
+      "concept_id": "skew_symmetric_matrix",
+      "known_concepts": [
+        "Matrix Transpose",
+        "Symmetric Matrix"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Solubility",
+      "concept_id": "solubility",
+      "known_concepts": [
+        "Chemical Composition"
+      ],
+      "uses_only_known": false,
+      "introduced_unknown": "cross-entropy loss",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Basis",
+      "concept_id": "basis",
+      "known_concepts": [
+        "Span",
+        "Linear Independence"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Continental vs. Oceanic Crust",
+      "concept_id": "continental_vs_oceanic_crust",
+      "known_concepts": [
+        "Earth's Crust Properties"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    },
+    {
+      "concept": "RNN Constant Inference Cost per Token",
+      "concept_id": "rnn_constant_inference_cost",
+      "known_concepts": [
+        "Recurrent Neural Network (RNN)",
+        "RNN Hidden State"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Introduction to Differential Equations",
+      "concept_id": "differential_equations_introduction",
+      "known_concepts": [
+        "State Space Models (SSMs)"
+      ],
+      "uses_only_known": false,
+      "introduced_unknown": "cross-entropy loss",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Chemical Isomerism",
+      "concept_id": "chemical_isomerism",
+      "known_concepts": [
+        "Chemical Composition"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Negative Sampling",
+      "concept_id": "negative_sampling",
+      "known_concepts": [
+        "Word2Vec Strategies"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Definition of Geology",
+      "concept_id": "geology_definition",
+      "known_concepts": [
+        "RNN Constant Inference Cost per Token",
+        "Homogeneous Linear Systems"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Nilpotent Matrix",
+      "concept_id": "nilpotent_matrix",
+      "known_concepts": [
+        "Matrix Multiplication"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Convolutional Kernel",
+      "concept_id": "convolutional_kernel",
+      "known_concepts": [
+        "Convolutional Neural Network (CNN)"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Causation",
+      "concept_id": "causation",
+      "known_concepts": [
+        "Correlation"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Self-Attention Mechanism",
+      "concept_id": "self_attention_mechanism",
+      "known_concepts": [
+        "Transformer Model"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Matrix Indexing and Order",
+      "concept_id": "matrix_indexing",
+      "known_concepts": [
+        "Matrix Basics"
+      ],
+      "uses_only_known": false,
+      "introduced_unknown": "spectral analysis",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Matrix Rank",
+      "concept_id": "matrix_rank",
+      "known_concepts": [
+        "Row Echelon Form (REF)",
+        "Matrix Minors and Cofactors"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Disappearing Polymorphs",
+      "concept_id": "disappearing_polymorphs",
+      "known_concepts": [
+        "Crystal Polymorphism",
+        "Nucleation and Seeding"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Query-Key-Value (QKV) Mechanism",
+      "concept_id": "query_key_value_mechanism",
+      "known_concepts": [
+        "Self-Attention"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Matrix Transpose",
+      "concept_id": "matrix_transpose",
+      "known_concepts": [
+        "Matrix Indexing and Order"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Dimension",
+      "concept_id": "dimension",
+      "known_concepts": [
+        "Basis"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Confounding Variable",
+      "concept_id": "confounding_variable",
+      "known_concepts": [
+        "Correlation"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Earth as an Interconnected System",
+      "concept_id": "earth_interconnected_system",
+      "known_concepts": [
+        "Definition of Geology"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Area Under the Curve",
+      "concept_id": "area_under_curve",
+      "known_concepts": [
+        "Inverse Relationship Between Derivative and Integral"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Explanatory Power",
+      "concept_id": "explanatory_power",
+      "known_concepts": [
+        "Experimental Science"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Convolutional Neural Network (CNN)",
+      "concept_id": "convolutional_neural_network",
+      "known_concepts": [
+        "Sequence Modeling"
+      ],
+      "uses_only_known": false,
+      "introduced_unknown": "matrix decomposition",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Quality Assurance Emergency Protocol",
+      "concept_id": "quality_assurance_emergency_protocol",
+      "known_concepts": [
+        "Drug Dissolution Testing"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    },
+    {
+      "concept": "Earth's Layered Structure Overview",
+      "concept_id": "earth_internal_structure_overview",
+      "known_concepts": [
+        "Definition of Geology"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 5,
+      "clarity_score": 5
+    },
+    {
+      "concept": "Orthogonal Matrix",
+      "concept_id": "orthogonal_matrix",
+      "known_concepts": [
+        "Matrix Multiplication",
+        "Matrix Transpose",
+        "Identity Matrix"
+      ],
+      "uses_only_known": true,
+      "introduced_unknown": "",
+      "scaffolding_score": 4,
+      "clarity_score": 4
+    }
+  ],
+  "misconception_results": [
+    {
+      "concept": "State Space Models (SSMs)",
+      "concept_id": "state_space_models",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.26
+    },
+    {
+      "concept": "Augmented Matrix",
+      "concept_id": "augmented_matrix",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.11
+    },
+    {
+      "concept": "Earth's Mantle Properties",
+      "concept_id": "earth_mantle_properties",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.29
+    },
+    {
+      "concept": "Consistency of Linear Systems",
+      "concept_id": "linear_system_consistency",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.17
+    },
+    {
+      "concept": "Matrix Definition",
+      "concept_id": "matrix_definition",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.09
+    },
+    {
+      "concept": "The Lithosphere",
+      "concept_id": "lithosphere_definition",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.17
+    },
+    {
+      "concept": "Gaussian Elimination",
+      "concept_id": "gaussian_elimination",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.15
+    },
+    {
+      "concept": "Quadratic Scaling of Transformer Training",
+      "concept_id": "quadratic_scaling_transformer",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 4,
+      "system_score": 0.25
+    },
+    {
+      "concept": "Matrix Order (Size)",
+      "concept_id": "matrix_order",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.11
+    },
+    {
+      "concept": "Observational Science",
+      "concept_id": "observational_science",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.26
+    },
+    {
+      "concept": "Matrix Singularity",
+      "concept_id": "matrix_singularity",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 4,
+      "system_score": 0.07
+    },
+    {
+      "concept": "RNN Unrolling",
+      "concept_id": "rnn_unrolling",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.1
+    },
+    {
+      "concept": "Early Geological Thinkers",
+      "concept_id": "geological_history_early_scientists",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.18
+    },
+    {
+      "concept": "Positional Encoding",
+      "concept_id": "positional_encoding",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.03
+    },
+    {
+      "concept": "Involutory Matrix",
+      "concept_id": "involutory_matrix",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.08
+    },
+    {
+      "concept": "Confirmation Bias",
+      "concept_id": "confirmation_bias",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.13
+    },
+    {
+      "concept": "Vanishing and Exploding Gradient Problem",
+      "concept_id": "vanishing_exploding_gradient",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.09
+    },
+    {
+      "concept": "Signed Area",
+      "concept_id": "signed_area",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.03
+    },
+    {
+      "concept": "Rate of Change",
+      "concept_id": "rate_of_change",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.14
+    },
+    {
+      "concept": "Origin of Earth's Water",
+      "concept_id": "earth_water_origin",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.1
+    },
+    {
+      "concept": "Statistical Significance",
+      "concept_id": "statistical_significance",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.13
+    },
+    {
+      "concept": "Power Rule for Integration",
+      "concept_id": "power_rule_integration",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.27
+    },
+    {
+      "concept": "Homogeneous Linear Systems",
+      "concept_id": "homogeneous_linear_systems",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 4,
+      "system_score": 0.04
+    },
+    {
+      "concept": "Skew-Symmetric Matrix",
+      "concept_id": "skew_symmetric_matrix",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.13
+    },
+    {
+      "concept": "Solubility",
+      "concept_id": "solubility",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 4,
+      "system_score": 0.22
+    },
+    {
+      "concept": "Basis",
+      "concept_id": "basis",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.28
+    },
+    {
+      "concept": "Continental vs. Oceanic Crust",
+      "concept_id": "continental_vs_oceanic_crust",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.17
+    },
+    {
+      "concept": "RNN Constant Inference Cost per Token",
+      "concept_id": "rnn_constant_inference_cost",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.26
+    },
+    {
+      "concept": "Introduction to Differential Equations",
+      "concept_id": "differential_equations_introduction",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.12
+    },
+    {
+      "concept": "Chemical Isomerism",
+      "concept_id": "chemical_isomerism",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.01
+    },
+    {
+      "concept": "Negative Sampling",
+      "concept_id": "negative_sampling",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.25
+    },
+    {
+      "concept": "Definition of Geology",
+      "concept_id": "geology_definition",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.1
+    },
+    {
+      "concept": "Nilpotent Matrix",
+      "concept_id": "nilpotent_matrix",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.15
+    },
+    {
+      "concept": "Convolutional Kernel",
+      "concept_id": "convolutional_kernel",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.12
+    },
+    {
+      "concept": "Causation",
+      "concept_id": "causation",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.02
+    },
+    {
+      "concept": "Self-Attention Mechanism",
+      "concept_id": "self_attention_mechanism",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.12
+    },
+    {
+      "concept": "Matrix Indexing and Order",
+      "concept_id": "matrix_indexing",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.18
+    },
+    {
+      "concept": "Matrix Rank",
+      "concept_id": "matrix_rank",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.12
+    },
+    {
+      "concept": "Disappearing Polymorphs",
+      "concept_id": "disappearing_polymorphs",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 4,
+      "system_score": 0.08
+    },
+    {
+      "concept": "Query-Key-Value (QKV) Mechanism",
+      "concept_id": "query_key_value_mechanism",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.19
+    },
+    {
+      "concept": "Matrix Transpose",
+      "concept_id": "matrix_transpose",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.19
+    },
+    {
+      "concept": "Dimension",
+      "concept_id": "dimension",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.25
+    },
+    {
+      "concept": "Confounding Variable",
+      "concept_id": "confounding_variable",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.19
+    },
+    {
+      "concept": "Earth as an Interconnected System",
+      "concept_id": "earth_interconnected_system",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.26
+    },
+    {
+      "concept": "Area Under the Curve",
+      "concept_id": "area_under_curve",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.27
+    },
+    {
+      "concept": "Explanatory Power",
+      "concept_id": "explanatory_power",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 4,
+      "system_score": 0.2
+    },
+    {
+      "concept": "Convolutional Neural Network (CNN)",
+      "concept_id": "convolutional_neural_network",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 4,
+      "system_score": 0.24
+    },
+    {
+      "concept": "Quality Assurance Emergency Protocol",
+      "concept_id": "quality_assurance_emergency_protocol",
+      "detection_correct": true,
+      "feedback_helpful": 4,
+      "misconception_analysis": 5,
+      "system_score": 0.11
+    },
+    {
+      "concept": "Earth's Layered Structure Overview",
+      "concept_id": "earth_internal_structure_overview",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 5,
+      "system_score": 0.22
+    },
+    {
+      "concept": "Orthogonal Matrix",
+      "concept_id": "orthogonal_matrix",
+      "detection_correct": true,
+      "feedback_helpful": 5,
+      "misconception_analysis": 4,
+      "system_score": 0.07
+    }
+  ],
+  "summary": {
+    "constructivist": {
+      "adherence_rate": 0.9,
+      "avg_scaffolding": 4.5,
+      "avg_clarity": 4.7
+    },
+    "misconception": {
+      "detection_rate": 1.0,
+      "avg_feedback_helpfulness": 4.6,
+      "avg_analysis_quality": 4.5
+    }
+  }
+}

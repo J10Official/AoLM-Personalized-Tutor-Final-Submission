@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeepLearn — Personalised Learning System</title>
+  <meta name="description" content="An AI-powered adaptive learning system that promotes deep conceptual understanding through personalised scaffolding, doubt resolution, and mastery-based progression." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Navigation -->
+    <nav id="main-nav">
+      <div class="nav-brand">
+        <div class="nav-logo">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="14" stroke="url(#grad)" stroke-width="2.5"/>
+            <path d="M10 16 L14 20 L22 12" stroke="url(#grad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs><linearGradient id="grad" x1="0" y1="0" x2="32" y2="32">
+              <stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#a855f7"/>
+            </linearGradient></defs>
+          </svg>
+        </div>
+        <span class="nav-title">DeepLearn</span>
+      </div>
+      <div class="nav-links">
+        <button class="nav-link active" data-view="dashboard" id="nav-dashboard">Dashboard</button>
+        <button class="nav-link" data-view="graph" id="nav-graph">Knowledge Graph</button>
+        <button class="nav-link" data-view="learn" id="nav-learn">Learn</button>
+        <button class="nav-link" data-view="review" id="nav-review">Review</button>
+      </div>
+      <div class="nav-user" id="nav-user-info">
+        <div class="user-avatar" id="user-avatar">?</div>
+      </div>
+    </nav>
+
+    <!-- Views -->
+    <main id="main-content">
+
+      <!-- Onboarding -->
+      <section id="view-onboarding" class="view active">
+        <div class="onboarding-container">
+          <div class="onboarding-hero">
+            <div class="hero-glow"></div>
+            <h1>Welcome to <span class="gradient-text">DeepLearn</span></h1>
+            <p class="hero-subtitle">An AI-powered learning system designed for deep conceptual understanding — not surface-level memorisation.</p>
+            <div class="onboarding-features">
+              <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Personalised Paths</h3>
+                <p>Content adapts to what you already know</p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <h3>Deep Understanding</h3>
+                <p>Bloom's-leveled questions push higher-order thinking</p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon">💡</div>
+                <h3>Doubt-Centric</h3>
+                <p>Your doubts drive the learning, not a fixed curriculum</p>
+              </div>
+            </div>
+            <div class="onboarding-form">
+              <input type="text" id="onboarding-name" placeholder="Enter your name" class="input-field" />
+              <button id="onboarding-start" class="btn btn-primary btn-lg">Start Learning</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dashboard -->
+      <section id="view-dashboard" class="view">
+        <div class="dashboard-container">
+          <div class="dashboard-header">
+            <div>
+              <h1 id="dashboard-greeting">Good evening</h1>
+              <p class="dashboard-subtitle" id="dashboard-subtitle">Here's your learning progress</p>
+            </div>
+          </div>
+
+          <!-- Course Ingestion -->
+          <div class="ingest-card" id="ingest-card">
+            <div class="ingest-card-header">
+              <span style="font-size:1.5rem">🎓</span>
+              <h2>Add a Course</h2>
+            </div>
+            <p class="ingest-card-desc">
+              Paste a YouTube lecture video or playlist link, or simply describe a topic and we'll find the best public lectures for you.
+            </p>
+
+            <!-- Mode Toggle -->
+            <div class="ingest-mode-toggle">
+              <button class="ingest-mode-btn active" id="mode-url-btn" onclick="setIngestMode('url')">🔗 YouTube Link</button>
+              <button class="ingest-mode-btn" id="mode-topic-btn" onclick="setIngestMode('topic')">🔍 Search by Topic</button>
+            </div>
+
+            <div class="ingest-form">
+              <input type="text" class="ingest-url-input" id="ingest-url"
+                placeholder="https://youtube.com/playlist?list=... or https://youtu.be/..." />
+              <input type="text" class="ingest-url-input" id="ingest-topic"
+                placeholder="e.g. binary search algorithm, machine learning basics..."
+                style="display:none" />
+              <button class="btn btn-primary" id="ingest-btn" onclick="ingestCourse()">Ingest Course</button>
+            </div>
+
+            <div class="ingest-progress" id="ingest-progress">
+              <div class="ingest-steps">
+                <div class="ingest-step" id="step-fetch">
+                  <div class="ingest-step-icon">1</div>
+                  <div class="ingest-step-text" id="step-fetch-text">Fetching video metadata & transcripts from YouTube...</div>
+                </div>
+                <div class="ingest-step" id="step-extract">
+                  <div class="ingest-step-icon">2</div>
+                  <div class="ingest-step-text">Extracting atomic concepts with AI...</div>
+                </div>
+                <div class="ingest-step" id="step-build">
+                  <div class="ingest-step-icon">3</div>
+                  <div class="ingest-step-text">Building knowledge graph & enrolling you...</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="ingest-result" id="ingest-result">
+              <h3>✅ Course ingested successfully!</h3>
+              <p id="ingest-result-course" style="color:var(--text-primary);font-weight:600"></p>
+              <div class="ingest-result-stats">
+                <div class="ingest-result-stat">
+                  <div class="value" id="ingest-result-lectures">0</div>
+                  <div class="label">Lectures</div>
+                </div>
+                <div class="ingest-result-stat">
+                  <div class="value" id="ingest-result-concepts">0</div>
+                  <div class="label">Concepts</div>
+                </div>
+                <div class="ingest-result-stat">
+                  <div class="value" id="ingest-result-enrolled">0</div>
+                  <div class="label">Enrolled</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="ingest-error" id="ingest-error"></div>
+          </div>
+
+          <!-- Your Courses -->
+          <div class="section-card" id="courses-section" style="display:none">
+            <h2 class="section-title">📚 Your Courses</h2>
+            <div id="courses-list" class="courses-grid"></div>
+          </div>
+
+          <!-- Stats Cards -->
+          <div class="stats-grid" id="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon stat-icon-mastery">📊</div>
+              <div class="stat-value" id="stat-avg-mastery">0%</div>
+              <div class="stat-label">Avg Mastery</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon stat-icon-concepts">📚</div>
+              <div class="stat-value" id="stat-concepts">0/0</div>
+              <div class="stat-label">Concepts Mastered</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon stat-icon-sessions">🎓</div>
+              <div class="stat-value" id="stat-sessions">0</div>
+              <div class="stat-label">Sessions</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon stat-icon-doubts">💬</div>
+              <div class="stat-value" id="stat-doubts">0</div>
+              <div class="stat-label">Doubts Resolved</div>
+            </div>
+          </div>
+
+          <!-- Recommendations -->
+          <div class="section-card" id="recommendations-section">
+            <h2 class="section-title">📌 Recommended Next</h2>
+            <div id="recommendations-list" class="recommendations-grid">
+              <!-- Filled dynamically -->
+            </div>
+          </div>
+
+          <!-- Mastery Overview moved to graph section -->
+        </div>
+      </section>
+
+      <!-- Knowledge Graph View -->
+      <section id="view-graph" class="view">
+        <div class="graph-container">
+          <div class="graph-header">
+            <h2>Knowledge Graph</h2>
+            <p>Concept relationships & your progress</p>
+          </div>
+          <div class="graph-canvas-wrapper" id="graph-canvas-wrapper">
+            <canvas id="graph-canvas"></canvas>
+            <!-- Empty state placeholder (shown when no graph) -->
+            <div class="no-graph-notice" id="graph-empty-state" style="display:none">
+              <div class="notice-icon">🔗</div>
+              <h3>No Knowledge Graph Yet</h3>
+              <p>Upload a YouTube course from the Dashboard to build your knowledge graph.</p>
+            </div>
+          </div>
+          <div class="graph-legend">
+            <span class="legend-item"><span class="legend-dot" style="background:#6366f1"></span> Mastered</span>
+            <span class="legend-item"><span class="legend-dot" style="background:#f59e0b"></span> In Progress</span>
+            <span class="legend-item"><span class="legend-dot" style="background:#374151"></span> Not Started</span>
+            <span class="legend-item"><span class="legend-line"></span> Prerequisite</span>
+          </div>
+
+          <!-- Mastery Overview -->
+          <div class="section-card" id="mastery-section" style="margin-top: var(--space-xl)">
+            <h2 class="section-title">📈 Your Enrolled Courses Mastery</h2>
+            <div id="mastery-bars" class="mastery-bars-container"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Learning View -->
+      <section id="view-learn" class="view">
+        <div class="learn-container" id="learn-container">
+          <!-- Dynamically filled during a learning session -->
+          <div class="learn-placeholder">
+            <h2>Select a concept to begin learning</h2>
+            <p>Go to the Dashboard and click "Learn" on a recommended concept, or explore the Knowledge Graph.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Review View -->
+      <section id="view-review" class="view">
+        <div class="review-container" id="review-container">
+          <div class="review-header">
+            <h2>📅 Spaced Review Schedule</h2>
+            <p>Concepts that need review to prevent forgetting</p>
+          </div>
+          <div id="review-list" class="review-list"></div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

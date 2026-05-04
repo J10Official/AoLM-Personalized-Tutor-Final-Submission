@@ -1,0 +1,870 @@
+{
+  "course_name": "Crash Course Geology",
+  "channel": "CrashCourse",
+  "lectures": [
+    {
+      "index": 0,
+      "title": "Crash Course Geology Preview",
+      "video_id": "video_id_L1"
+    },
+    {
+      "index": 1,
+      "title": "Intro to Geology: Crash Course Geology #1",
+      "video_id": "video_id_L2"
+    },
+    {
+      "index": 2,
+      "title": "How did Earth form?: Crash Course Geology #2",
+      "video_id": "video_id_L3"
+    },
+    {
+      "index": 3,
+      "title": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "video_id": "video_id_L4"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "geology_definition",
+      "name": "Definition of Geology",
+      "description": "Geology is the scientific study of Earth, encompassing its materials, processes, products, and history, from its formation to its present state and future. It's about understanding the 'story' of our planet through observation and scientific inquiry.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "remember",
+      "prerequisites": [],
+      "related_concepts": [
+        "geology_scope_and_relevance"
+      ],
+      "common_misconceptions": [
+        "Students might think geology is 'just about rocks' or only about the past, not realizing its broad scope and scientific rigor."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Earth science",
+        "materials",
+        "processes",
+        "history",
+        "rocks"
+      ],
+      "example_questions": [
+        "What is the primary focus of geology as a scientific discipline?"
+      ]
+    },
+    {
+      "id": "geology_scope_and_relevance",
+      "name": "Scope and Relevance of Geology",
+      "description": "Geology's scope extends from Earth's fiery youth to its future, studying forces that shape the planet, ancient history through fossils, and modern issues like resources (gems, minerals for technology, water, soil), energy (geothermal, carbon storage), and hazards (earthquakes, volcanoes). It also offers a perspective on humanity's place in vast geological time.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "geology_societal_impact",
+        "geology_specializations"
+      ],
+      "common_misconceptions": [
+        "Students might underestimate the practical, present-day applications of geology, focusing only on the distant past."
+      ],
+      "lecture_source": "Crash Course Geology Preview",
+      "key_terms": [
+        "Earth's formation",
+        "geological time",
+        "natural resources",
+        "geothermal energy",
+        "geological hazards",
+        "plate tectonics"
+      ],
+      "example_questions": [
+        "List three ways geology impacts human society today beyond just providing 'cool rocks'."
+      ]
+    },
+    {
+      "id": "geological_observation_history",
+      "name": "History of Geological Observation",
+      "description": "This concept covers the early observations and understanding of Earth by indigenous peoples (e.g., Havasupi river carving Grand Canyon, Navajo bird tracks from dinosaurs) and early scholars (e.g., Iben Sina's rock layers, Shan Quo's erosion and climate change). It highlights how foundational geological ideas developed over time before formalizing as a science, often through careful observation of the natural world.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "uniformitarianism_principle",
+        "catastrophism_principle",
+        "earth_systems_interconnectedness",
+        "indigenous_geological_knowledge"
+      ],
+      "common_misconceptions": [
+        "Students might assume geology began only with European scientists, overlooking global contributions and indigenous knowledge."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Indigenous knowledge",
+        "rock layers",
+        "erosion",
+        "climate change",
+        "early scientists"
+      ],
+      "example_questions": [
+        "How did pre-modern observations, such as those by the Havasupi people or Iben Sina, contribute to our early understanding of geological processes?"
+      ]
+    },
+    {
+      "id": "uniformitarianism_principle",
+      "name": "Principle of Uniformitarianism",
+      "description": "The principle of uniformitarianism states that the geological processes observed today (like erosion, sedimentation, volcanism) have operated in a similar manner and with comparable intensity throughout Earth's history. This idea is often summarized as 'the present is the key to the past'.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geological_observation_history"
+      ],
+      "related_concepts": [
+        "catastrophism_principle"
+      ],
+      "common_misconceptions": [
+        "Thinking that uniformitarianism implies geological change is always slow and gradual, neglecting sudden events entirely."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "James Hutton",
+        "geological processes",
+        "gradual change",
+        "present is key to past"
+      ],
+      "example_questions": [
+        "Explain the uniformitarianism principle and provide an example of how a modern geological process could inform our understanding of Earth's past."
+      ]
+    },
+    {
+      "id": "catastrophism_principle",
+      "name": "Principle of Catastrophism",
+      "description": "The principle of catastrophism proposes that Earth's geological features and history were primarily shaped by sudden, short-lived, violent events or major catastrophes, rather than solely by slow, gradual processes. Early proponents like George Cuvier focused on these large-scale, abrupt changes.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geological_observation_history"
+      ],
+      "related_concepts": [
+        "uniformitarianism_principle",
+        "late_heavy_bombardment_event"
+      ],
+      "common_misconceptions": [
+        "Believing that catastrophism is completely wrong, whereas the modern view often combines aspects of both catastrophism and uniformitarianism."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "George Cuvier",
+        "major catastrophes",
+        "sudden events",
+        "rapid change"
+      ],
+      "example_questions": [
+        "How does catastrophism differ from uniformitarianism in explaining Earth's geological history?"
+      ]
+    },
+    {
+      "id": "plate_tectonics_introduction",
+      "name": "Introduction to Plate Tectonics",
+      "description": "Plate tectonics is the theory that Earth's outer rigid layer (the lithosphere) is broken into massive plates that are constantly moving. These plates slip, slide, and smash together, leading to the formation of mountains, continents, and oceans, and are considered essential for life on Earth due to the dynamic surface they create.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "earth_systems_interconnectedness",
+        "earth_crust_characteristics",
+        "lithosphere_structure",
+        "mantle_convection_process"
+      ],
+      "common_misconceptions": [
+        "Students might think 'plate tectonics' only refers to continental drift, not the full range of plate interactions and their deep Earth drivers."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Tectonic plates",
+        "outer layer",
+        "lithosphere",
+        "mountains",
+        "continents",
+        "surface flexes"
+      ],
+      "example_questions": [
+        "Describe the basic idea of plate tectonics and why it was a groundbreaking theory in geology."
+      ]
+    },
+    {
+      "id": "earth_systems_interconnectedness",
+      "name": "Earth Systems Interconnectedness",
+      "description": "This concept emphasizes that Earth is not a collection of isolated phenomena but rather a dynamic, interconnected system where elements like land, water, atmosphere, and life interact. The recognition of plate tectonics, for instance, helped formalize this understanding in Western science, echoing indigenous perspectives.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "plate_tectonics_introduction",
+        "geology_societal_impact",
+        "geology_specializations"
+      ],
+      "common_misconceptions": [
+        "Viewing geological processes as isolated events rather than parts of a larger, interacting planetary system."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Interconnected system",
+        "elements",
+        "land",
+        "water",
+        "atmosphere",
+        "life",
+        "indigenous perspectives"
+      ],
+      "example_questions": [
+        "How did the theory of plate tectonics help geologists recognize Earth as an 'interconnected system'?"
+      ]
+    },
+    {
+      "id": "geology_societal_impact",
+      "name": "Societal Impact of Geology",
+      "description": "Geology profoundly influences human civilization through the provision of essential resources (minerals in technology, water, nutrient-rich soil), shaping settlement patterns (e.g., cities on river plains or fall lines), affecting weather patterns (e.g., mountains creating deserts), and dictating exposure to natural hazards (flooding, landslides, earthquakes, tsunamis).",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "geology_scope_and_relevance",
+        "earth_systems_interconnectedness"
+      ],
+      "related_concepts": [
+        "fall_line_formation"
+      ],
+      "common_misconceptions": [
+        "Underestimating the direct influence of geology on modern societal structures and daily life beyond simple resource extraction."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Settlement patterns",
+        "resources",
+        "hazards",
+        "infrastructure",
+        "weather"
+      ],
+      "example_questions": [
+        "Using the example of the East Coast's 'fall line,' explain how a geological feature can influence human settlement and city development."
+      ]
+    },
+    {
+      "id": "geology_specializations",
+      "name": "Specializations in Geology",
+      "description": "Geology is a diverse field with many specializations, each focusing on different aspects of Earth. Examples include geochemists (chemical cycles), oceanographers (undersea processes), paleontologists (fossils), planetary scientists (other worlds' geology), and sedimentologists (rocks formed from sediment).",
+      "difficulty": 0.3,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "geology_scope_and_relevance"
+      ],
+      "common_misconceptions": [
+        "Thinking all geologists study only rocks or that the field is narrow, rather than having numerous interdisciplinary branches."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Geochemistry",
+        "oceanography",
+        "paleontology",
+        "planetary science",
+        "sedimentology"
+      ],
+      "example_questions": [
+        "Name three different specializations within geology and briefly describe what each focuses on."
+      ]
+    },
+    {
+      "id": "solar_nebula_theory",
+      "name": "Solar Nebula Theory",
+      "description": "The solar nebula theory describes the formation of our solar system from a vast, swirling cloud of gas and dust (the solar nebula). This cloud collapsed, possibly triggered by a nearby exploding star called a supernova, leading to the concentration of most material at the center to form the Sun.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "protoplanetary_disk_formation",
+        "planetesimal_accretion_process"
+      ],
+      "common_misconceptions": [
+        "Confusing the solar nebula with the protoplanetary disk, which is a subsequent stage in the solar system's formation."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Solar nebula",
+        "gas and dust cloud",
+        "supernova",
+        "Sun formation"
+      ],
+      "example_questions": [
+        "What is the initial event or state described by the solar nebula theory for the formation of our solar system?"
+      ]
+    },
+    {
+      "id": "protoplanetary_disk_formation",
+      "name": "Protoplanetary Disk Formation",
+      "description": "After the Sun's formation from the collapsing solar nebula, the remaining gas and dust spread out into a flattened, slowly rotating disc known as a protoplanetary disc. This disc, resembling a 'spinning record,' is where the materials for future planets begin to accumulate.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "solar_nebula_theory"
+      ],
+      "related_concepts": [
+        "planetesimal_accretion_process"
+      ],
+      "common_misconceptions": [
+        "Not understanding that the protoplanetary disk is a stage *after* the sun has formed, not the initial cloud."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Spinning record",
+        "rotating disc",
+        "planet formation",
+        "gas and dust"
+      ],
+      "example_questions": [
+        "Explain the stage of protoplanetary disk formation in the context of the solar system's development."
+      ]
+    },
+    {
+      "id": "planetesimal_accretion_process",
+      "name": "Planetesimal Accretion Process",
+      "description": "Within the protoplanetary disc, tiny particles of dust and rock repeatedly collided, clumped together, broke apart, and recombined. Through gravity, these clumps grew larger, eventually forming planetesimals (small celestial bodies) and then baby planets called protoplanets, which continued to sweep up matter in their gravitational fields.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "protoplanetary_disk_formation"
+      ],
+      "related_concepts": [
+        "hadean_eon_conditions"
+      ],
+      "common_misconceptions": [
+        "Thinking planets formed instantly or fully grown, rather than through a gradual process of collision and accumulation."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Planetesimals",
+        "protoplanets",
+        "gravity",
+        "clumps",
+        "collisions"
+      ],
+      "example_questions": [
+        "Describe how planetesimals and protoplanets form within a protoplanetary disk."
+      ]
+    },
+    {
+      "id": "hadean_eon_conditions",
+      "name": "Hadean Eon Earth Conditions",
+      "description": "The Hadean Eon represents Earth's earliest stage, lasting for hundreds of millions of years, characterized by extremely hot, molten conditions, frequent volcanic activity, and a surface that was a 'fiery hellscape' as it slowly began to cool. This period is named after the Greek god Hades.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "planetesimal_accretion_process"
+      ],
+      "related_concepts": [
+        "late_heavy_bombardment_event",
+        "early_earth_water_origin"
+      ],
+      "common_misconceptions": [
+        "Imagining the Hadean Earth as having continents or oceans, rather than being largely molten or bombarded."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Fiery youth",
+        "molten Earth",
+        "early Earth",
+        "Hades",
+        "violent period"
+      ],
+      "example_questions": [
+        "What were the predominant characteristics of Earth during the Hadean Eon?"
+      ]
+    },
+    {
+      "id": "late_heavy_bombardment_event",
+      "name": "Late Heavy Bombardment",
+      "description": "The Late Heavy Bombardment was a violent period towards the end of the Hadean Eon when Earth and other inner solar system bodies were extensively 'pummeled by asteroids'. This event could explain how Earth rocks ended up on the Moon and contributed to shaping planetary surfaces.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "hadean_eon_conditions"
+      ],
+      "related_concepts": [
+        "moon_formation_giant_impact_theory",
+        "evidence_for_early_continents_oceans"
+      ],
+      "common_misconceptions": [
+        "Believing the bombardment ended immediately when the Hadean Eon finished, or that all impacts ceased afterward."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Asteroid impacts",
+        "pummeled",
+        "early solar system",
+        "Hadean Eon"
+      ],
+      "example_questions": [
+        "How might the Late Heavy Bombardment explain the discovery of ancient Earth rock on the Moon?"
+      ]
+    },
+    {
+      "id": "moon_formation_giant_impact_theory",
+      "name": "Giant Impact Theory of Moon Formation",
+      "description": "The widely accepted Giant Impact Theory posits that Earth's Moon formed from the collision of a young Earth (protoplanet) with another Mars-sized protoplanet, often called Theia. The impact ejected massive amounts of debris into Earth's orbit, which then accreted to form the Moon.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "planetesimal_accretion_process",
+        "hadean_eon_conditions"
+      ],
+      "related_concepts": [
+        "isotopic_signatures_in_geology",
+        "late_heavy_bombardment_event"
+      ],
+      "common_misconceptions": [
+        "Thinking the collision created the moon directly in its current form, rather than creating debris that later coalesced."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Theia",
+        "protoplanet",
+        "collision",
+        "space debris",
+        "Earth's orbit",
+        "accretion"
+      ],
+      "example_questions": [
+        "Outline the main steps involved in the Giant Impact Theory for the Moon's formation."
+      ]
+    },
+    {
+      "id": "isotopic_signatures_in_geology",
+      "name": "Isotopic Signatures in Geology",
+      "description": "Isotopic signatures are unique combinations of atoms (isotopes) found in rocks, minerals, and celestial bodies that act like 'fingerprints' or a genetic code. Geologists use these signatures to trace the origin, age, and history of materials, such as comparing Earth and Moon samples to understand their relationship.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "moon_formation_giant_impact_theory",
+        "evidence_for_early_continents_oceans",
+        "early_earth_water_origin"
+      ],
+      "common_misconceptions": [
+        "Confusing isotopes with standard elemental composition, or not understanding how differences/similarities in isotopic ratios provide historical clues."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Isotopes",
+        "atomic fingerprints",
+        "genetic code",
+        "origin",
+        "age",
+        "history"
+      ],
+      "example_questions": [
+        "Why are isotopic signatures important clues for scientists studying the formation of celestial bodies like the Earth and Moon?"
+      ]
+    },
+    {
+      "id": "sinestia_theory",
+      "name": "Sinestia Theory of Moon Formation",
+      "description": "An alternative to the Giant Impact Theory, the Sinestia Theory proposes that after the giant impact, the Earth temporarily transformed into a rapidly spinning, donut-shaped mass of vaporized rock called a sinestia. The Moon then formed *inside* this sinestia, orbiting there before the Earth cooled and shrank, separating into two distinct bodies with similar isotopic signatures.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "moon_formation_giant_impact_theory",
+        "isotopic_signatures_in_geology"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Thinking a sinestia is a permanent state for a planet or that it completely replaces the giant impact idea rather than refining it."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Sinestia",
+        "donut-shaped",
+        "vaporized rock",
+        "Sarah Stewart",
+        "isotopic signatures"
+      ],
+      "example_questions": [
+        "How does the Sinestia Theory address the challenge of similar isotopic signatures between the Earth and Moon, which other theories struggled with?"
+      ]
+    },
+    {
+      "id": "early_earth_water_origin",
+      "name": "Origin of Earth's Water",
+      "description": "Theories for the origin of Earth's water include delivery by space objects like water-rich asteroids or comets colliding with the early Earth (e.g., Ryugu and Bennu asteroids). Alternatively, water may have been present on Earth much earlier, outgassing from its interior, with evidence found in ancient minerals like zircons showing liquid water on the surface 4.4 billion years ago.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "hadean_eon_conditions",
+        "late_heavy_bombardment_event"
+      ],
+      "related_concepts": [
+        "evidence_for_early_continents_oceans"
+      ],
+      "common_misconceptions": [
+        "Believing there is only one accepted theory for water's origin, or that water 'just appeared' without a complex geological explanation."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Asteroids",
+        "comets",
+        "cosmic water balloon",
+        "zircons",
+        "liquid water",
+        "outgassing"
+      ],
+      "example_questions": [
+        "Discuss two main theories regarding how water first appeared on Earth."
+      ]
+    },
+    {
+      "id": "evidence_for_early_continents_oceans",
+      "name": "Evidence for Early Continents and Oceans",
+      "description": "Clues about early Earth conditions, such as the mineral mixture in an ancient moon rock and the existence of 4.4 billion-year-old zircons in Australia, suggest that continents were beginning to form and liquid water (oceans) was present on Earth's surface much earlier than previously thought, even during the Late Heavy Bombardment.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "isotopic_signatures_in_geology",
+        "late_heavy_bombardment_event",
+        "early_earth_water_origin"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Thinking Earth was entirely molten and without any solid crust or water during the entire Hadean Eon."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Zircons",
+        "mineral mixture",
+        "continents",
+        "oceans",
+        "moon rock"
+      ],
+      "example_questions": [
+        "What specific geological evidence discussed in the lecture suggests that early Earth had continents and oceans surprisingly early in its history?"
+      ]
+    },
+    {
+      "id": "earth_interior_exploration_methods",
+      "name": "Earth Interior Exploration Methods",
+      "description": "Direct exploration of Earth's deep interior is extremely challenging due to immense pressure and heat. Methods include drilling deep boreholes like the Kola Superdeep Borehole, which barely scratches the surface, and historical ambitious projects like Project Mohole. Indirect methods, such as seismic studies, are crucial for understanding the subsurface structure.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Believing humans have successfully drilled through the Earth's crust or into the mantle, or that the interior is easily accessible."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Kola Superdeep Borehole",
+        "Project Mohole",
+        "drilling",
+        "challenges",
+        "direct observation"
+      ],
+      "example_questions": [
+        "What challenges have scientists faced in attempting to directly explore Earth's interior, as illustrated by the Kola Superdeep Borehole and Project Mohole?"
+      ]
+    },
+    {
+      "id": "earth_crust_characteristics",
+      "name": "Earth's Crust Characteristics",
+      "description": "The Earth's crust is its outermost solid, rocky shell, making up only about 1.4% of Earth's total volume. It is primarily composed of oxygen and silicon, with other elements like aluminum, iron, and calcium. The crust is broken into tectonic plates and varies significantly in thickness between oceanic (thinner, 5-10 km) and continental (thicker, up to 70 km under mountains) regions.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "earth_interior_exploration_methods",
+        "plate_tectonics_introduction"
+      ],
+      "related_concepts": [
+        "moho_discontinuity_definition",
+        "lithosphere_structure",
+        "oceanic_vs_continental_crust"
+      ],
+      "common_misconceptions": [
+        "Thinking the crust is uniform in thickness everywhere, or that it's a completely smooth layer."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Outer layer",
+        "solid rock",
+        "oxygen",
+        "silicon",
+        "tectonic plates",
+        "oceanic crust",
+        "continental crust"
+      ],
+      "example_questions": [
+        "Describe the key physical and compositional characteristics of Earth's crust."
+      ]
+    },
+    {
+      "id": "moho_discontinuity_definition",
+      "name": "Mohorovi\u010di\u0107 Discontinuity (Moho)",
+      "description": "The Mohorovi\u010di\u0107 (Moho) discontinuity is the distinct seismic boundary that separates Earth's crust from the underlying, denser mantle. It was the target of Project Mohole, an ambitious but ultimately unsuccessful attempt to drill directly through the crust to this specific boundary.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "earth_crust_characteristics"
+      ],
+      "related_concepts": [
+        "earth_mantle_characteristics",
+        "earth_interior_exploration_methods"
+      ],
+      "common_misconceptions": [
+        "Believing the Moho is a visible line or a distinct geological layer itself, rather than a seismic boundary identified by changes in wave velocity."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Moho",
+        "boundary",
+        "crust",
+        "mantle",
+        "Project Mohole",
+        "seismic"
+      ],
+      "example_questions": [
+        "What is the Mohorovi\u010di\u0107 Discontinuity and why was it a target for early geological drilling projects?"
+      ]
+    },
+    {
+      "id": "earth_mantle_characteristics",
+      "name": "Earth's Mantle Characteristics",
+      "description": "The Earth's mantle is the dense, middle layer beneath the crust, making up about 84% of Earth's total volume with a depth of approximately 2900 km. It is primarily composed of rocks rich in iron and magnesium. Although solid, the mantle can flow very slowly over geological timescales due to high temperatures and pressures, enabling processes like convection.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "moho_discontinuity_definition"
+      ],
+      "related_concepts": [
+        "lithosphere_structure",
+        "asthenosphere_properties",
+        "mantle_convection_process",
+        "mantle_composition_depth_variation"
+      ],
+      "common_misconceptions": [
+        "Thinking the mantle is entirely liquid like lava, rather than a solid that flows very slowly under extreme conditions."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Middle layer",
+        "dense",
+        "iron",
+        "magnesium",
+        "volume",
+        "depth",
+        "slow flow"
+      ],
+      "example_questions": [
+        "What are the main physical and compositional characteristics of Earth's mantle?"
+      ]
+    },
+    {
+      "id": "lithosphere_structure",
+      "name": "Lithosphere Structure",
+      "description": "The lithosphere is Earth's rigid, outermost solid layer, comprising the entire crust and the uppermost, solid part of the mantle. It is divided into the tectonic plates that move across the Earth's surface, riding on the more ductile asthenosphere below.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "earth_crust_characteristics",
+        "earth_mantle_characteristics",
+        "plate_tectonics_introduction"
+      ],
+      "related_concepts": [
+        "asthenosphere_properties"
+      ],
+      "common_misconceptions": [
+        "Confusing the lithosphere with just the crust, or not understanding that it includes a portion of the upper mantle."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Rigid",
+        "outer shell",
+        "crust",
+        "uppermost mantle",
+        "tectonic plates"
+      ],
+      "example_questions": [
+        "Describe the composition and significance of the lithosphere in Earth's structure."
+      ]
+    },
+    {
+      "id": "asthenosphere_properties",
+      "name": "Asthenosphere Properties",
+      "description": "The asthenosphere is a ductile, flowing layer within the upper mantle, located beneath the lithosphere. Due to increasing temperature and pressure, its rocks behave like 'taffy,' allowing the rigid lithospheric plates above it to move and enabling mantle convection.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "lithosphere_structure"
+      ],
+      "related_concepts": [
+        "mantle_convection_process",
+        "earth_mantle_characteristics"
+      ],
+      "common_misconceptions": [
+        "Believing the asthenosphere is molten or liquid, rather than a solid that deforms plastically."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Ductile",
+        "flowing",
+        "upper mantle",
+        "taffy-like",
+        "plate movement"
+      ],
+      "example_questions": [
+        "How do the properties of the asthenosphere contribute to the movement of tectonic plates?"
+      ]
+    },
+    {
+      "id": "mantle_convection_process",
+      "name": "Mantle Convection Process",
+      "description": "Mantle convection is the slow, churning circulation of material within the Earth's mantle, driven by heat transfer from the core. Hotter, less dense material rises, while cooler, denser material sinks, creating convection currents that are a primary driving force for the movement of tectonic plates at the surface.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "asthenosphere_properties",
+        "plate_tectonics_introduction"
+      ],
+      "related_concepts": [
+        "earth_mantle_characteristics"
+      ],
+      "common_misconceptions": [
+        "Imagining mantle convection as a rapid process, rather than occurring over millions of years, or not connecting it directly to plate movement."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Convection currents",
+        "heat transfer",
+        "core",
+        "plate movement",
+        "churning"
+      ],
+      "example_questions": [
+        "Explain how convection currents in the mantle are believed to drive the movement of Earth's tectonic plates."
+      ]
+    },
+    {
+      "id": "mantle_composition_depth_variation",
+      "name": "Mantle Composition and Depth Variation",
+      "description": "The Earth's mantle is not uniform; its mineralogy, density, and physical properties change significantly with depth due to increasing temperature and pressure. For instance, the upper mantle contains olivine (greenish-black), while the mantle transition zone sees mineral rearrangement and color changes, and the lower mantle is even denser and flows less.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "earth_mantle_characteristics"
+      ],
+      "related_concepts": [
+        "asthenosphere_properties"
+      ],
+      "common_misconceptions": [
+        "Assuming the mantle is a homogenous layer, or not understanding how pressure and temperature affect mineral structures and physical behavior."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Upper mantle",
+        "olivine",
+        "transition zone",
+        "lower mantle",
+        "mineral rearrangement",
+        "density",
+        "pressure",
+        "temperature"
+      ],
+      "example_questions": [
+        "How does the composition and physical state of the mantle change as one moves from the upper mantle down to the lower mantle?"
+      ]
+    },
+    {
+      "id": "oceanic_vs_continental_crust",
+      "name": "Oceanic vs. Continental Crust",
+      "description": "Earth's crust has two main types: oceanic crust, which is thinner (typically 5-10 km) and denser, found beneath ocean basins, and continental crust, which is thicker (up to 70 km under mountains) and less dense, forming the continents. These differences affect how they interact in plate tectonic processes.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "earth_crust_characteristics"
+      ],
+      "related_concepts": [
+        "plate_tectonics_introduction"
+      ],
+      "common_misconceptions": [
+        "Thinking oceanic and continental crust are made of the same materials or have similar thicknesses."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Oceanic crust",
+        "continental crust",
+        "thickness",
+        "density",
+        "tectonic plates"
+      ],
+      "example_questions": [
+        "Compare and contrast oceanic and continental crust in terms of their typical thickness and density."
+      ]
+    },
+    {
+      "id": "fall_line_formation",
+      "name": "Fall Line Formation",
+      "description": "A fall line is a geological feature formed at the boundary where a harder, erosion-resistant rock formation meets a softer, easily erodible rock formation, often creating rapids and waterfalls. Historically, these features influenced human settlement patterns as natural barriers to river travel, leading to the development of cities like those on the US East Coast.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "geology_societal_impact",
+        "geological_observation_history"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Seeing the fall line just as a geographical line, not understanding its geological origin or its historical impact on human activity."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Fall line",
+        "erosion",
+        "river rapids",
+        "waterfalls",
+        "settlement patterns",
+        "coastal plain"
+      ],
+      "example_questions": [
+        "Describe how the geological process of erosion contributed to the formation of a 'fall line' and how this feature impacted historical settlement."
+      ]
+    },
+    {
+      "id": "indigenous_geological_knowledge",
+      "name": "Indigenous Geological Knowledge",
+      "description": "This refers to the traditional, intergenerational knowledge systems developed by indigenous peoples about Earth and its processes. This knowledge often views Earth as an interconnected system and can provide new insights when combined with Western science, as exemplified by indigenous geologists like Shayen Chavaria who integrate Pueblo teachings.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geological_observation_history",
+        "earth_systems_interconnectedness"
+      ],
+      "related_concepts": [
+        "geology_societal_impact"
+      ],
+      "common_misconceptions": [
+        "Dismissing indigenous knowledge as unscientific or less valid than Western geological science, rather than recognizing its complementary value."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Traditional knowledge",
+        "interconnected systems",
+        "Pueblo teachings",
+        "Western science",
+        "tribal lands"
+      ],
+      "example_questions": [
+        "How can combining indigenous geological knowledge with Western scientific approaches benefit modern geological research and policy?"
+      ]
+    }
+  ]
+}

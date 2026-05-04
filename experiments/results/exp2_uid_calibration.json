@@ -1,0 +1,1368 @@
+{
+  "experiment": "uid_surprisal_calibration",
+  "model_used": "gpt2 (124M, CPU)",
+  "timestamp": "2026-05-04T04:25:00Z",
+  "num_concepts": 50,
+  "per_concept_results": [
+    {
+      "concept_id": "state_space_models",
+      "concept_name": "State Space Models (SSMs)",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.1925,
+          "surprisal_std": 3.2521,
+          "uid_score": 0.2352,
+          "fk_grade": 3.76,
+          "token_count": 543,
+          "word_count": 555
+        },
+        "advanced": {
+          "mean_surprisal": 4.5555,
+          "surprisal_std": 3.6468,
+          "uid_score": 0.2152,
+          "fk_grade": 7.87,
+          "token_count": 630,
+          "word_count": 679
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.363,
+        "uid_score_change": -0.02,
+        "fk_grade_change": 4.11
+      }
+    },
+    {
+      "concept_id": "augmented_matrix",
+      "concept_name": "Augmented Matrix",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.7084,
+          "surprisal_std": 3.2412,
+          "uid_score": 0.2358,
+          "fk_grade": 4.41,
+          "token_count": 468,
+          "word_count": 486
+        },
+        "advanced": {
+          "mean_surprisal": 5.2234,
+          "surprisal_std": 3.4946,
+          "uid_score": 0.2225,
+          "fk_grade": 9.53,
+          "token_count": 464,
+          "word_count": 512
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.515,
+        "uid_score_change": -0.0133,
+        "fk_grade_change": 5.12
+      }
+    },
+    {
+      "concept_id": "earth_mantle_properties",
+      "concept_name": "Earth's Mantle Properties",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.5315,
+          "surprisal_std": 3.4124,
+          "uid_score": 0.2266,
+          "fk_grade": 3.7,
+          "token_count": 440,
+          "word_count": 468
+        },
+        "advanced": {
+          "mean_surprisal": 4.9462,
+          "surprisal_std": 3.6939,
+          "uid_score": 0.213,
+          "fk_grade": 8.71,
+          "token_count": 579,
+          "word_count": 606
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.4147,
+        "uid_score_change": -0.0136,
+        "fk_grade_change": 5.01
+      }
+    },
+    {
+      "concept_id": "linear_system_consistency",
+      "concept_name": "Consistency of Linear Systems",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 5.0927,
+          "surprisal_std": 3.6447,
+          "uid_score": 0.2153,
+          "fk_grade": 4.33,
+          "token_count": 601,
+          "word_count": 587
+        },
+        "advanced": {
+          "mean_surprisal": 6.0226,
+          "surprisal_std": 3.889,
+          "uid_score": 0.2045,
+          "fk_grade": 8.79,
+          "token_count": 613,
+          "word_count": 639
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.9299,
+        "uid_score_change": -0.0108,
+        "fk_grade_change": 4.46
+      }
+    },
+    {
+      "concept_id": "matrix_definition",
+      "concept_name": "Matrix Definition",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.2808,
+          "surprisal_std": 3.2516,
+          "uid_score": 0.2352,
+          "fk_grade": 4.06,
+          "token_count": 428,
+          "word_count": 440
+        },
+        "advanced": {
+          "mean_surprisal": 4.7907,
+          "surprisal_std": 3.4293,
+          "uid_score": 0.2258,
+          "fk_grade": 7.93,
+          "token_count": 568,
+          "word_count": 575
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.5099,
+        "uid_score_change": -0.0094,
+        "fk_grade_change": 3.87
+      }
+    },
+    {
+      "concept_id": "lithosphere_definition",
+      "concept_name": "The Lithosphere",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 3.836,
+          "surprisal_std": 3.1301,
+          "uid_score": 0.2421,
+          "fk_grade": 3.84,
+          "token_count": 492,
+          "word_count": 476
+        },
+        "advanced": {
+          "mean_surprisal": 4.201,
+          "surprisal_std": 3.3867,
+          "uid_score": 0.228,
+          "fk_grade": 7.69,
+          "token_count": 423,
+          "word_count": 450
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.365,
+        "uid_score_change": -0.0141,
+        "fk_grade_change": 3.85
+      }
+    },
+    {
+      "concept_id": "gaussian_elimination",
+      "concept_name": "Gaussian Elimination",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.2318,
+          "surprisal_std": 3.7796,
+          "uid_score": 0.2092,
+          "fk_grade": 4.67,
+          "token_count": 604,
+          "word_count": 630
+        },
+        "advanced": {
+          "mean_surprisal": 4.4476,
+          "surprisal_std": 4.0785,
+          "uid_score": 0.1969,
+          "fk_grade": 10.41,
+          "token_count": 612,
+          "word_count": 623
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.2158,
+        "uid_score_change": -0.0123,
+        "fk_grade_change": 5.74
+      }
+    },
+    {
+      "concept_id": "quadratic_scaling_transformer",
+      "concept_name": "Quadratic Scaling of Transformer Training",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.4114,
+          "surprisal_std": 4.0461,
+          "uid_score": 0.1982,
+          "fk_grade": 3.14,
+          "token_count": 571,
+          "word_count": 594
+        },
+        "advanced": {
+          "mean_surprisal": 5.1365,
+          "surprisal_std": 4.269,
+          "uid_score": 0.1898,
+          "fk_grade": 7.71,
+          "token_count": 419,
+          "word_count": 427
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.7251,
+        "uid_score_change": -0.0084,
+        "fk_grade_change": 4.57
+      }
+    },
+    {
+      "concept_id": "matrix_order",
+      "concept_name": "Matrix Order (Size)",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.2465,
+          "surprisal_std": 3.2513,
+          "uid_score": 0.2352,
+          "fk_grade": 3.43,
+          "token_count": 481,
+          "word_count": 507
+        },
+        "advanced": {
+          "mean_surprisal": 5.0655,
+          "surprisal_std": 3.6659,
+          "uid_score": 0.2143,
+          "fk_grade": 6.76,
+          "token_count": 467,
+          "word_count": 525
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.819,
+        "uid_score_change": -0.0209,
+        "fk_grade_change": 3.33
+      }
+    },
+    {
+      "concept_id": "observational_science",
+      "concept_name": "Observational Science",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.5994,
+          "surprisal_std": 3.688,
+          "uid_score": 0.2133,
+          "fk_grade": 4.2,
+          "token_count": 477,
+          "word_count": 504
+        },
+        "advanced": {
+          "mean_surprisal": 5.3628,
+          "surprisal_std": 4.0931,
+          "uid_score": 0.1963,
+          "fk_grade": 7.98,
+          "token_count": 406,
+          "word_count": 437
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.7634,
+        "uid_score_change": -0.017,
+        "fk_grade_change": 3.78
+      }
+    },
+    {
+      "concept_id": "matrix_singularity",
+      "concept_name": "Matrix Singularity",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.4933,
+          "surprisal_std": 3.3702,
+          "uid_score": 0.2288,
+          "fk_grade": 5.2,
+          "token_count": 612,
+          "word_count": 630
+        },
+        "advanced": {
+          "mean_surprisal": 5.0844,
+          "surprisal_std": 3.672,
+          "uid_score": 0.214,
+          "fk_grade": 10.18,
+          "token_count": 411,
+          "word_count": 405
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.5911,
+        "uid_score_change": -0.0148,
+        "fk_grade_change": 4.98
+      }
+    },
+    {
+      "concept_id": "rnn_unrolling",
+      "concept_name": "RNN Unrolling",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.2234,
+          "surprisal_std": 3.7944,
+          "uid_score": 0.2086,
+          "fk_grade": 5.4,
+          "token_count": 414,
+          "word_count": 443
+        },
+        "advanced": {
+          "mean_surprisal": 4.5879,
+          "surprisal_std": 4.1957,
+          "uid_score": 0.1925,
+          "fk_grade": 10.76,
+          "token_count": 590,
+          "word_count": 649
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.3645,
+        "uid_score_change": -0.0161,
+        "fk_grade_change": 5.36
+      }
+    },
+    {
+      "concept_id": "geological_history_early_scientists",
+      "concept_name": "Early Geological Thinkers",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 3.8565,
+          "surprisal_std": 3.7203,
+          "uid_score": 0.2119,
+          "fk_grade": 4.61,
+          "token_count": 405,
+          "word_count": 447
+        },
+        "advanced": {
+          "mean_surprisal": 4.1529,
+          "surprisal_std": 3.8817,
+          "uid_score": 0.2048,
+          "fk_grade": 9.69,
+          "token_count": 471,
+          "word_count": 465
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.2964,
+        "uid_score_change": -0.0071,
+        "fk_grade_change": 5.08
+      }
+    },
+    {
+      "concept_id": "positional_encoding",
+      "concept_name": "Positional Encoding",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.3502,
+          "surprisal_std": 3.4172,
+          "uid_score": 0.2264,
+          "fk_grade": 3.92,
+          "token_count": 472,
+          "word_count": 464
+        },
+        "advanced": {
+          "mean_surprisal": 5.1902,
+          "surprisal_std": 3.7535,
+          "uid_score": 0.2104,
+          "fk_grade": 8.52,
+          "token_count": 630,
+          "word_count": 665
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.84,
+        "uid_score_change": -0.016,
+        "fk_grade_change": 4.6
+      }
+    },
+    {
+      "concept_id": "involutory_matrix",
+      "concept_name": "Involutory Matrix",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.5811,
+          "surprisal_std": 3.5646,
+          "uid_score": 0.2191,
+          "fk_grade": 5.77,
+          "token_count": 590,
+          "word_count": 628
+        },
+        "advanced": {
+          "mean_surprisal": 5.3469,
+          "surprisal_std": 3.9597,
+          "uid_score": 0.2016,
+          "fk_grade": 9.78,
+          "token_count": 563,
+          "word_count": 555
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.7658,
+        "uid_score_change": -0.0175,
+        "fk_grade_change": 4.01
+      }
+    },
+    {
+      "concept_id": "confirmation_bias",
+      "concept_name": "Confirmation Bias",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.6195,
+          "surprisal_std": 3.5604,
+          "uid_score": 0.2193,
+          "fk_grade": 5.33,
+          "token_count": 432,
+          "word_count": 420
+        },
+        "advanced": {
+          "mean_surprisal": 5.3917,
+          "surprisal_std": 3.7766,
+          "uid_score": 0.2094,
+          "fk_grade": 9.63,
+          "token_count": 550,
+          "word_count": 567
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.7722,
+        "uid_score_change": -0.0099,
+        "fk_grade_change": 4.3
+      }
+    },
+    {
+      "concept_id": "vanishing_exploding_gradient",
+      "concept_name": "Vanishing and Exploding Gradient Problem",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.5384,
+          "surprisal_std": 3.412,
+          "uid_score": 0.2267,
+          "fk_grade": 4.59,
+          "token_count": 532,
+          "word_count": 512
+        },
+        "advanced": {
+          "mean_surprisal": 5.0903,
+          "surprisal_std": 4.1021,
+          "uid_score": 0.196,
+          "fk_grade": 7.6,
+          "token_count": 433,
+          "word_count": 492
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.5519,
+        "uid_score_change": -0.0307,
+        "fk_grade_change": 3.01
+      }
+    },
+    {
+      "concept_id": "signed_area",
+      "concept_name": "Signed Area",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.3191,
+          "surprisal_std": 3.6448,
+          "uid_score": 0.2153,
+          "fk_grade": 4.02,
+          "token_count": 383,
+          "word_count": 408
+        },
+        "advanced": {
+          "mean_surprisal": 5.0058,
+          "surprisal_std": 3.9091,
+          "uid_score": 0.2037,
+          "fk_grade": 8.26,
+          "token_count": 482,
+          "word_count": 474
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.6867,
+        "uid_score_change": -0.0116,
+        "fk_grade_change": 4.24
+      }
+    },
+    {
+      "concept_id": "rate_of_change",
+      "concept_name": "Rate of Change",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.4126,
+          "surprisal_std": 3.5929,
+          "uid_score": 0.2177,
+          "fk_grade": 4.16,
+          "token_count": 570,
+          "word_count": 558
+        },
+        "advanced": {
+          "mean_surprisal": 4.7195,
+          "surprisal_std": 3.9739,
+          "uid_score": 0.201,
+          "fk_grade": 7.58,
+          "token_count": 531,
+          "word_count": 534
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.3069,
+        "uid_score_change": -0.0167,
+        "fk_grade_change": 3.42
+      }
+    },
+    {
+      "concept_id": "earth_water_origin",
+      "concept_name": "Origin of Earth's Water",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.2035,
+          "surprisal_std": 3.6326,
+          "uid_score": 0.2159,
+          "fk_grade": 3.55,
+          "token_count": 612,
+          "word_count": 658
+        },
+        "advanced": {
+          "mean_surprisal": 4.762,
+          "surprisal_std": 4.1459,
+          "uid_score": 0.1943,
+          "fk_grade": 7.1,
+          "token_count": 407,
+          "word_count": 404
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.5585,
+        "uid_score_change": -0.0216,
+        "fk_grade_change": 3.55
+      }
+    },
+    {
+      "concept_id": "statistical_significance",
+      "concept_name": "Statistical Significance",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 5.1585,
+          "surprisal_std": 3.6057,
+          "uid_score": 0.2171,
+          "fk_grade": 4.2,
+          "token_count": 562,
+          "word_count": 598
+        },
+        "advanced": {
+          "mean_surprisal": 5.882,
+          "surprisal_std": 3.9776,
+          "uid_score": 0.2009,
+          "fk_grade": 8.77,
+          "token_count": 555,
+          "word_count": 563
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.7235,
+        "uid_score_change": -0.0162,
+        "fk_grade_change": 4.57
+      }
+    },
+    {
+      "concept_id": "power_rule_integration",
+      "concept_name": "Power Rule for Integration",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.5371,
+          "surprisal_std": 3.5404,
+          "uid_score": 0.2202,
+          "fk_grade": 3.41,
+          "token_count": 463,
+          "word_count": 491
+        },
+        "advanced": {
+          "mean_surprisal": 5.4329,
+          "surprisal_std": 3.8854,
+          "uid_score": 0.2047,
+          "fk_grade": 7.06,
+          "token_count": 516,
+          "word_count": 570
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.8958,
+        "uid_score_change": -0.0155,
+        "fk_grade_change": 3.65
+      }
+    },
+    {
+      "concept_id": "homogeneous_linear_systems",
+      "concept_name": "Homogeneous Linear Systems",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.2739,
+          "surprisal_std": 3.4797,
+          "uid_score": 0.2232,
+          "fk_grade": 3.89,
+          "token_count": 546,
+          "word_count": 596
+        },
+        "advanced": {
+          "mean_surprisal": 4.8985,
+          "surprisal_std": 3.7476,
+          "uid_score": 0.2106,
+          "fk_grade": 6.8,
+          "token_count": 515,
+          "word_count": 534
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.6246,
+        "uid_score_change": -0.0126,
+        "fk_grade_change": 2.91
+      }
+    },
+    {
+      "concept_id": "skew_symmetric_matrix",
+      "concept_name": "Skew-Symmetric Matrix",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 3.7578,
+          "surprisal_std": 3.7316,
+          "uid_score": 0.2113,
+          "fk_grade": 3.19,
+          "token_count": 460,
+          "word_count": 494
+        },
+        "advanced": {
+          "mean_surprisal": 4.3491,
+          "surprisal_std": 4.1666,
+          "uid_score": 0.1936,
+          "fk_grade": 8.36,
+          "token_count": 644,
+          "word_count": 653
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.5913,
+        "uid_score_change": -0.0177,
+        "fk_grade_change": 5.17
+      }
+    },
+    {
+      "concept_id": "solubility",
+      "concept_name": "Solubility",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.1666,
+          "surprisal_std": 3.2285,
+          "uid_score": 0.2365,
+          "fk_grade": 4.35,
+          "token_count": 490,
+          "word_count": 482
+        },
+        "advanced": {
+          "mean_surprisal": 4.81,
+          "surprisal_std": 3.4627,
+          "uid_score": 0.2241,
+          "fk_grade": 8.93,
+          "token_count": 433,
+          "word_count": 430
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.6434,
+        "uid_score_change": -0.0124,
+        "fk_grade_change": 4.58
+      }
+    },
+    {
+      "concept_id": "basis",
+      "concept_name": "Basis",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.0552,
+          "surprisal_std": 3.414,
+          "uid_score": 0.2266,
+          "fk_grade": 4.23,
+          "token_count": 470,
+          "word_count": 504
+        },
+        "advanced": {
+          "mean_surprisal": 4.9212,
+          "surprisal_std": 3.6227,
+          "uid_score": 0.2163,
+          "fk_grade": 8.99,
+          "token_count": 647,
+          "word_count": 673
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.866,
+        "uid_score_change": -0.0103,
+        "fk_grade_change": 4.76
+      }
+    },
+    {
+      "concept_id": "continental_vs_oceanic_crust",
+      "concept_name": "Continental vs. Oceanic Crust",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.1369,
+          "surprisal_std": 3.4127,
+          "uid_score": 0.2266,
+          "fk_grade": 3.87,
+          "token_count": 548,
+          "word_count": 589
+        },
+        "advanced": {
+          "mean_surprisal": 4.8023,
+          "surprisal_std": 3.8194,
+          "uid_score": 0.2075,
+          "fk_grade": 8.01,
+          "token_count": 616,
+          "word_count": 653
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.6654,
+        "uid_score_change": -0.0191,
+        "fk_grade_change": 4.14
+      }
+    },
+    {
+      "concept_id": "rnn_constant_inference_cost",
+      "concept_name": "RNN Constant Inference Cost per Token",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.5723,
+          "surprisal_std": 3.6535,
+          "uid_score": 0.2149,
+          "fk_grade": 4.31,
+          "token_count": 523,
+          "word_count": 506
+        },
+        "advanced": {
+          "mean_surprisal": 4.9954,
+          "surprisal_std": 3.8923,
+          "uid_score": 0.2044,
+          "fk_grade": 9.55,
+          "token_count": 577,
+          "word_count": 601
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.4231,
+        "uid_score_change": -0.0105,
+        "fk_grade_change": 5.24
+      }
+    },
+    {
+      "concept_id": "differential_equations_introduction",
+      "concept_name": "Introduction to Differential Equations",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.635,
+          "surprisal_std": 3.5561,
+          "uid_score": 0.2195,
+          "fk_grade": 4.32,
+          "token_count": 469,
+          "word_count": 449
+        },
+        "advanced": {
+          "mean_surprisal": 5.3315,
+          "surprisal_std": 3.9667,
+          "uid_score": 0.2013,
+          "fk_grade": 6.92,
+          "token_count": 568,
+          "word_count": 609
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.6965,
+        "uid_score_change": -0.0182,
+        "fk_grade_change": 2.6
+      }
+    },
+    {
+      "concept_id": "chemical_isomerism",
+      "concept_name": "Chemical Isomerism",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.9612,
+          "surprisal_std": 3.754,
+          "uid_score": 0.2103,
+          "fk_grade": 4.7,
+          "token_count": 515,
+          "word_count": 522
+        },
+        "advanced": {
+          "mean_surprisal": 5.4545,
+          "surprisal_std": 4.1966,
+          "uid_score": 0.1924,
+          "fk_grade": 9.04,
+          "token_count": 440,
+          "word_count": 477
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.4933,
+        "uid_score_change": -0.0179,
+        "fk_grade_change": 4.34
+      }
+    },
+    {
+      "concept_id": "negative_sampling",
+      "concept_name": "Negative Sampling",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.2829,
+          "surprisal_std": 3.755,
+          "uid_score": 0.2103,
+          "fk_grade": 5.18,
+          "token_count": 606,
+          "word_count": 592
+        },
+        "advanced": {
+          "mean_surprisal": 5.1203,
+          "surprisal_std": 4.2717,
+          "uid_score": 0.1897,
+          "fk_grade": 9.19,
+          "token_count": 412,
+          "word_count": 412
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.8374,
+        "uid_score_change": -0.0206,
+        "fk_grade_change": 4.01
+      }
+    },
+    {
+      "concept_id": "geology_definition",
+      "concept_name": "Definition of Geology",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.2086,
+          "surprisal_std": 3.8246,
+          "uid_score": 0.2073,
+          "fk_grade": 3.25,
+          "token_count": 449,
+          "word_count": 456
+        },
+        "advanced": {
+          "mean_surprisal": 4.8617,
+          "surprisal_std": 4.1156,
+          "uid_score": 0.1955,
+          "fk_grade": 7.73,
+          "token_count": 510,
+          "word_count": 514
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.6531,
+        "uid_score_change": -0.0118,
+        "fk_grade_change": 4.48
+      }
+    },
+    {
+      "concept_id": "nilpotent_matrix",
+      "concept_name": "Nilpotent Matrix",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.2507,
+          "surprisal_std": 3.8884,
+          "uid_score": 0.2046,
+          "fk_grade": 3.17,
+          "token_count": 391,
+          "word_count": 399
+        },
+        "advanced": {
+          "mean_surprisal": 4.6867,
+          "surprisal_std": 4.3377,
+          "uid_score": 0.1873,
+          "fk_grade": 7.67,
+          "token_count": 401,
+          "word_count": 417
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.436,
+        "uid_score_change": -0.0173,
+        "fk_grade_change": 4.5
+      }
+    },
+    {
+      "concept_id": "convolutional_kernel",
+      "concept_name": "Convolutional Kernel",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.3235,
+          "surprisal_std": 3.7133,
+          "uid_score": 0.2122,
+          "fk_grade": 4.65,
+          "token_count": 463,
+          "word_count": 458
+        },
+        "advanced": {
+          "mean_surprisal": 5.3047,
+          "surprisal_std": 4.073,
+          "uid_score": 0.1971,
+          "fk_grade": 9.52,
+          "token_count": 444,
+          "word_count": 450
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.9812,
+        "uid_score_change": -0.0151,
+        "fk_grade_change": 4.87
+      }
+    },
+    {
+      "concept_id": "causation",
+      "concept_name": "Causation",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.0416,
+          "surprisal_std": 3.8465,
+          "uid_score": 0.2063,
+          "fk_grade": 3.07,
+          "token_count": 586,
+          "word_count": 611
+        },
+        "advanced": {
+          "mean_surprisal": 5.0494,
+          "surprisal_std": 4.301,
+          "uid_score": 0.1886,
+          "fk_grade": 7.47,
+          "token_count": 410,
+          "word_count": 455
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 1.0078,
+        "uid_score_change": -0.0177,
+        "fk_grade_change": 4.4
+      }
+    },
+    {
+      "concept_id": "self_attention_mechanism",
+      "concept_name": "Self-Attention Mechanism",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 5.2235,
+          "surprisal_std": 3.6462,
+          "uid_score": 0.2152,
+          "fk_grade": 4.99,
+          "token_count": 526,
+          "word_count": 557
+        },
+        "advanced": {
+          "mean_surprisal": 5.8211,
+          "surprisal_std": 3.8754,
+          "uid_score": 0.2051,
+          "fk_grade": 8.59,
+          "token_count": 429,
+          "word_count": 470
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.5976,
+        "uid_score_change": -0.0101,
+        "fk_grade_change": 3.6
+      }
+    },
+    {
+      "concept_id": "matrix_indexing",
+      "concept_name": "Matrix Indexing and Order",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.5475,
+          "surprisal_std": 3.459,
+          "uid_score": 0.2243,
+          "fk_grade": 4.21,
+          "token_count": 592,
+          "word_count": 618
+        },
+        "advanced": {
+          "mean_surprisal": 5.5257,
+          "surprisal_std": 3.9307,
+          "uid_score": 0.2028,
+          "fk_grade": 7.56,
+          "token_count": 462,
+          "word_count": 507
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.9782,
+        "uid_score_change": -0.0215,
+        "fk_grade_change": 3.35
+      }
+    },
+    {
+      "concept_id": "matrix_rank",
+      "concept_name": "Matrix Rank",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.0383,
+          "surprisal_std": 3.3886,
+          "uid_score": 0.2279,
+          "fk_grade": 3.82,
+          "token_count": 466,
+          "word_count": 474
+        },
+        "advanced": {
+          "mean_surprisal": 4.6278,
+          "surprisal_std": 3.8017,
+          "uid_score": 0.2083,
+          "fk_grade": 8.64,
+          "token_count": 530,
+          "word_count": 534
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.5895,
+        "uid_score_change": -0.0196,
+        "fk_grade_change": 4.82
+      }
+    },
+    {
+      "concept_id": "disappearing_polymorphs",
+      "concept_name": "Disappearing Polymorphs",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.2944,
+          "surprisal_std": 3.6086,
+          "uid_score": 0.217,
+          "fk_grade": 4.71,
+          "token_count": 589,
+          "word_count": 587
+        },
+        "advanced": {
+          "mean_surprisal": 4.9541,
+          "surprisal_std": 4.0259,
+          "uid_score": 0.199,
+          "fk_grade": 8.38,
+          "token_count": 450,
+          "word_count": 462
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.6597,
+        "uid_score_change": -0.018,
+        "fk_grade_change": 3.67
+      }
+    },
+    {
+      "concept_id": "query_key_value_mechanism",
+      "concept_name": "Query-Key-Value (QKV) Mechanism",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.0868,
+          "surprisal_std": 3.4165,
+          "uid_score": 0.2264,
+          "fk_grade": 4.46,
+          "token_count": 577,
+          "word_count": 620
+        },
+        "advanced": {
+          "mean_surprisal": 4.4858,
+          "surprisal_std": 3.8012,
+          "uid_score": 0.2083,
+          "fk_grade": 8.45,
+          "token_count": 548,
+          "word_count": 595
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.399,
+        "uid_score_change": -0.0181,
+        "fk_grade_change": 3.99
+      }
+    },
+    {
+      "concept_id": "matrix_transpose",
+      "concept_name": "Matrix Transpose",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 3.9766,
+          "surprisal_std": 2.9907,
+          "uid_score": 0.2506,
+          "fk_grade": 2.72,
+          "token_count": 462,
+          "word_count": 482
+        },
+        "advanced": {
+          "mean_surprisal": 4.6704,
+          "surprisal_std": 3.3774,
+          "uid_score": 0.2284,
+          "fk_grade": 5.28,
+          "token_count": 513,
+          "word_count": 541
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.6938,
+        "uid_score_change": -0.0222,
+        "fk_grade_change": 2.56
+      }
+    },
+    {
+      "concept_id": "dimension",
+      "concept_name": "Dimension",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.5344,
+          "surprisal_std": 3.2296,
+          "uid_score": 0.2364,
+          "fk_grade": 4.14,
+          "token_count": 498,
+          "word_count": 535
+        },
+        "advanced": {
+          "mean_surprisal": 5.3709,
+          "surprisal_std": 3.6065,
+          "uid_score": 0.2171,
+          "fk_grade": 8.79,
+          "token_count": 473,
+          "word_count": 472
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.8365,
+        "uid_score_change": -0.0193,
+        "fk_grade_change": 4.65
+      }
+    },
+    {
+      "concept_id": "confounding_variable",
+      "concept_name": "Confounding Variable",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 3.8479,
+          "surprisal_std": 3.0371,
+          "uid_score": 0.2477,
+          "fk_grade": 5.19,
+          "token_count": 478,
+          "word_count": 517
+        },
+        "advanced": {
+          "mean_surprisal": 4.0631,
+          "surprisal_std": 3.243,
+          "uid_score": 0.2357,
+          "fk_grade": 10.17,
+          "token_count": 589,
+          "word_count": 584
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.2152,
+        "uid_score_change": -0.012,
+        "fk_grade_change": 4.98
+      }
+    },
+    {
+      "concept_id": "earth_interconnected_system",
+      "concept_name": "Earth as an Interconnected System",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 3.7539,
+          "surprisal_std": 3.6615,
+          "uid_score": 0.2145,
+          "fk_grade": 3.84,
+          "token_count": 501,
+          "word_count": 545
+        },
+        "advanced": {
+          "mean_surprisal": 4.4456,
+          "surprisal_std": 4.0463,
+          "uid_score": 0.1982,
+          "fk_grade": 7.67,
+          "token_count": 426,
+          "word_count": 459
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.6917,
+        "uid_score_change": -0.0163,
+        "fk_grade_change": 3.83
+      }
+    },
+    {
+      "concept_id": "area_under_curve",
+      "concept_name": "Area Under the Curve",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.466,
+          "surprisal_std": 3.4784,
+          "uid_score": 0.2233,
+          "fk_grade": 3.98,
+          "token_count": 561,
+          "word_count": 597
+        },
+        "advanced": {
+          "mean_surprisal": 5.3593,
+          "surprisal_std": 3.8201,
+          "uid_score": 0.2075,
+          "fk_grade": 8.2,
+          "token_count": 556,
+          "word_count": 566
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.8933,
+        "uid_score_change": -0.0158,
+        "fk_grade_change": 4.22
+      }
+    },
+    {
+      "concept_id": "explanatory_power",
+      "concept_name": "Explanatory Power",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 3.8865,
+          "surprisal_std": 3.9719,
+          "uid_score": 0.2011,
+          "fk_grade": 3.38,
+          "token_count": 553,
+          "word_count": 539
+        },
+        "advanced": {
+          "mean_surprisal": 4.6069,
+          "surprisal_std": 4.1539,
+          "uid_score": 0.194,
+          "fk_grade": 8.68,
+          "token_count": 416,
+          "word_count": 448
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.7204,
+        "uid_score_change": -0.0071,
+        "fk_grade_change": 5.3
+      }
+    },
+    {
+      "concept_id": "convolutional_neural_network",
+      "concept_name": "Convolutional Neural Network (CNN)",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.7969,
+          "surprisal_std": 3.7307,
+          "uid_score": 0.2114,
+          "fk_grade": 3.96,
+          "token_count": 548,
+          "word_count": 547
+        },
+        "advanced": {
+          "mean_surprisal": 5.3146,
+          "surprisal_std": 4.2181,
+          "uid_score": 0.1916,
+          "fk_grade": 9.61,
+          "token_count": 436,
+          "word_count": 470
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.5177,
+        "uid_score_change": -0.0198,
+        "fk_grade_change": 5.65
+      }
+    },
+    {
+      "concept_id": "quality_assurance_emergency_protocol",
+      "concept_name": "Quality Assurance Emergency Protocol",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.1311,
+          "surprisal_std": 3.8294,
+          "uid_score": 0.2071,
+          "fk_grade": 3.91,
+          "token_count": 561,
+          "word_count": 551
+        },
+        "advanced": {
+          "mean_surprisal": 4.71,
+          "surprisal_std": 4.288,
+          "uid_score": 0.1891,
+          "fk_grade": 7.95,
+          "token_count": 602,
+          "word_count": 634
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.5789,
+        "uid_score_change": -0.018,
+        "fk_grade_change": 4.04
+      }
+    },
+    {
+      "concept_id": "earth_internal_structure_overview",
+      "concept_name": "Earth's Layered Structure Overview",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.5215,
+          "surprisal_std": 3.1466,
+          "uid_score": 0.2412,
+          "fk_grade": 4.65,
+          "token_count": 555,
+          "word_count": 602
+        },
+        "advanced": {
+          "mean_surprisal": 5.4196,
+          "surprisal_std": 3.5957,
+          "uid_score": 0.2176,
+          "fk_grade": 7.9,
+          "token_count": 530,
+          "word_count": 566
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.8981,
+        "uid_score_change": -0.0236,
+        "fk_grade_change": 3.25
+      }
+    },
+    {
+      "concept_id": "orthogonal_matrix",
+      "concept_name": "Orthogonal Matrix",
+      "levels": {
+        "beginner": {
+          "mean_surprisal": 4.6589,
+          "surprisal_std": 3.5446,
+          "uid_score": 0.22,
+          "fk_grade": 4.81,
+          "token_count": 576,
+          "word_count": 618
+        },
+        "advanced": {
+          "mean_surprisal": 5.6381,
+          "surprisal_std": 4.4124,
+          "uid_score": 0.1848,
+          "fk_grade": 8.99,
+          "token_count": 439,
+          "word_count": 438
+        }
+      },
+      "uid_delta": {
+        "mean_surprisal_change": 0.9792,
+        "uid_score_change": -0.0352,
+        "fk_grade_change": 4.18
+      }
+    }
+  ],
+  "average_delta": {
+    "mean_surprisal_change": 0.65,
+    "uid_score_change": -0.018,
+    "fk_grade_change": 4.4
+  },
+  "interpretation": {
+    "mean_surprisal_change": "> 0 means advanced explanations are more informationally dense",
+    "uid_score_change": "< 0 is expected: advanced text is slightly less uniform (more technical bursts)",
+    "fk_grade_change": "> 0 means advanced explanations have higher reading level"
+  }
+}

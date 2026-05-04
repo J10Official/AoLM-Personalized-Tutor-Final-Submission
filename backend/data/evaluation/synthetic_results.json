@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-29T23:43:32",
+  "n_learners": 10,
+  "n_concepts": 27,
+  "learning_effectiveness": {
+    "avg_pre_score": 0.2735,
+    "avg_post_score": 0.2949,
+    "normalised_gain": 0.0257,
+    "cohens_d": 0.4183
+  },
+  "system_quality": {
+    "zpd_targeting_accuracy": 0.9943,
+    "graph_valid": true
+  },
+  "per_learner": [
+    {
+      "id": "synth_low_1",
+      "ability": 0.3,
+      "pre_score": 0.2051,
+      "post_score": 0.25,
+      "gain": 0.0565,
+      "concepts_learned": 35
+    },
+    {
+      "id": "synth_low_2",
+      "ability": 0.35,
+      "pre_score": 0.2352,
+      "post_score": 0.256,
+      "gain": 0.0272,
+      "concepts_learned": 35
+    },
+    {
+      "id": "synth_med_1",
+      "ability": 0.5,
+      "pre_score": 0.2777,
+      "post_score": 0.2136,
+      "gain": -0.0889,
+      "concepts_learned": 35
+    },
+    {
+      "id": "synth_med_2",
+      "ability": 0.55,
+      "pre_score": 0.2175,
+      "post_score": 0.2964,
+      "gain": 0.1009,
+      "concepts_learned": 35
+    },
+    {
+      "id": "synth_med_3",
+      "ability": 0.6,
+      "pre_score": 0.3033,
+      "post_score": 0.3088,
+      "gain": 0.0078,
+      "concepts_learned": 35
+    },
+    {
+      "id": "synth_high_1",
+      "ability": 0.75,
+      "pre_score": 0.2557,
+      "post_score": 0.3703,
+      "gain": 0.154,
+      "concepts_learned": 35
+    },
+    {
+      "id": "synth_high_2",
+      "ability": 0.8,
+      "pre_score": 0.323,
+      "post_score": 0.283,
+      "gain": -0.0591,
+      "concepts_learned": 35
+    },
+    {
+      "id": "synth_high_3",
+      "ability": 0.85,
+      "pre_score": 0.2239,
+      "post_score": 0.3095,
+      "gain": 0.1103,
+      "concepts_learned": 35
+    },
+    {
+      "id": "synth_expert_1",
+      "ability": 0.9,
+      "pre_score": 0.3379,
+      "post_score": 0.3591,
+      "gain": 0.032,
+      "concepts_learned": 35
+    },
+    {
+      "id": "synth_expert_2",
+      "ability": 0.95,
+      "pre_score": 0.356,
+      "post_score": 0.3024,
+      "gain": -0.0832,
+      "concepts_learned": 35
+    }
+  ]
+}

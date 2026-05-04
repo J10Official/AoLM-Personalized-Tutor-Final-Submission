@@ -1,0 +1,1227 @@
+{
+  "experiment": "kg_ablation_quality",
+  "timestamp": "2026-05-04T04:35:00Z",
+  "num_concepts": 50,
+  "per_concept_results": [
+    {
+      "concept_id": "state_space_models",
+      "concept_name": "State Space Models (SSMs)",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 508
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 2,
+            "depth_calibration": 3,
+            "overall_quality": 3
+          },
+          "word_count": 333
+        }
+      }
+    },
+    {
+      "concept_id": "augmented_matrix",
+      "concept_name": "Augmented Matrix",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 443
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 2,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 473
+        }
+      }
+    },
+    {
+      "concept_id": "earth_mantle_properties",
+      "concept_name": "Earth's Mantle Properties",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 550
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 420
+        }
+      }
+    },
+    {
+      "concept_id": "linear_system_consistency",
+      "concept_name": "Consistency of Linear Systems",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 457
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 3
+          },
+          "word_count": 341
+        }
+      }
+    },
+    {
+      "concept_id": "matrix_definition",
+      "concept_name": "Matrix Definition",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 482
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 2,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 331
+        }
+      }
+    },
+    {
+      "concept_id": "lithosphere_definition",
+      "concept_name": "The Lithosphere",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 465
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 389
+        }
+      }
+    },
+    {
+      "concept_id": "gaussian_elimination",
+      "concept_name": "Gaussian Elimination",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 375
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 482
+        }
+      }
+    },
+    {
+      "concept_id": "quadratic_scaling_transformer",
+      "concept_name": "Quadratic Scaling of Transformer Training",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 464
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 2,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 457
+        }
+      }
+    },
+    {
+      "concept_id": "matrix_order",
+      "concept_name": "Matrix Order (Size)",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 423
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 360
+        }
+      }
+    },
+    {
+      "concept_id": "observational_science",
+      "concept_name": "Observational Science",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 354
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 3
+          },
+          "word_count": 461
+        }
+      }
+    },
+    {
+      "concept_id": "matrix_singularity",
+      "concept_name": "Matrix Singularity",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 371
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 434
+        }
+      }
+    },
+    {
+      "concept_id": "rnn_unrolling",
+      "concept_name": "RNN Unrolling",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 512
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 399
+        }
+      }
+    },
+    {
+      "concept_id": "geological_history_early_scientists",
+      "concept_name": "Early Geological Thinkers",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 538
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 3,
+            "overall_quality": 3
+          },
+          "word_count": 493
+        }
+      }
+    },
+    {
+      "concept_id": "positional_encoding",
+      "concept_name": "Positional Encoding",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 511
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 346
+        }
+      }
+    },
+    {
+      "concept_id": "involutory_matrix",
+      "concept_name": "Involutory Matrix",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 4
+          },
+          "word_count": 429
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 431
+        }
+      }
+    },
+    {
+      "concept_id": "confirmation_bias",
+      "concept_name": "Confirmation Bias",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 517
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 384
+        }
+      }
+    },
+    {
+      "concept_id": "vanishing_exploding_gradient",
+      "concept_name": "Vanishing and Exploding Gradient Problem",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 527
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 3,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 427
+        }
+      }
+    },
+    {
+      "concept_id": "signed_area",
+      "concept_name": "Signed Area",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 425
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 382
+        }
+      }
+    },
+    {
+      "concept_id": "rate_of_change",
+      "concept_name": "Rate of Change",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 536
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 390
+        }
+      }
+    },
+    {
+      "concept_id": "earth_water_origin",
+      "concept_name": "Origin of Earth's Water",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 541
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 473
+        }
+      }
+    },
+    {
+      "concept_id": "statistical_significance",
+      "concept_name": "Statistical Significance",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 4
+          },
+          "word_count": 442
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 398
+        }
+      }
+    },
+    {
+      "concept_id": "power_rule_integration",
+      "concept_name": "Power Rule for Integration",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 443
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 401
+        }
+      }
+    },
+    {
+      "concept_id": "homogeneous_linear_systems",
+      "concept_name": "Homogeneous Linear Systems",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 548
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 366
+        }
+      }
+    },
+    {
+      "concept_id": "skew_symmetric_matrix",
+      "concept_name": "Skew-Symmetric Matrix",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 394
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 482
+        }
+      }
+    },
+    {
+      "concept_id": "solubility",
+      "concept_name": "Solubility",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 426
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 340
+        }
+      }
+    },
+    {
+      "concept_id": "basis",
+      "concept_name": "Basis",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 476
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 306
+        }
+      }
+    },
+    {
+      "concept_id": "continental_vs_oceanic_crust",
+      "concept_name": "Continental vs. Oceanic Crust",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 3,
+            "overall_quality": 5
+          },
+          "word_count": 533
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 484
+        }
+      }
+    },
+    {
+      "concept_id": "rnn_constant_inference_cost",
+      "concept_name": "RNN Constant Inference Cost per Token",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 482
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 388
+        }
+      }
+    },
+    {
+      "concept_id": "differential_equations_introduction",
+      "concept_name": "Introduction to Differential Equations",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 381
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 432
+        }
+      }
+    },
+    {
+      "concept_id": "chemical_isomerism",
+      "concept_name": "Chemical Isomerism",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 414
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 5,
+            "overall_quality": 3
+          },
+          "word_count": 350
+        }
+      }
+    },
+    {
+      "concept_id": "negative_sampling",
+      "concept_name": "Negative Sampling",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 389
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 343
+        }
+      }
+    },
+    {
+      "concept_id": "geology_definition",
+      "concept_name": "Definition of Geology",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 514
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 3,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 497
+        }
+      }
+    },
+    {
+      "concept_id": "nilpotent_matrix",
+      "concept_name": "Nilpotent Matrix",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 427
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 423
+        }
+      }
+    },
+    {
+      "concept_id": "convolutional_kernel",
+      "concept_name": "Convolutional Kernel",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 437
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 455
+        }
+      }
+    },
+    {
+      "concept_id": "causation",
+      "concept_name": "Causation",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 377
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 3
+          },
+          "word_count": 381
+        }
+      }
+    },
+    {
+      "concept_id": "self_attention_mechanism",
+      "concept_name": "Self-Attention Mechanism",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 390
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 3
+          },
+          "word_count": 383
+        }
+      }
+    },
+    {
+      "concept_id": "matrix_indexing",
+      "concept_name": "Matrix Indexing and Order",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 373
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 3
+          },
+          "word_count": 400
+        }
+      }
+    },
+    {
+      "concept_id": "matrix_rank",
+      "concept_name": "Matrix Rank",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 470
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 3
+          },
+          "word_count": 373
+        }
+      }
+    },
+    {
+      "concept_id": "disappearing_polymorphs",
+      "concept_name": "Disappearing Polymorphs",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 495
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 2,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 443
+        }
+      }
+    },
+    {
+      "concept_id": "query_key_value_mechanism",
+      "concept_name": "Query-Key-Value (QKV) Mechanism",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 380
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 5,
+            "overall_quality": 4
+          },
+          "word_count": 332
+        }
+      }
+    },
+    {
+      "concept_id": "matrix_transpose",
+      "concept_name": "Matrix Transpose",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 4
+          },
+          "word_count": 478
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 310
+        }
+      }
+    },
+    {
+      "concept_id": "dimension",
+      "concept_name": "Dimension",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 506
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 381
+        }
+      }
+    },
+    {
+      "concept_id": "confounding_variable",
+      "concept_name": "Confounding Variable",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 426
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 421
+        }
+      }
+    },
+    {
+      "concept_id": "earth_interconnected_system",
+      "concept_name": "Earth as an Interconnected System",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 356
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 3
+          },
+          "word_count": 452
+        }
+      }
+    },
+    {
+      "concept_id": "area_under_curve",
+      "concept_name": "Area Under the Curve",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 5,
+            "overall_quality": 4
+          },
+          "word_count": 511
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 3,
+            "overall_quality": 4
+          },
+          "word_count": 484
+        }
+      }
+    },
+    {
+      "concept_id": "explanatory_power",
+      "concept_name": "Explanatory Power",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 5,
+            "overall_quality": 5
+          },
+          "word_count": 430
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 407
+        }
+      }
+    },
+    {
+      "concept_id": "convolutional_neural_network",
+      "concept_name": "Convolutional Neural Network (CNN)",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 5
+          },
+          "word_count": 385
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 432
+        }
+      }
+    },
+    {
+      "concept_id": "quality_assurance_emergency_protocol",
+      "concept_name": "Quality Assurance Emergency Protocol",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 5,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 440
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 473
+        }
+      }
+    },
+    {
+      "concept_id": "earth_internal_structure_overview",
+      "concept_name": "Earth's Layered Structure Overview",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 407
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 376
+        }
+      }
+    },
+    {
+      "concept_id": "orthogonal_matrix",
+      "concept_name": "Orthogonal Matrix",
+      "modes": {
+        "with_kg": {
+          "scores": {
+            "coherence": 5,
+            "prerequisite_awareness": 4,
+            "depth_calibration": 4,
+            "overall_quality": 4
+          },
+          "word_count": 423
+        },
+        "without_kg": {
+          "scores": {
+            "coherence": 4,
+            "prerequisite_awareness": 3,
+            "depth_calibration": 5,
+            "overall_quality": 4
+          },
+          "word_count": 331
+        }
+      }
+    }
+  ],
+  "summary": {
+    "with_kg_averages": {
+      "coherence": 4.5,
+      "prerequisite_awareness": 4.8,
+      "depth_calibration": 4.3,
+      "overall_quality": 4.6
+    },
+    "without_kg_averages": {
+      "coherence": 4.3,
+      "prerequisite_awareness": 3.2,
+      "depth_calibration": 3.8,
+      "overall_quality": 3.9
+    },
+    "delta": {
+      "coherence": 0.2,
+      "prerequisite_awareness": 1.6,
+      "depth_calibration": 0.5,
+      "overall_quality": 0.7
+    }
+  }
+}

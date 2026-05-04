@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeepLearn — Data Engineer Dashboard</title>
+  <meta name="description" content="Human-in-the-Loop data flywheel dashboard for curating learner interactions and exporting few-shot training examples." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/admin.css" />
+</head>
+<body>
+  <div id="admin-app">
+    <!-- Navigation -->
+    <nav id="admin-nav">
+      <div class="nav-brand">
+        <div class="nav-logo">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="14" stroke="url(#grad-admin)" stroke-width="2.5"/>
+            <path d="M10 16 L14 20 L22 12" stroke="url(#grad-admin)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs><linearGradient id="grad-admin" x1="0" y1="0" x2="32" y2="32">
+              <stop offset="0%" stop-color="#14b8a6"/><stop offset="100%" stop-color="#06b6d4"/>
+            </linearGradient></defs>
+          </svg>
+        </div>
+        <span class="nav-title">DeepLearn <span class="nav-badge">Admin</span></span>
+      </div>
+      <div class="nav-links">
+        <button class="nav-link active" data-tab="interactions" id="tab-interactions">Interactions</button>
+        <button class="nav-link" data-tab="statistics" id="tab-statistics">Statistics</button>
+        <button class="nav-link" data-tab="export" id="tab-export">Export</button>
+      </div>
+      <a href="/" class="nav-back" id="nav-back-learner">← Learner App</a>
+    </nav>
+
+    <main id="admin-content">
+
+      <!-- Interactions Tab -->
+      <section id="tab-panel-interactions" class="tab-panel active">
+        <div class="panel-container">
+          <div class="panel-header">
+            <div>
+              <h1>Learner Interactions</h1>
+              <p class="panel-subtitle">Review, curate, and approve interactions for few-shot training</p>
+            </div>
+            <div class="filter-controls">
+              <select id="filter-type" class="filter-select">
+                <option value="">All Types</option>
+                <option value="doubt_resolution">Doubt Resolution</option>
+                <option value="evaluation">Evaluation</option>
+              </select>
+              <select id="filter-status" class="filter-select">
+                <option value="">All Status</option>
+                <option value="pending">Pending</option>
+                <option value="approved">Approved</option>
+                <option value="rejected">Rejected</option>
+              </select>
+              <button class="btn btn-secondary btn-sm" id="refresh-btn" onclick="loadInteractions()">Refresh</button>
+            </div>
+          </div>
+
+          <div class="interactions-count" id="interactions-count"></div>
+          <div id="interactions-list" class="interactions-list">
+            <div class="empty-state">
+              <div class="empty-icon">📭</div>
+              <h3>No Interactions Yet</h3>
+              <p>When learners ask doubts or answer questions, their interactions will appear here for curation.</p>
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <div class="pagination" id="pagination"></div>
+        </div>
+      </section>
+
+      <!-- Statistics Tab -->
+      <section id="tab-panel-statistics" class="tab-panel">
+        <div class="panel-container">
+          <div class="panel-header">
+            <div>
+              <h1>Flywheel Statistics</h1>
+              <p class="panel-subtitle">Aggregate data quality and curation progress</p>
+            </div>
+          </div>
+
+          <div class="stats-grid" id="admin-stats-grid">
+            <!-- Filled dynamically -->
+          </div>
+
+          <div class="stats-details">
+            <div class="stats-section" id="misconceptions-section">
+              <h3>🔍 Misconceptions by Type</h3>
+              <div id="misconceptions-chart" class="chart-container"></div>
+            </div>
+            <div class="stats-section" id="concepts-section">
+              <h3>🎯 Top Struggled Concepts</h3>
+              <div id="concepts-chart" class="chart-container"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Export Tab -->
+      <section id="tab-panel-export" class="tab-panel">
+        <div class="panel-container">
+          <div class="panel-header">
+            <div>
+              <h1>Export Few-Shot Examples</h1>
+              <p class="panel-subtitle">Export approved interactions as DSPy few-shot training data</p>
+            </div>
+          </div>
+
+          <div class="export-card">
+            <div class="export-info">
+              <div class="export-icon">📦</div>
+              <div>
+                <h3>DSPy Few-Shot Export</h3>
+                <p>Approved interactions are exported as structured examples that DSPy agents load automatically on startup. This closes the Human-in-the-Loop flywheel — real learner data improves future agent responses.</p>
+              </div>
+            </div>
+            <div class="export-stats" id="export-stats">
+              <div class="export-stat">
+                <div class="export-stat-value" id="export-approved-count">0</div>
+                <div class="export-stat-label">Approved</div>
+              </div>
+              <div class="export-stat">
+                <div class="export-stat-value" id="export-doubt-count">0</div>
+                <div class="export-stat-label">Doubt Examples</div>
+              </div>
+              <div class="export-stat">
+                <div class="export-stat-value" id="export-eval-count">0</div>
+                <div class="export-stat-label">Evaluation Examples</div>
+              </div>
+            </div>
+            <button class="btn btn-primary" id="export-btn" onclick="exportExamples()">Export & Save</button>
+            <div class="export-result" id="export-result"></div>
+          </div>
+
+          <div class="export-info-card">
+            <h3>How the Flywheel Works</h3>
+            <div class="flywheel-diagram">
+              <div class="flywheel-step">
+                <div class="flywheel-step-num">1</div>
+                <div class="flywheel-step-text">Learners ask doubts & answer questions</div>
+              </div>
+              <div class="flywheel-arrow">→</div>
+              <div class="flywheel-step">
+                <div class="flywheel-step-num">2</div>
+                <div class="flywheel-step-text">Interactions collected automatically</div>
+              </div>
+              <div class="flywheel-arrow">→</div>
+              <div class="flywheel-step">
+                <div class="flywheel-step-num">3</div>
+                <div class="flywheel-step-text">Data engineer reviews & approves</div>
+              </div>
+              <div class="flywheel-arrow">→</div>
+              <div class="flywheel-step">
+                <div class="flywheel-step-num">4</div>
+                <div class="flywheel-step-text">Exported as few-shot examples</div>
+              </div>
+              <div class="flywheel-arrow">→</div>
+              <div class="flywheel-step highlight">
+                <div class="flywheel-step-num">5</div>
+                <div class="flywheel-step-text">Agents improve & cycle repeats</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script type="module" src="/admin.js"></script>
+</body>
+</html>

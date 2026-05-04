@@ -1,0 +1,4947 @@
+{
+  "concepts": {
+    "geology_definition": {
+      "id": "geology_definition",
+      "name": "Definition of Geology",
+      "description": "Geology is broadly defined as the study of the Earth, encompassing its formation, composition, structure, processes, and history. It's presented as more than just rocks, but an interconnected system that includes everything from volcanoes to human settlement patterns.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "earth_interconnected_system"
+      ],
+      "common_misconceptions": [
+        "Thinking geology is only about 'rocks' or 'dinosaurs' and not a broader scientific discipline."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Earth study",
+        "geological processes",
+        "Earth history"
+      ],
+      "example_questions": [
+        "How would you describe geology to someone who thinks it's only about 'cool rocks'?"
+      ],
+      "global_doubts": []
+    },
+    "geological_history_indigenous": {
+      "id": "geological_history_indigenous",
+      "name": "Indigenous Geological Knowledge",
+      "description": "Long before geology became a formal field of study, indigenous peoples gathered extensive knowledge about the Earth, understanding phenomena like river carving (Grand Canyon) and fossil evidence (Dilophosaurus tracks) as part of an interconnected system. Their contributions were often unacknowledged by early European colonizers.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "geological_history_early_scientists",
+        "earth_interconnected_system"
+      ],
+      "common_misconceptions": [
+        "Believing that scientific understanding of geology only began with European scholars."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Indigenous knowledge",
+        "oral tradition",
+        "interconnected system"
+      ],
+      "example_questions": [
+        "Give an example of indigenous geological knowledge mentioned in the lecture."
+      ],
+      "global_doubts": []
+    },
+    "geological_history_early_scientists": {
+      "id": "geological_history_early_scientists",
+      "name": "Early Geological Thinkers",
+      "description": "Early scientists like Ibn Sina (Persia) observed rock layering, and Shan Quo (China) recognized erosion and climate change from fossils. Later, European figures like Georges Agricola (mineralogy, layers) and competing theories from James Hutton (uniformitarianism) and Georges Cuvier (catastrophism) further developed geological thought, though often for resource exploitation.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "geological_history_indigenous"
+      ],
+      "common_misconceptions": [
+        "Assuming that geological theories from different eras (e.g., uniformitarianism vs. catastrophism) are mutually exclusive rather than parts of a more complex truth."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Ibn Sina",
+        "Shan Quo",
+        "Agricola",
+        "Hutton",
+        "Cuvier",
+        "uniformitarianism",
+        "catastrophism"
+      ],
+      "example_questions": [
+        "Contrast James Hutton's and George Cuvier's theories about geological activity."
+      ],
+      "global_doubts": [
+        "What filed can be considered a part of geology?"
+      ]
+    },
+    "earth_interconnected_system": {
+      "id": "earth_interconnected_system",
+      "name": "Earth as an Interconnected System",
+      "description": "Geology demonstrates that Earth is one large, dynamic, and interconnected system, where different processes (like plate tectonics, erosion, climate) are not isolated but influence each other. This holistic view was understood by indigenous cultures and later recognized by Western science with the advent of plate tectonics.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "plate_tectonics_introduction",
+        "geology_human_impact"
+      ],
+      "common_misconceptions": [
+        "Viewing geological phenomena as isolated events without considering their broader impact or causes."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Interconnected",
+        "dynamic",
+        "holistic",
+        "system"
+      ],
+      "example_questions": [
+        "Explain how plate tectonics illustrates the concept of Earth as an interconnected system."
+      ],
+      "global_doubts": []
+    },
+    "geology_human_impact": {
+      "id": "geology_human_impact",
+      "name": "Geology's Impact on Human Life",
+      "description": "Geology profoundly influences human life on various scales, from the minerals in everyday products (toothpaste, smartphones) to shaping settlement patterns (e.g., fall lines, river plains) and determining local weather (e.g., Andes mountains). It also dictates natural hazards like floods, landslides, and earthquakes.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "geology_definition",
+        "earth_interconnected_system"
+      ],
+      "related_concepts": [
+        "fields_of_geology"
+      ],
+      "common_misconceptions": [
+        "Believing geology is only relevant for distant scientific research and has little to no direct impact on daily life."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Resources",
+        "settlement patterns",
+        "hazards",
+        "weather",
+        "minerals"
+      ],
+      "example_questions": [
+        "Describe two ways geology has historically influenced where human communities choose to settle."
+      ],
+      "global_doubts": []
+    },
+    "fields_of_geology": {
+      "id": "fields_of_geology",
+      "name": "Specializations within Geology",
+      "description": "Geology is a diverse field with many specializations, including geochemists (chemical cycles), oceanographers (undersea processes), paleontologists (fossils), planetary scientists (other worlds' geology), and sedimentologists (rocks). Geologists work across various sectors, from universities to government agencies and industry.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "geology_human_impact"
+      ],
+      "common_misconceptions": [
+        "Thinking that geologists only study 'rocks' or work in mines, rather than a broad range of environments and topics."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Geochemists",
+        "oceanographers",
+        "paleontologists",
+        "planetary scientists",
+        "sedimentologists"
+      ],
+      "example_questions": [
+        "Name three different types of geologists mentioned and what they study."
+      ],
+      "global_doubts": []
+    },
+    "solar_system_formation": {
+      "id": "solar_system_formation",
+      "name": "Solar System Formation (Nebula Hypothesis)",
+      "description": "The solar system originated around 4.6 billion years ago from a swirling cloud of gas and dust called a solar nebula. This cloud collapsed, possibly triggered by a supernova, forming a spinning condensed disc where gravity pulled most material to the center, creating the Sun.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "planetesimal_to_planet_formation"
+      ],
+      "common_misconceptions": [
+        "Believing the solar system instantly formed as it looks today."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Solar nebula",
+        "gas and dust",
+        "supernova",
+        "Sun",
+        "spinning disc"
+      ],
+      "example_questions": [
+        "Briefly explain the solar nebula hypothesis for the formation of our solar system."
+      ],
+      "global_doubts": []
+    },
+    "planetesimal_to_planet_formation": {
+      "id": "planetesimal_to_planet_formation",
+      "name": "Planet Formation (Accretion)",
+      "description": "After the Sun formed, the remaining material in the protoplanetary disc clumped, collided, broke apart, and recombined. The largest of these objects, called planetesimals, eventually grew into baby planets (protoplanets) and then full-fledged planets by gravitationally attracting surrounding matter.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "solar_system_formation"
+      ],
+      "related_concepts": [
+        "hadean_eon"
+      ],
+      "common_misconceptions": [
+        "Thinking planets formed fully grown immediately after the Sun or that they formed in isolation without collisions."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Protoplanetary disc",
+        "planetesimals",
+        "protoplanets",
+        "gravity",
+        "accretion"
+      ],
+      "example_questions": [
+        "Describe the process by which planetesimals are thought to have developed into planets."
+      ],
+      "global_doubts": []
+    },
+    "hadean_eon": {
+      "id": "hadean_eon",
+      "name": "The Hadean Eon",
+      "description": "The Hadean Eon refers to Earth's earliest period, lasting for hundreds of millions of years after its formation, characterized as a fiery hellscape. There is little physical evidence from this time due to constant geological activity, but isotopic evidence from zircons suggests early continents and oceans might have existed.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "planetesimal_to_planet_formation"
+      ],
+      "related_concepts": [
+        "late_heavy_bombardment",
+        "isotopic_signatures"
+      ],
+      "common_misconceptions": [
+        "Imagining Earth as a stable, hospitable place shortly after its formation."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Hadean Eon",
+        "fiery",
+        "early Earth",
+        "physical evidence",
+        "zircons"
+      ],
+      "example_questions": [
+        "What conditions characterized Earth during the Hadean Eon?"
+      ],
+      "global_doubts": []
+    },
+    "late_heavy_bombardment": {
+      "id": "late_heavy_bombardment",
+      "name": "Late Heavy Bombardment",
+      "description": "Following the Hadean Eon, Earth and the Moon underwent a violent period known as the late heavy bombardment, where they were intensely pummeled by asteroids. This event is hypothesized to explain how early Earth rock ended up on the Moon, transported by the force of impacts.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "hadean_eon"
+      ],
+      "related_concepts": [
+        "moon_giant_impact_theory",
+        "earth_water_origin"
+      ],
+      "common_misconceptions": [
+        "Thinking asteroid impacts ceased after initial planet formation or that Earth was the only body affected."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Asteroids",
+        "impacts",
+        "early Earth",
+        "Moon",
+        "pummeled"
+      ],
+      "example_questions": [
+        "What is the Late Heavy Bombardment, and what evidence might it explain?"
+      ],
+      "global_doubts": []
+    },
+    "isotopic_signatures": {
+      "id": "isotopic_signatures",
+      "name": "Isotopic Signatures as Evidence",
+      "description": "Isotopic signatures, which are unique combinations of atoms acting like genetic fingerprints, serve as crucial evidence in geology. For instance, the similar isotopic signatures of Earth and the Moon provide clues about their shared origins, helping scientists evaluate theories like the Giant Impact or Sinestia theories.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "apply",
+      "prerequisites": [],
+      "related_concepts": [
+        "moon_giant_impact_theory",
+        "sinestia_theory",
+        "hadean_eon"
+      ],
+      "common_misconceptions": [
+        "Underestimating the power of trace chemical evidence in reconstructing vast geological histories."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Isotopes",
+        "atoms",
+        "fingerprints",
+        "genetic code",
+        "evidence"
+      ],
+      "example_questions": [
+        "Why are similar isotopic signatures between Earth and the Moon significant for theories about the Moon's formation?"
+      ],
+      "global_doubts": []
+    },
+    "moon_giant_impact_theory": {
+      "id": "moon_giant_impact_theory",
+      "name": "Giant Impact Theory (Moon Formation)",
+      "description": "The most widely accepted theory for the Moon's formation suggests that a young Earth collided with another protoplanet, Thea. This catastrophic impact ejected a vast amount of debris into Earth's orbit, which then accreted to form the Moon.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "planetesimal_to_planet_formation",
+        "late_heavy_bombardment"
+      ],
+      "related_concepts": [
+        "sinestia_theory",
+        "isotopic_signatures"
+      ],
+      "common_misconceptions": [
+        "Believing the Moon formed far away and was captured, or that it formed simultaneously with Earth from the same original material without a major impact."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Protoplanet",
+        "Thea",
+        "collision",
+        "debris",
+        "accretion"
+      ],
+      "example_questions": [
+        "According to the Giant Impact Theory, how did the Moon form?"
+      ],
+      "global_doubts": []
+    },
+    "sinestia_theory": {
+      "id": "sinestia_theory",
+      "name": "Sinestia Theory (Moon Formation)",
+      "description": "The Sinestia theory proposes an alternative for Moon formation, suggesting that after a giant collision, the proto-Earth became a donut-shaped mass of rock and vapor called a sinestia due to extreme heat and rapid spin. The Moon may have formed inside this sinestia, later separating as the Earth cooled and shrank, explaining similar isotopic signatures.",
+      "difficulty": 0.8,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "moon_giant_impact_theory",
+        "isotopic_signatures"
+      ],
+      "related_concepts": [
+        "isotopic_signatures"
+      ],
+      "common_misconceptions": [
+        "Dismissing the Sinestia theory as a fantasy idea without considering its scientific basis (e.g., explaining isotopic similarities)."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Sinestia",
+        "donut-shaped",
+        "rock and vapor",
+        "isotopic signatures",
+        "collision"
+      ],
+      "example_questions": [
+        "How does the Sinestia theory attempt to resolve discrepancies in the Moon's isotopic signature compared to the Giant Impact Theory?"
+      ],
+      "global_doubts": []
+    },
+    "earth_water_origin": {
+      "id": "earth_water_origin",
+      "name": "Origin of Earth's Water",
+      "description": "The origin of Earth's water is debated. One theory suggests space objects like asteroids carrying water collided with Earth, delivering its oceans. Another theory proposes water existed on Earth prior to major asteroid strikes, possibly evidenced by isotopes in ancient zircons.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "late_heavy_bombardment",
+        "isotopic_signatures"
+      ],
+      "related_concepts": [
+        "hadean_eon"
+      ],
+      "common_misconceptions": [
+        "Believing there is only one definitive answer to the origin of Earth's water or that water simply 'appeared' without a specific geological process."
+      ],
+      "lecture_source": "How did Earth form?: Crash Course Geology #2",
+      "key_terms": [
+        "Asteroids",
+        "water",
+        "oceans",
+        "zircons",
+        "primordial"
+      ],
+      "example_questions": [
+        "Describe the two main theories discussed regarding the origin of Earth's water."
+      ],
+      "global_doubts": []
+    },
+    "earth_internal_structure_overview": {
+      "id": "earth_internal_structure_overview",
+      "name": "Earth's Layered Structure Overview",
+      "description": "Earth is composed of distinct layers, challenging early ideas of a hollow Earth or one filled with life forms. These layers, starting from the outside, are the crust, mantle, and core, each with unique properties and compositions, playing a role in the planet's dynamic processes.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "geology_definition"
+      ],
+      "related_concepts": [
+        "earth_crust_properties",
+        "earth_mantle_properties"
+      ],
+      "common_misconceptions": [
+        "Believing the Earth is hollow or contains large, empty spaces."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Layers",
+        "crust",
+        "mantle",
+        "core",
+        "hollow Earth"
+      ],
+      "example_questions": [
+        "What are the main internal layers of the Earth?"
+      ],
+      "global_doubts": []
+    },
+    "plate_tectonics_introduction": {
+      "id": "plate_tectonics_introduction",
+      "name": "Introduction to Plate Tectonics",
+      "description": "Plate tectonics is a widely accepted theory from the 1960s, stating that Earth's outer layer is composed of massive plates that move, slip, slide, and smash together. This process builds mountains, forms continents, and is considered essential for life on Earth.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "geology_definition",
+        "earth_internal_structure_overview"
+      ],
+      "related_concepts": [
+        "earth_interconnected_system",
+        "earth_crust_properties",
+        "mantle_convection"
+      ],
+      "common_misconceptions": [
+        "Thinking Earth's surface is static or that tectonic movement is a purely catastrophic process."
+      ],
+      "lecture_source": "Intro to Geology: Crash Course Geology #1",
+      "key_terms": [
+        "Tectonic plates",
+        "outer layer",
+        "mountains",
+        "continents",
+        "Earth's surface"
+      ],
+      "example_questions": [
+        "How did the theory of plate tectonics change geologists' understanding of Earth?"
+      ],
+      "global_doubts": []
+    },
+    "earth_crust_properties": {
+      "id": "earth_crust_properties",
+      "name": "Earth's Crust Properties",
+      "description": "The Earth's crust is its outermost rocky shell, making up only 1.4% of its total volume. It is primarily composed of oxygen and silicon, along with other elements like aluminum, iron, and calcium. The crust is broken into tectonic plates that move, forming continents, mountains, and trenches.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "earth_internal_structure_overview"
+      ],
+      "related_concepts": [
+        "plate_tectonics_introduction",
+        "continental_vs_oceanic_crust",
+        "lithosphere_definition"
+      ],
+      "common_misconceptions": [
+        "Overestimating the thickness of the crust relative to Earth's total volume."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Outermost shell",
+        "oxygen",
+        "silicon",
+        "tectonic plates",
+        "volume"
+      ],
+      "example_questions": [
+        "What are the primary elements that compose Earth's crust?"
+      ],
+      "global_doubts": []
+    },
+    "continental_vs_oceanic_crust": {
+      "id": "continental_vs_oceanic_crust",
+      "name": "Continental vs. Oceanic Crust",
+      "description": "The Earth's crust has two main types: continental and oceanic. Continental crust is thicker, up to 70 km deep, especially under mountains. Oceanic crust is much thinner, typically 5 to 10 km thick, and forms differently.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "earth_crust_properties"
+      ],
+      "related_concepts": [
+        "lithosphere_definition"
+      ],
+      "common_misconceptions": [
+        "Assuming the crust is uniformly thick across the globe."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Continental crust",
+        "oceanic crust",
+        "thickness",
+        "mountains"
+      ],
+      "example_questions": [
+        "Compare and contrast continental and oceanic crust in terms of thickness."
+      ],
+      "global_doubts": []
+    },
+    "earth_mantle_properties": {
+      "id": "earth_mantle_properties",
+      "name": "Earth's Mantle Properties",
+      "description": "The mantle is Earth's dense middle layer, constituting roughly 84% of its volume and extending about 2900 km deep. It is mostly made of rocks rich in iron and magnesium. Heat and pressure cause its rocks to flow like taffy, especially in the upper mantle, and its chemical composition changes with depth.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "earth_internal_structure_overview"
+      ],
+      "related_concepts": [
+        "mantle_convection",
+        "lithosphere_definition",
+        "asthenosphere_definition",
+        "mineral_density_pressure_effects"
+      ],
+      "common_misconceptions": [
+        "Thinking the mantle is a liquid magma chamber or completely solid and rigid."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Middle layer",
+        "dense",
+        "iron",
+        "magnesium",
+        "flow",
+        "taffy"
+      ],
+      "example_questions": [
+        "Describe the general composition and state of matter within the Earth's mantle."
+      ],
+      "global_doubts": []
+    },
+    "lithosphere_definition": {
+      "id": "lithosphere_definition",
+      "name": "The Lithosphere",
+      "description": "The lithosphere is the solid, rocky, and relatively cool outer part of the Earth, extending from the surface down to about 100 km. It includes both the Earth's crust and the uppermost rigid part of the mantle.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "earth_crust_properties",
+        "earth_mantle_properties"
+      ],
+      "related_concepts": [
+        "asthenosphere_definition"
+      ],
+      "common_misconceptions": [
+        "Confusing the lithosphere only with the crust, or believing it is purely molten."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Solid",
+        "rocky",
+        "cool",
+        "crust",
+        "uppermost mantle"
+      ],
+      "example_questions": [
+        "What layers of the Earth are included in the lithosphere?"
+      ],
+      "global_doubts": []
+    },
+    "asthenosphere_definition": {
+      "id": "asthenosphere_definition",
+      "name": "The Asthenosphere",
+      "description": "The asthenosphere is a ductile, flowing layer within the upper mantle, beneath the lithosphere. Here, the rocks are looser and more gooey due to increasing heat and pressure, allowing the lithospheric plates to move above it.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "lithosphere_definition",
+        "earth_mantle_properties"
+      ],
+      "related_concepts": [
+        "mantle_convection",
+        "plate_tectonics_introduction"
+      ],
+      "common_misconceptions": [
+        "Thinking the asthenosphere is molten or liquid, rather than a solid that flows very slowly."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Ductile",
+        "flowing",
+        "upper mantle",
+        "loosey goosey",
+        "gooey"
+      ],
+      "example_questions": [
+        "How does the asthenosphere's properties contribute to geological processes?"
+      ],
+      "global_doubts": []
+    },
+    "mantle_convection": {
+      "id": "mantle_convection",
+      "name": "Mantle Convection Currents",
+      "description": "The Earth's mantle generates convection currents, which are slow movements of heat and material. These currents are crucial because they help drive the churn of tectonic plates and the recycling of rocks from the surface, connecting the Earth's deep interior to its surface dynamics.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "asthenosphere_definition",
+        "plate_tectonics_introduction"
+      ],
+      "related_concepts": [
+        "plate_tectonics_introduction"
+      ],
+      "common_misconceptions": [
+        "Believing the mantle is a completely static layer, or that tectonic plates move independently of the mantle."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Convection currents",
+        "heat",
+        "tectonic plates",
+        "recycling",
+        "dynamics"
+      ],
+      "example_questions": [
+        "Explain the role of mantle convection currents in plate tectonics."
+      ],
+      "global_doubts": []
+    },
+    "mineral_density_pressure_effects": {
+      "id": "mineral_density_pressure_effects",
+      "name": "Mineral Changes under Pressure and Heat",
+      "description": "As depth increases within the Earth's mantle, temperature and pressure also increase, causing the chemical composition of minerals to shift. Some minerals rearrange their atomic structures to become entirely different minerals, changing properties like color and density under these extreme conditions.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "earth_mantle_properties"
+      ],
+      "related_concepts": [
+        "asthenosphere_definition"
+      ],
+      "common_misconceptions": [
+        "Assuming minerals retain their surface properties (e.g., color, structure) regardless of the extreme conditions deep within the Earth."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Temperature",
+        "pressure",
+        "chemical composition",
+        "atomic rearrangement",
+        "minerals"
+      ],
+      "example_questions": [
+        "How do increasing temperature and pressure affect minerals in the Earth's mantle?"
+      ],
+      "global_doubts": []
+    },
+    "geological_exploration_methods": {
+      "id": "geological_exploration_methods",
+      "name": "Exploration of Earth's Interior",
+      "description": "Direct exploration of Earth's interior beyond the crust is extremely challenging, as demonstrated by projects like the Kola Superdeep Borehole (deepest hole, barely past crust) and Project Mohole (attempt to drill to mantle). These efforts highlight the difficulties and bureaucratic hurdles in understanding deep Earth processes directly.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "earth_internal_structure_overview"
+      ],
+      "related_concepts": [
+        "earth_crust_properties",
+        "earth_mantle_properties"
+      ],
+      "common_misconceptions": [
+        "Believing humans have extensively explored Earth's mantle or even deeper layers through direct drilling."
+      ],
+      "lecture_source": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+      "key_terms": [
+        "Kola Superdeep Borehole",
+        "Project Mohole",
+        "direct exploration",
+        "drilling",
+        "challenges"
+      ],
+      "example_questions": [
+        "What challenges did Project Mohole face in its attempt to drill through the Earth's crust?"
+      ],
+      "global_doubts": []
+    },
+    "sequence_modeling": {
+      "id": "sequence_modeling",
+      "name": "Sequence Modeling",
+      "description": "Sequence modeling is the goal of mapping an input sequence to an output sequence. This can involve continuous signals like audio or discrete signals like text, with the aim of predicting the next element in a sequence or transforming one sequence into another.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Confusing sequence modeling with simple classification tasks that don't consider sequential dependencies."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "input sequence",
+        "output sequence",
+        "modeling"
+      ],
+      "example_questions": [
+        "What is the primary goal of a sequence model?",
+        "Give an example of an input and output sequence for a language model."
+      ],
+      "global_doubts": []
+    },
+    "continuous_signals": {
+      "id": "continuous_signals",
+      "name": "Continuous Signals",
+      "description": "Continuous signals are input or output sequences where the values can be any real number over time. An example given in the lecture is audio, which is inherently continuous before sampling.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "sequence_modeling"
+      ],
+      "related_concepts": [
+        "discrete_signals"
+      ],
+      "common_misconceptions": [
+        "Mistaking sampled continuous signals (like digital audio) for inherently discrete signals without understanding the underlying continuous nature."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "analog",
+        "real numbers",
+        "audio"
+      ],
+      "example_questions": [
+        "Provide an example of a continuous signal in the context of sequence modeling.",
+        "How do continuous signals differ from discrete signals?"
+      ],
+      "global_doubts": []
+    },
+    "discrete_signals": {
+      "id": "discrete_signals",
+      "name": "Discrete Signals",
+      "description": "Discrete signals are input or output sequences composed of a finite number of tokens or specific values. The lecture highlights text (language modeling) and sampled audio as primary examples of discrete signals used in practice.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "sequence_modeling"
+      ],
+      "related_concepts": [
+        "continuous_signals"
+      ],
+      "common_misconceptions": [
+        "Believing that all discrete signals are purely symbolic; sampled continuous data also falls into this category."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "tokens",
+        "sampling",
+        "text",
+        "language modeling"
+      ],
+      "example_questions": [
+        "In sequence modeling, what is meant by a discrete input signal?",
+        "Why is text considered a discrete signal?"
+      ],
+      "global_doubts": []
+    },
+    "recurrent_neural_network": {
+      "id": "recurrent_neural_network",
+      "name": "Recurrent Neural Network (RNN)",
+      "description": "A Recurrent Neural Network (RNN) is a type of sequence model that processes input sequentially, maintaining a 'hidden state' that captures information from previous steps. This hidden state is updated at each time step, influencing the current output and the next hidden state.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "sequence_modeling"
+      ],
+      "related_concepts": [
+        "transformer_model",
+        "convolutional_neural_network"
+      ],
+      "common_misconceptions": [
+        "Assuming RNNs process all inputs simultaneously, rather than sequentially.",
+        "Confusing the hidden state with the final output of the network."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "RNN",
+        "sequential processing",
+        "hidden state"
+      ],
+      "example_questions": [
+        "Describe the fundamental mechanism by which a Recurrent Neural Network processes sequences.",
+        "How does an RNN's internal state evolve over time?"
+      ],
+      "global_doubts": []
+    },
+    "rnn_hidden_state": {
+      "id": "rnn_hidden_state",
+      "name": "RNN Hidden State",
+      "description": "The hidden state in an RNN acts as a form of memory, carrying information from previous inputs in the sequence to the current time step. It is initialized, often with zeros, and then updated at each step by combining the current input with the previous hidden state to produce a new hidden state and output.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "recurrent_neural_network"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Believing the hidden state is directly the output, rather than an internal representation used to generate the output and subsequent states.",
+        "Not understanding that the hidden state is updated at each step, not just concatenated."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "memory",
+        "internal state",
+        "sequential update"
+      ],
+      "example_questions": [
+        "Explain the role of the hidden state in an RNN.",
+        "How is the hidden state updated at each time step in a recurrent neural network?"
+      ],
+      "global_doubts": []
+    },
+    "rnn_non_parallel_training": {
+      "id": "rnn_non_parallel_training",
+      "name": "RNN Non-Parallel Training",
+      "description": "A significant limitation of Recurrent Neural Networks is that their sequential generation of output makes training non-parallelizable. To generate the 'Nth' token, one needs the 'N-1th' token's hidden state, which hinders efficient computation on modern hardware like GPUs.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "recurrent_neural_network",
+        "rnn_hidden_state"
+      ],
+      "related_concepts": [
+        "transformer_parallel_training"
+      ],
+      "common_misconceptions": [
+        "Confusing the sequential nature of inference with the sequential nature of training. While both are sequential, the training limitation is due to backpropagation through time.",
+        "Thinking that 'non-parallelizable' means 'slow' without understanding *why* it's slow (lack of GPU utilization)."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "sequential generation",
+        "GPU",
+        "backpropagation through time"
+      ],
+      "example_questions": [
+        "Why is the training of Recurrent Neural Networks not parallelizable?",
+        "How does the dependency on previous hidden states impact RNN training efficiency?"
+      ],
+      "global_doubts": []
+    },
+    "rnn_constant_inference_cost": {
+      "id": "rnn_constant_inference_cost",
+      "name": "RNN Constant Inference Cost per Token",
+      "description": "An advantage of RNNs is that their inference time per token is constant. This means the computational and memory effort to produce one output token is the same, regardless of whether it's the first or the hundredth token, as it only depends on the previous hidden state and current input.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "recurrent_neural_network",
+        "rnn_hidden_state"
+      ],
+      "related_concepts": [
+        "transformer_non_constant_inference_cost"
+      ],
+      "common_misconceptions": [
+        "Confusing 'constant inference cost per token' with overall fast inference, without considering potential issues like vanishing gradients."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "inference",
+        "computational cost",
+        "memory cost",
+        "per token"
+      ],
+      "example_questions": [
+        "Explain what 'constant inference cost for each token' means in the context of RNNs.",
+        "Why is the effort to produce the 10th token the same as the 100th token in an RNN?"
+      ],
+      "global_doubts": []
+    },
+    "vanishing_exploding_gradients": {
+      "id": "vanishing_exploding_gradients",
+      "name": "Vanishing and Exploding Gradients",
+      "description": "RNNs suffer from vanishing and exploding gradients, a practical limitation that prevents them from effectively learning very long-term dependencies. This issue makes it difficult to maintain information over extended sequences, despite their theoretical 'infinite context length'.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "recurrent_neural_network"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Believing RNNs truly have infinite practical context length, when in reality vanishing/exploding gradients severely limit it.",
+        "Not understanding that this is a problem during training, affecting the learning of dependencies."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "gradients",
+        "long-term dependencies",
+        "context length"
+      ],
+      "example_questions": [
+        "What are vanishing and exploding gradients, and how do they impact RNNs?",
+        "Why do vanishing/exploding gradients practically limit the context length of RNNs?"
+      ],
+      "global_doubts": []
+    },
+    "convolutional_neural_network": {
+      "id": "convolutional_neural_network",
+      "name": "Convolutional Neural Network (CNN)",
+      "description": "A Convolutional Neural Network (CNN) is another type of model used for sequence modeling, primarily by applying a 'kernel' or filter across input windows. While often associated with computer vision, it can also process sequential data by extracting local features.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "sequence_modeling"
+      ],
+      "related_concepts": [
+        "recurrent_neural_network",
+        "transformer_model"
+      ],
+      "common_misconceptions": [
+        "Exclusively associating CNNs with image processing, overlooking their applicability to sequential data.",
+        "Confusing a CNN's kernel operation with the self-attention mechanism of a Transformer."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "CNN",
+        "kernel",
+        "feature extraction",
+        "computer vision"
+      ],
+      "example_questions": [
+        "How does a Convolutional Neural Network approach sequence modeling?",
+        "What is the primary operation a CNN performs on an input sequence?"
+      ],
+      "global_doubts": []
+    },
+    "convolutional_kernel": {
+      "id": "convolutional_kernel",
+      "name": "Convolutional Kernel",
+      "description": "In a CNN, a convolutional kernel (or filter) is a small matrix that slides over an input sequence. It performs a dot product with each segment of the input within its 'finite context window' to produce output features.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "convolutional_neural_network"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Viewing the kernel as a fixed, unlearnable component, rather than weights that are learned during training.",
+        "Not understanding that the kernel operates on *windows* of the input, defining its finite context."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "filter",
+        "window",
+        "dot product",
+        "feature map"
+      ],
+      "example_questions": [
+        "What is the function of a convolutional kernel in a CNN?",
+        "How does a kernel interact with the input data to produce features?"
+      ],
+      "global_doubts": []
+    },
+    "cnn_parallelizable_computation": {
+      "id": "cnn_parallelizable_computation",
+      "name": "CNN Parallelizable Computation",
+      "description": "A key advantage of CNNs is that their computation is easily parallelizable. Since each output feature is generated by applying the same kernel to different, independent input windows, these operations can be run simultaneously, making them efficient for modern hardware.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "convolutional_neural_network",
+        "convolutional_kernel"
+      ],
+      "related_concepts": [
+        "rnn_non_parallel_training",
+        "transformer_parallel_training"
+      ],
+      "common_misconceptions": [
+        "Thinking that 'parallelizable' means *any* operation can be parallelized, rather than specific, independent computations.",
+        "Not understanding that the independence of window processing is key to parallelization."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "parallel processing",
+        "GPU",
+        "efficiency"
+      ],
+      "example_questions": [
+        "Why are CNN computations easily parallelizable?",
+        "How does the nature of kernel application enable parallelization in CNNs?"
+      ],
+      "global_doubts": []
+    },
+    "transformer_model": {
+      "id": "transformer_model",
+      "name": "Transformer Model",
+      "description": "The Transformer is a widely successful sequence model known for its parallelizable training, which primarily relies on the self-attention mechanism. It processes entire input sequences simultaneously, rather than sequentially like RNNs, making it very efficient for training on long sequences.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "sequence_modeling"
+      ],
+      "related_concepts": [
+        "recurrent_neural_network",
+        "convolutional_neural_network"
+      ],
+      "common_misconceptions": [
+        "Believing that Transformers are always better than RNNs or CNNs for all tasks, ignoring their specific trade-offs.",
+        "Confusing its parallel training with constant inference cost per token."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "Transformer",
+        "self-attention",
+        "parallel",
+        "sequence length"
+      ],
+      "example_questions": [
+        "What is a Transformer model, and what is its main innovation for sequence modeling?",
+        "How does a Transformer fundamentally differ from an RNN in processing an input sequence?"
+      ],
+      "global_doubts": []
+    },
+    "self_attention_mechanism": {
+      "id": "self_attention_mechanism",
+      "name": "Self-Attention Mechanism",
+      "description": "The self-attention mechanism is the core innovation of the Transformer model, allowing it to weigh the importance of different parts of the input sequence relative to each other. This is achieved by computing many dot products, which are then used to create a weighted sum of input features.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "transformer_model"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Thinking self-attention implies a global average without considering the dynamic weighting based on pairwise interactions.",
+        "Confusing self-attention with traditional attention mechanisms in RNNs."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "attention",
+        "dot product",
+        "weights",
+        "context"
+      ],
+      "example_questions": [
+        "Explain the purpose of the self-attention mechanism in a Transformer.",
+        "How does self-attention help the Transformer understand relationships within a sequence?"
+      ],
+      "global_doubts": []
+    },
+    "transformer_parallel_training": {
+      "id": "transformer_parallel_training",
+      "name": "Transformer Parallel Training",
+      "description": "Transformers are highly parallelizable during training due to their self-attention mechanism, which involves numerous matrix multiplications. This allows for efficient computation on GPUs, enabling the training of models on very large datasets and long sequences.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "transformer_model",
+        "self_attention_mechanism"
+      ],
+      "related_concepts": [
+        "rnn_non_parallel_training",
+        "cnn_parallelizable_computation"
+      ],
+      "common_misconceptions": [
+        "Assuming that parallel training directly translates to faster training for *any* sequence length, not accounting for quadratic scaling effects.",
+        "Not understanding that the parallelization comes from the independent computation of attention scores for different parts of the sequence."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "parallel computation",
+        "GPU utilization",
+        "matrix multiplication"
+      ],
+      "example_questions": [
+        "What makes Transformer training parallelizable?",
+        "How does the self-attention mechanism contribute to the parallelization of Transformer training?"
+      ],
+      "global_doubts": []
+    },
+    "quadratic_scaling_transformer": {
+      "id": "quadratic_scaling_transformer",
+      "name": "Quadratic Scaling of Transformer Training",
+      "description": "The training computation cost of a Transformer scales quadratically with the input sequence length. This means if the sequence length is doubled, the training requires four times more computation, posing a significant challenge for very long sequences.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "transformer_model",
+        "transformer_parallel_training"
+      ],
+      "related_concepts": [
+        "transformer_non_constant_inference_cost"
+      ],
+      "common_misconceptions": [
+        "Confusing quadratic scaling with linear scaling, or underestimating its impact on very long sequences.",
+        "Thinking it only affects memory, not computational time."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "computational cost",
+        "sequence length",
+        "scaling",
+        "big O notation"
+      ],
+      "example_questions": [
+        "What does it mean for Transformer training to scale quadratically with sequence length?",
+        "If a Transformer takes X time to train on a sequence of length L, how much time would it roughly take for a sequence of length 2L?"
+      ],
+      "global_doubts": []
+    },
+    "transformer_non_constant_inference_cost": {
+      "id": "transformer_non_constant_inference_cost",
+      "name": "Transformer Non-Constant Inference Cost",
+      "description": "Unlike RNNs, the inference cost per token in a Transformer is not constant. To produce the 'Nth' output token, the model needs to perform 'N' dot products (when using a cache), meaning the computational effort increases linearly with the sequence length for each successive token.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "transformer_model",
+        "self_attention_mechanism"
+      ],
+      "related_concepts": [
+        "rnn_constant_inference_cost",
+        "quadratic_scaling_transformer"
+      ],
+      "common_misconceptions": [
+        "Mistaking the parallelizability of training with the sequential nature of autoregressive inference.",
+        "Not understanding *why* the number of dot products increases for later tokens (due to needing attention over all previous tokens)."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "inference",
+        "per token cost",
+        "dot products",
+        "autoregressive"
+      ],
+      "example_questions": [
+        "Why is the inference cost for a Transformer not constant for each token?",
+        "How does the inference effort to produce the 100th token compare to the 10th token in a Transformer?"
+      ],
+      "global_doubts": []
+    },
+    "ideal_sequence_model_properties": {
+      "id": "ideal_sequence_model_properties",
+      "name": "Ideal Sequence Model Properties",
+      "description": "An ideal sequence model would combine the best aspects of existing architectures: parallelizable training (like Transformers), linear scaling to long sequences (like RNNs in theory), and constant memory/computation cost per token during inference (like RNNs). Mamba aims to achieve these properties.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "recurrent_neural_network",
+        "convolutional_neural_network",
+        "transformer_model",
+        "rnn_non_parallel_training",
+        "rnn_constant_inference_cost",
+        "transformer_parallel_training",
+        "quadratic_scaling_transformer",
+        "transformer_non_constant_inference_cost"
+      ],
+      "related_concepts": [
+        "mamba_model",
+        "state_space_models"
+      ],
+      "common_misconceptions": [
+        "Thinking that existing models perfectly fulfill one of these ideals without trade-offs.",
+        "Underestimating the difficulty of achieving all these properties simultaneously."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "ideal model",
+        "trade-offs",
+        "efficiency",
+        "scalability"
+      ],
+      "example_questions": [
+        "What are the key properties of an ideal sequence model as described in the lecture?",
+        "Why is it challenging to achieve all ideal sequence model properties in a single architecture?"
+      ],
+      "global_doubts": []
+    },
+    "mamba_model": {
+      "id": "mamba_model",
+      "name": "Mamba Model",
+      "description": "Mamba is a new sequence modeling architecture introduced as an innovation to address the limitations of previous models like Transformers and RNNs. It aims to achieve an 'ideal' balance of parallel training, linear scaling, and constant inference cost by utilizing 'Selective State Spaces'.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "sequence_modeling",
+        "ideal_sequence_model_properties"
+      ],
+      "related_concepts": [
+        "state_space_models"
+      ],
+      "common_misconceptions": [
+        "Assuming Mamba replaces all previous models entirely without specific use cases where others might still excel.",
+        "Believing Mamba is simply a new variant of a Transformer or RNN, rather than a distinct architecture."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "new architecture",
+        "selective state spaces",
+        "sequence modeling"
+      ],
+      "example_questions": [
+        "What is the Mamba model?",
+        "What is the primary motivation behind the development of Mamba?"
+      ],
+      "global_doubts": []
+    },
+    "state_space_models": {
+      "id": "state_space_models",
+      "name": "State Space Models (SSMs)",
+      "description": "State Space Models are a class of models introduced as a framework that can help solve the challenges faced by Recurrent Neural Networks and Transformers in sequence modeling. They provide a foundation for architectures like Mamba, requiring a background in differential equations.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "sequence_modeling",
+        "ideal_sequence_model_properties"
+      ],
+      "related_concepts": [
+        "mamba_model",
+        "differential_equations_introduction"
+      ],
+      "common_misconceptions": [
+        "Thinking SSMs are a completely new concept without historical roots in control theory or dynamical systems.",
+        "Assuming SSMs are direct replacements for RNNs or Transformers without understanding their underlying mathematical principles."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "SSMs",
+        "dynamical systems",
+        "control theory"
+      ],
+      "example_questions": [
+        "What are State Space Models, and why are they relevant to sequence modeling?",
+        "How are SSMs positioned to address issues in existing sequence models?"
+      ],
+      "global_doubts": []
+    },
+    "differential_equations_introduction": {
+      "id": "differential_equations_introduction",
+      "name": "Introduction to Differential Equations",
+      "description": "Differential equations are mathematical equations that relate a function with its derivatives, describing how a quantity changes over time or space. They are crucial for understanding State Space Models, as SSMs are often derived from continuous differential systems.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "state_space_models"
+      ],
+      "related_concepts": [
+        "rate_of_change"
+      ],
+      "common_misconceptions": [
+        "Believing differential equations are only for advanced physics or engineering, overlooking their fundamental role in modeling change.",
+        "Confusing a differential equation with a simple algebraic equation."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "derivatives",
+        "rate of change",
+        "modeling",
+        "continuous systems"
+      ],
+      "example_questions": [
+        "What is a differential equation in simple terms?",
+        "Why is an understanding of differential equations necessary for State Space Models?"
+      ],
+      "global_doubts": []
+    },
+    "rate_of_change": {
+      "id": "rate_of_change",
+      "name": "Rate of Change",
+      "description": "The rate of change describes how one quantity changes in relation to another, often over time. In the context of differential equations, it quantifies how rapidly a variable is increasing or decreasing, as illustrated by the example of bunny population growth.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "differential_equations_introduction"
+      ],
+      "related_concepts": [
+        "proportional_growth_model"
+      ],
+      "common_misconceptions": [
+        "Confusing the rate of change with the absolute value of the quantity itself.",
+        "Assuming a constant rate of change for all systems, rather than it potentially being dependent on the current state."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "derivative",
+        "growth",
+        "decay",
+        "time derivative"
+      ],
+      "example_questions": [
+        "What does the 'rate of change' signify in mathematics?",
+        "Using the bunny population example, what quantity represents the rate of change?"
+      ],
+      "global_doubts": []
+    },
+    "proportional_growth_model": {
+      "id": "proportional_growth_model",
+      "name": "Proportional Growth Model",
+      "description": "The proportional growth model is a simple differential equation where the rate of change of a quantity is directly proportional to its current value. Illustrated with the 'bunnies' example, if a population grows at a constant rate 'Lambda' proportional to its size, its rate of change (number of babies born) is Lambda multiplied by the current population.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "rate_of_change",
+        "differential_equations_introduction"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Thinking that 'proportional' means a constant *absolute* increase, rather than a constant *multiplicative* factor.",
+        "Confusing the constant of proportionality (Lambda) with the actual rate of change."
+      ],
+      "lecture_source": "Lecture 1: Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "key_terms": [
+        "population growth",
+        "proportionality constant",
+        "exponential growth"
+      ],
+      "example_questions": [
+        "Describe the proportional growth model using the bunny population example.",
+        "If a population's rate of change is proportional to its size, what does this imply about its growth pattern?"
+      ],
+      "global_doubts": []
+    },
+    "chemical_composition": {
+      "id": "chemical_composition",
+      "name": "Chemical Composition",
+      "description": "The specific identity and ratio of elements that make up a chemical compound. In the lecture, ritonavir and the silver compounds studied by Liebig and W\u00f6hler were analyzed for their elemental makeup (e.g., silver, carbon, nitrogen, and oxygen).",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "stoichiometry"
+      ],
+      "common_misconceptions": [
+        "Substances with the same elements in the same ratio must be identical."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "elements",
+        "atoms",
+        "chemical formula"
+      ],
+      "example_questions": [
+        "What elements made up the compounds studied by Liebig and W\u00f6hler?"
+      ],
+      "global_doubts": []
+    },
+    "drug_dissolution_testing": {
+      "id": "drug_dissolution_testing",
+      "name": "Drug Dissolution Testing",
+      "description": "A quality control process used to ensure that a medication dissolves within a specific timeframe (usually 30 minutes) to allow for proper absorption in the body. The failure of ritonavir was first detected when capsules failed this test.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [],
+      "related_concepts": [
+        "solubility",
+        "bioavailability"
+      ],
+      "common_misconceptions": [
+        "Dissolution is the same as chemical decomposition."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "dissolution tester",
+        "quality control",
+        "absorption"
+      ],
+      "example_questions": [
+        "Why is it critical for ritonavir capsules to dissolve in approximately 30 minutes?"
+      ],
+      "global_doubts": []
+    },
+    "crystallization": {
+      "id": "crystallization",
+      "name": "Crystallization",
+      "description": "The process by which atoms or molecules arrange themselves into a rigid, repeating three-dimensional lattice. In the ritonavir case, the drug began forming 'millions of tiny needles' that prevented dissolution.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "chemical_composition"
+      ],
+      "related_concepts": [
+        "crystal_polymorphism"
+      ],
+      "common_misconceptions": [
+        "Crystals only form in minerals or rocks, not in pharmaceuticals."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "crystal",
+        "lattice",
+        "precipitate"
+      ],
+      "example_questions": [
+        "What physical change caused the ritonavir capsules to turn white and cloudy?"
+      ],
+      "global_doubts": []
+    },
+    "chemical_isomerism": {
+      "id": "chemical_isomerism",
+      "name": "Chemical Isomerism",
+      "description": "The existence of molecules that have the same chemical formula but different arrangements of atoms, resulting in different properties. This was discovered through the conflict between Liebig and W\u00f6hler regarding silver fulminate and silver cyanate.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "chemical_composition"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "The properties of a molecule are solely determined by the atoms it contains."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "isomers",
+        "molecular arrangement",
+        "chemical properties"
+      ],
+      "example_questions": [
+        "How did two compounds with the formula AgCNO behave differently when exposed to heat?"
+      ],
+      "global_doubts": []
+    },
+    "crystal_polymorphism": {
+      "id": "crystal_polymorphism",
+      "name": "Crystal Polymorphism",
+      "description": "The ability of a solid material to exist in more than one form or crystal structure. While isomers have different molecular structures, polymorphs have the same molecules arranged differently in a crystal lattice.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "crystallization",
+        "chemical_isomerism"
+      ],
+      "related_concepts": [
+        "thermodynamic_stability"
+      ],
+      "common_misconceptions": [
+        "Polymorphism and isomerism are the same thing.",
+        "A chemical compound only has one solid form."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "polymorph",
+        "lattice structure",
+        "packing"
+      ],
+      "example_questions": [
+        "How can the same drug molecule result in two different substances with different dissolution rates?"
+      ],
+      "global_doubts": []
+    },
+    "thermodynamic_stability": {
+      "id": "thermodynamic_stability",
+      "name": "Thermodynamic Stability",
+      "description": "The state where a system is in its lowest energy configuration. In polymorphism, one crystal form is usually more stable than others, and the system will naturally 'want' to transition to that lower-energy state.",
+      "difficulty": 0.8,
+      "bloom_ceiling": "evaluate",
+      "prerequisites": [
+        "crystal_polymorphism"
+      ],
+      "related_concepts": [
+        "metastability"
+      ],
+      "common_misconceptions": [
+        "The first form discovered of a drug is always the most stable form."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "energy state",
+        "stability",
+        "equilibrium"
+      ],
+      "example_questions": [
+        "Why did the second form of ritonavir eventually replace the first form everywhere?"
+      ],
+      "global_doubts": []
+    },
+    "disappearing_polymorphs": {
+      "id": "disappearing_polymorphs",
+      "name": "Disappearing Polymorphs",
+      "description": "A phenomenon where a previously known crystal form of a substance becomes impossible to produce because a more stable polymorph has been introduced into the environment. It acts like a 'contagion' that seeds the new form.",
+      "difficulty": 0.8,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "crystal_polymorphism",
+        "nucleation_and_seeding"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Cleaning a lab perfectly will always allow you to return to an old crystal form."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "disappearing polymorph",
+        "environmental seeding",
+        "contagion"
+      ],
+      "example_questions": [
+        "Why did the factory in Italy start producing the 'failed' form of ritonavir after the Chicago team visited?"
+      ],
+      "global_doubts": []
+    },
+    "nucleation_and_seeding": {
+      "id": "nucleation_and_seeding",
+      "name": "Nucleation and Seeding",
+      "description": "The process by which a small 'seed' of a crystal structure triggers the rest of a substance to organize into that same structure. Microscopic amounts of the more stable ritonavir polymorph acted as seeds for entire batches.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "crystallization"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Crystallization always happens spontaneously without needing a starting point."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "seed crystal",
+        "nucleation",
+        "growth"
+      ],
+      "example_questions": [
+        "How can a single crystal on a scientist's clothing contaminate an entire manufacturing plant?"
+      ],
+      "global_doubts": []
+    },
+    "solubility": {
+      "id": "solubility",
+      "name": "Solubility",
+      "description": "The maximum amount of a substance that can dissolve in a solvent at a given temperature. Different polymorphs of the same drug can have vastly different solubilities, affecting their efficacy as medicine.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "chemical_composition"
+      ],
+      "related_concepts": [
+        "drug_dissolution_testing",
+        "bioavailability"
+      ],
+      "common_misconceptions": [
+        "Solubility is a fixed property of a molecule regardless of its solid state structure."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "solvent",
+        "solute",
+        "dissolve"
+      ],
+      "example_questions": [
+        "Why did the 'needle' crystals of ritonavir fail the dissolution test compared to the original form?"
+      ],
+      "global_doubts": []
+    },
+    "bioavailability": {
+      "id": "bioavailability",
+      "name": "Bioavailability",
+      "description": "The proportion of a drug that enters the circulation when introduced into the body and so is able to have an active effect. If a drug doesn't dissolve, its bioavailability drops to nearly zero.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "drug_dissolution_testing",
+        "solubility"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "If you swallow a pill, 100% of the drug is used by your body."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "absorption",
+        "bloodstream",
+        "efficacy"
+      ],
+      "example_questions": [
+        "What happens to a patient's HIV treatment if the ritonavir they take does not dissolve in the stomach?"
+      ],
+      "global_doubts": []
+    },
+    "stoichiometry": {
+      "id": "stoichiometry",
+      "name": "Stoichiometry",
+      "description": "The calculation of relative quantities of reactants and products in chemical reactions. Liebig and W\u00f6hler used this to argue that their substances were identical based on the percentage of silver, carbon, nitrogen, and oxygen.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "chemical_composition"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Stoichiometry tells you the structure of a molecule."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "atomic ratio",
+        "quantitative analysis",
+        "percent composition"
+      ],
+      "example_questions": [
+        "How did Liebig prove that W\u00f6hler's compound had the same 'recipe' as his own?"
+      ],
+      "global_doubts": []
+    },
+    "chemical_reproducibility": {
+      "id": "chemical_reproducibility",
+      "name": "Chemical Reproducibility",
+      "description": "The ability to produce the same results or compounds using the same starting materials and procedures. The ritonavir crisis represents a failure of reproducibility caused by environmental factors.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "evaluate",
+      "prerequisites": [
+        "disappearing_polymorphs"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "If you follow the exact same steps in a different lab, you will always get the exact same result."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "protocol",
+        "replication",
+        "control"
+      ],
+      "example_questions": [
+        "Why could the Chicago team not reproduce their original successful ritonavir batches even after deep cleaning?"
+      ],
+      "global_doubts": []
+    },
+    "silver_fulminate_vs_cyanate": {
+      "id": "silver_fulminate_vs_cyanate",
+      "name": "Silver Fulminate vs. Silver Cyanate",
+      "description": "The specific historical case study of two compounds with identical elemental ratios (AgCNO). Silver fulminate is highly explosive (Liebig's), while silver cyanate is stable (W\u00f6hler's).",
+      "difficulty": 0.4,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "chemical_isomerism"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Both compounds are equally dangerous because they contain the same atoms."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "detonation",
+        "photo-sensitive",
+        "Liebig",
+        "W\u00f6hler"
+      ],
+      "example_questions": [
+        "What physical property distinguished Liebig's compound from W\u00f6hler's compound?"
+      ],
+      "global_doubts": []
+    },
+    "metastability": {
+      "id": "metastability",
+      "name": "Metastability",
+      "description": "A state where a substance is stable for a long period but is not in its most stable form. The first version of ritonavir was metastable for two years until the more stable Form II appeared.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "thermodynamic_stability"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "A 'stable' product will stay in that form forever."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "stable",
+        "unstable",
+        "energy barrier"
+      ],
+      "example_questions": [
+        "Why did it take two years for the second, more stable crystal form of ritonavir to emerge?"
+      ],
+      "global_doubts": []
+    },
+    "quality_assurance_emergency_protocol": {
+      "id": "quality_assurance_emergency_protocol",
+      "name": "Quality Assurance Emergency Protocol",
+      "description": "The procedures taken by manufacturers when a product fails testing, including emergency shutdowns, batch destruction, and production line cleaning to prevent contamination.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "drug_dissolution_testing"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "A failed test usually just means one bad pill in a bottle."
+      ],
+      "lecture_source": "How A Miracle Drug Disappeared Overnight",
+      "key_terms": [
+        "emergency shutdown",
+        "production line",
+        "quality control"
+      ],
+      "example_questions": [
+        "What actions did Abbott take immediately after the first ritonavir dissolution failure?"
+      ],
+      "global_doubts": []
+    },
+    "heuristics": {
+      "id": "heuristics",
+      "name": "Heuristics",
+      "description": "Mental shortcuts the brain uses to solve simple problems quickly and efficiently by applying known patterns to new information.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "cognitive_bias"
+      ],
+      "common_misconceptions": [
+        "Heuristics are always errors in thinking (they are actually evolved survival mechanisms)"
+      ],
+      "lecture_source": "Introduction to Cognitive Bias: Crash Course Scientific Thinking #1",
+      "key_terms": [
+        "mental shortcuts",
+        "pattern recognition"
+      ],
+      "example_questions": [
+        "How do heuristics help humans survive in the wild?"
+      ],
+      "global_doubts": []
+    },
+    "cognitive_bias": {
+      "id": "cognitive_bias",
+      "name": "Cognitive Bias",
+      "description": "Predictable, unconscious weaknesses in thinking where implicit beliefs and patterns influence decision-making, often leading to deviations from logic or evidence.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "heuristics"
+      ],
+      "related_concepts": [
+        "confirmation_bias",
+        "availability_bias"
+      ],
+      "common_misconceptions": [
+        "Only 'unscientific' people have biases (everyone, including scientists, has them)"
+      ],
+      "lecture_source": "Introduction to Cognitive Bias: Crash Course Scientific Thinking #1",
+      "key_terms": [
+        "implicit bias",
+        "unconscious"
+      ],
+      "example_questions": [
+        "What is the difference between an explicit bias and a cognitive bias?"
+      ],
+      "global_doubts": [
+        "Who are you"
+      ]
+    },
+    "availability_bias": {
+      "id": "availability_bias",
+      "name": "Availability Bias",
+      "description": "The tendency to make judgments based on information that is most readily available or vivid in memory, such as recent news stories about plane crashes.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "cognitive_bias"
+      ],
+      "related_concepts": [
+        "confirmation_bias"
+      ],
+      "common_misconceptions": [
+        "If I can recall an example easily, it must be common"
+      ],
+      "lecture_source": "Introduction to Cognitive Bias: Crash Course Scientific Thinking #1",
+      "key_terms": [
+        "readily available information",
+        "perception of risk"
+      ],
+      "example_questions": [
+        "Why might someone fear flying more than driving despite statistics showing driving is more dangerous?"
+      ],
+      "global_doubts": []
+    },
+    "confirmation_bias": {
+      "id": "confirmation_bias",
+      "name": "Confirmation Bias",
+      "description": "The tendency to accept information that agrees with existing beliefs and filter out or reject evidence that contradicts them, as seen in the persistence of 'learning styles' myths.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "cognitive_bias"
+      ],
+      "related_concepts": [
+        "availability_bias"
+      ],
+      "common_misconceptions": [
+        "Confirmation bias is a conscious attempt to lie about data"
+      ],
+      "lecture_source": "Introduction to Cognitive Bias: Crash Course Scientific Thinking #1",
+      "key_terms": [
+        "filter out",
+        "reinforce beliefs"
+      ],
+      "example_questions": [
+        "How does confirmation bias contribute to the persistence of scientific myths?"
+      ],
+      "global_doubts": []
+    },
+    "cognitive_flexibility": {
+      "id": "cognitive_flexibility",
+      "name": "Cognitive Flexibility",
+      "description": "The ability to imagine options or explanations beyond one's gut reaction and the willingness to accept that one's previous beliefs may have been wrong.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "evaluate",
+      "prerequisites": [
+        "cognitive_bias"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Changing your mind is a sign of intellectual weakness"
+      ],
+      "lecture_source": "Introduction to Cognitive Bias: Crash Course Scientific Thinking #1",
+      "key_terms": [
+        "mental agility",
+        "openness to evidence"
+      ],
+      "example_questions": [
+        "How does cognitive flexibility act as a 'bias buster'?"
+      ],
+      "global_doubts": []
+    },
+    "randomized_control_trial": {
+      "id": "randomized_control_trial",
+      "name": "Randomized Control Trial (RCT)",
+      "description": "A research process designed to reduce bias by randomly assigning participants to either a treatment group or a control group (which may receive a placebo).",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "cognitive_bias"
+      ],
+      "related_concepts": [
+        "double_blind_study"
+      ],
+      "common_misconceptions": [
+        "Randomization is the same as convenience sampling"
+      ],
+      "lecture_source": "Introduction to Cognitive Bias: Crash Course Scientific Thinking #1",
+      "key_terms": [
+        "control group",
+        "random assignment",
+        "placebo"
+      ],
+      "example_questions": [
+        "Why is a control group necessary in a drug trial?"
+      ],
+      "global_doubts": []
+    },
+    "double_blind_study": {
+      "id": "double_blind_study",
+      "name": "Double-Blind Study",
+      "description": "An experiment where neither the participants nor the researchers know who is receiving the active treatment and who is in the control group, eliminating observer bias.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "randomized_control_trial"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "A single-blind study is sufficient to eliminate all researcher bias"
+      ],
+      "lecture_source": "Introduction to Cognitive Bias: Crash Course Scientific Thinking #1",
+      "key_terms": [
+        "observer bias",
+        "blinding"
+      ],
+      "example_questions": [
+        "What specific bias is removed by making a study 'double-blind' rather than 'single-blind'?"
+      ],
+      "global_doubts": []
+    },
+    "sampling": {
+      "id": "sampling",
+      "name": "Sampling",
+      "description": "The process of selecting a smaller, representative group (sample) to make inferences about a larger population when measuring every individual is impossible.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "statistical_significance"
+      ],
+      "common_misconceptions": [
+        "A larger sample always guarantees a correct result, regardless of how it was selected"
+      ],
+      "lecture_source": "Statistical Thinking in Science: Crash Course Scientific Thinking #2",
+      "key_terms": [
+        "representative group",
+        "population"
+      ],
+      "example_questions": [
+        "Why do scientists use samples instead of whole populations?"
+      ],
+      "global_doubts": []
+    },
+    "central_tendency": {
+      "id": "central_tendency",
+      "name": "Measures of Central Tendency",
+      "description": "Statistical measures (mean, median, and mode) used to identify the 'typical' value in a data set, each responding differently to outliers.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "sampling"
+      ],
+      "related_concepts": [
+        "standard_deviation"
+      ],
+      "common_misconceptions": [
+        "The 'average' always refers to the mean"
+      ],
+      "lecture_source": "Statistical Thinking in Science: Crash Course Scientific Thinking #2",
+      "key_terms": [
+        "mean",
+        "median",
+        "mode"
+      ],
+      "example_questions": [
+        "When is the median a better measure of 'typical' than the mean?"
+      ],
+      "global_doubts": []
+    },
+    "standard_deviation": {
+      "id": "standard_deviation",
+      "name": "Standard Deviation",
+      "description": "A measure of the amount of variation or dispersion of a set of values from the mean; it indicates how 'typical' the average actually is.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "central_tendency"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "A high standard deviation means the data is wrong"
+      ],
+      "lecture_source": "Statistical Thinking in Science: Crash Course Scientific Thinking #2",
+      "key_terms": [
+        "variance",
+        "spread"
+      ],
+      "example_questions": [
+        "If two datasets have the same mean but different standard deviations, what does that tell you about the data?"
+      ],
+      "global_doubts": []
+    },
+    "confidence_interval": {
+      "id": "confidence_interval",
+      "name": "Confidence Interval",
+      "description": "A range of values that is likely to contain the true population parameter a certain percentage of the time (e.g., 95%), quantifying the uncertainty of a statistic.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "sampling"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "A 95% confidence interval means there is a 95% chance the specific result is correct"
+      ],
+      "lecture_source": "Statistical Thinking in Science: Crash Course Scientific Thinking #2",
+      "key_terms": [
+        "uncertainty",
+        "predictive range"
+      ],
+      "example_questions": [
+        "What does a narrow confidence interval suggest about the precision of a scientific finding?"
+      ],
+      "global_doubts": []
+    },
+    "absolute_vs_relative_risk": {
+      "id": "absolute_vs_relative_risk",
+      "name": "Absolute vs Relative Risk",
+      "description": "Relative risk compares the likelihood of an event between two groups (e.g., 'doubled risk'), while absolute risk measures the actual number of people experiencing the event in the total population.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "sampling"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "A 100% increase in risk always means the event is now highly likely"
+      ],
+      "lecture_source": "Statistical Thinking in Science: Crash Course Scientific Thinking #2",
+      "key_terms": [
+        "relative risk",
+        "absolute risk",
+        "context"
+      ],
+      "example_questions": [
+        "If a risk increases from 1 in 10,000 to 2 in 10,000, what is the relative risk increase and what is the absolute risk?"
+      ],
+      "global_doubts": []
+    },
+    "correlation": {
+      "id": "correlation",
+      "name": "Correlation",
+      "description": "A statistical relationship between two variables, quantified by an R-value from -1 to 1, showing how they move together (positively or negatively).",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "sampling"
+      ],
+      "related_concepts": [
+        "causation",
+        "confounding_variable"
+      ],
+      "common_misconceptions": [
+        "A strong correlation implies that one variable is causing the other"
+      ],
+      "lecture_source": "Statistical Thinking in Science: Crash Course Scientific Thinking #2",
+      "key_terms": [
+        "R-value",
+        "linear correlation",
+        "positive/negative correlation"
+      ],
+      "example_questions": [
+        "What does an R-value of 0 indicate about the relationship between two variables?"
+      ],
+      "global_doubts": []
+    },
+    "causation": {
+      "id": "causation",
+      "name": "Causation",
+      "description": "The principle that one event is the direct result of the occurrence of the other event; requires a causal link rather than just a statistical correlation.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "correlation"
+      ],
+      "related_concepts": [
+        "confounding_variable"
+      ],
+      "common_misconceptions": [
+        "If two things happen at the same time, one must cause the other"
+      ],
+      "lecture_source": "Statistical Thinking in Science: Crash Course Scientific Thinking #2",
+      "key_terms": [
+        "causal link",
+        "direct effect"
+      ],
+      "example_questions": [
+        "Why is it insufficient to use only a correlation to prove causation?"
+      ],
+      "global_doubts": []
+    },
+    "confounding_variable": {
+      "id": "confounding_variable",
+      "name": "Confounding Variable",
+      "description": "An outside factor that influences both the independent and dependent variables, potentially creating a misleading correlation (e.g., weather causing both ice cream sales and shark attacks).",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "correlation"
+      ],
+      "related_concepts": [
+        "causation"
+      ],
+      "common_misconceptions": [
+        "Confounding variables are always obvious to researchers"
+      ],
+      "lecture_source": "Statistical Thinking in Science: Crash Course Scientific Thinking #2",
+      "key_terms": [
+        "third variable",
+        "distortion"
+      ],
+      "example_questions": [
+        "In a study relating beach visits to health, how could 'wealth' act as a confounding variable?"
+      ],
+      "global_doubts": []
+    },
+    "statistical_significance": {
+      "id": "statistical_significance",
+      "name": "Statistical Significance",
+      "description": "A result that is strong enough that it would be surprising to get it by random chance; it does not necessarily mean the result is 'important' or 'meaningful' in the real world.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "sampling"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Statistically significant means the effect is large and practically important"
+      ],
+      "lecture_source": "Statistical Thinking in Science: Crash Course Scientific Thinking #2",
+      "key_terms": [
+        "random chance",
+        "p-value (implied)"
+      ],
+      "example_questions": [
+        "Can a result be statistically significant but practically meaningless? Explain."
+      ],
+      "global_doubts": []
+    },
+    "experimental_science": {
+      "id": "experimental_science",
+      "name": "Experimental Science",
+      "description": "A method of building knowledge where scientists formulate a question and devise controlled experiments to manipulate an independent variable and measure its effect on a dependent variable.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [],
+      "related_concepts": [
+        "observational_science"
+      ],
+      "common_misconceptions": [
+        "All science happens in a lab via controlled experiments"
+      ],
+      "lecture_source": "How Does Science Really Work? The Myth of the Great Experiment: Crash Course Scientific Thinking #3",
+      "key_terms": [
+        "independent variable",
+        "dependent variable",
+        "controlled environment"
+      ],
+      "example_questions": [
+        "In Pasteur's swan-neck flask experiment, what was the independent variable?"
+      ],
+      "global_doubts": []
+    },
+    "observational_science": {
+      "id": "observational_science",
+      "name": "Observational Science",
+      "description": "Gathering evidence by observing events that have already happened or happen naturally, used when controlled experiments are impossible or unethical (e.g., climate change or human health).",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [],
+      "related_concepts": [
+        "experimental_science",
+        "confounding_variable"
+      ],
+      "common_misconceptions": [
+        "Observational science is 'lesser' than experimental science because it isn't controlled"
+      ],
+      "lecture_source": "How Does Science Really Work? The Myth of the Great Experiment: Crash Course Scientific Thinking #3",
+      "key_terms": [
+        "field observation",
+        "natural events"
+      ],
+      "example_questions": [
+        "Why is observational science the primary tool for studying global climate change?"
+      ],
+      "global_doubts": []
+    },
+    "peer_review": {
+      "id": "peer_review",
+      "name": "Peer Review",
+      "description": "A quality control system where experts in the same field evaluate a study's methods, data, and conclusions before it is published in an academic journal.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "evaluate",
+      "prerequisites": [
+        "experimental_science"
+      ],
+      "related_concepts": [
+        "replication",
+        "scientific_retraction"
+      ],
+      "common_misconceptions": [
+        "Peer review guarantees that a published paper is 100% true"
+      ],
+      "lecture_source": "Peer Review and the Quest for Truth: Crash Course Scientific Thinking #4",
+      "key_terms": [
+        "academic journal",
+        "expert vetting",
+        "sound methods"
+      ],
+      "example_questions": [
+        "What is the primary goal of the peer review process?"
+      ],
+      "global_doubts": []
+    },
+    "replication": {
+      "id": "replication",
+      "name": "Replication",
+      "description": "The process of other scientists attempting to repeat a study's results using the same methodology or data to validate the original findings.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "peer_review"
+      ],
+      "related_concepts": [
+        "scientific_retraction"
+      ],
+      "common_misconceptions": [
+        "If one other scientist fails to replicate a study, the original study is immediately proven false"
+      ],
+      "lecture_source": "Peer Review and the Quest for Truth: Crash Course Scientific Thinking #4",
+      "key_terms": [
+        "repeatability",
+        "validation"
+      ],
+      "example_questions": [
+        "Why is replication considered more intense than the initial peer review process?"
+      ],
+      "global_doubts": []
+    },
+    "scientific_retraction": {
+      "id": "scientific_retraction",
+      "name": "Scientific Retraction",
+      "description": "The formal withdrawal of a published paper when it is found to have flawed data, errors, or be non-repeatable, serving as a mechanism for scientific self-correction.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "replication"
+      ],
+      "related_concepts": [
+        "peer_review"
+      ],
+      "common_misconceptions": [
+        "Retractions are signs that science is failing (they are actually signs that science is working)"
+      ],
+      "lecture_source": "Peer Review and the Quest for Truth: Crash Course Scientific Thinking #4",
+      "key_terms": [
+        "self-correction",
+        "transparency"
+      ],
+      "example_questions": [
+        "Why are retracted papers often left online with a warning label rather than deleted?"
+      ],
+      "global_doubts": []
+    },
+    "scientific_consensus": {
+      "id": "scientific_consensus",
+      "name": "Scientific Consensus",
+      "description": "The point where an idea gains broad acceptance by scientific experts after being subjected to extensive skepticism, testing, and cross-validation over time.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "evaluate",
+      "prerequisites": [
+        "replication",
+        "peer_review"
+      ],
+      "related_concepts": [
+        "explanatory_power"
+      ],
+      "common_misconceptions": [
+        "Consensus is just a majority vote or an opinion"
+      ],
+      "lecture_source": "How Scientists Build Consensus: Crash Course Scientific Thinking #5",
+      "key_terms": [
+        "broad acceptance",
+        "gauntlet of skepticism"
+      ],
+      "example_questions": [
+        "How does scientific consensus differ from a general public opinion?"
+      ],
+      "global_doubts": []
+    },
+    "explanatory_power": {
+      "id": "explanatory_power",
+      "name": "Explanatory Power",
+      "description": "The ability of a scientific theory to explain a wide range of phenomena and evidence consistently.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "experimental_science"
+      ],
+      "related_concepts": [
+        "scientific_consensus"
+      ],
+      "common_misconceptions": [
+        "A theory with explanatory power must be 100% certain in every detail"
+      ],
+      "lecture_source": "How Scientists Build Consensus: Crash Course Scientific Thinking #5",
+      "key_terms": [
+        "theoretical framework",
+        "predictive value"
+      ],
+      "example_questions": [
+        "Why is explanatory power a key requirement for a scientific theory to reach consensus?"
+      ],
+      "global_doubts": []
+    },
+    "primary_source": {
+      "id": "primary_source",
+      "name": "Primary Source",
+      "description": "The firsthand account of research, typically a peer-reviewed paper written by the scientists who actually conducted the study.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [],
+      "related_concepts": [
+        "secondary_tertiary_source"
+      ],
+      "common_misconceptions": [
+        "A news report about a study is a primary source"
+      ],
+      "lecture_source": "Evaluating Sources & Fact Checking: Crash Course Scientific Thinking #6",
+      "key_terms": [
+        "firsthand account",
+        "original research"
+      ],
+      "example_questions": [
+        "If you want the most accurate representation of a study's findings, should you look at the news article or the original journal paper?"
+      ],
+      "global_doubts": []
+    },
+    "secondary_tertiary_source": {
+      "id": "secondary_tertiary_source",
+      "name": "Secondary and Tertiary Sources",
+      "description": "Secondary sources interpret or summarize primary research (e.g., a report by an advocacy group), while tertiary sources summarize secondary sources (e.g., a news article).",
+      "difficulty": 0.3,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "primary_source"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Secondary sources are always as accurate as primary sources"
+      ],
+      "lecture_source": "Evaluating Sources & Fact Checking: Crash Course Scientific Thinking #6",
+      "key_terms": [
+        "summarization",
+        "interpretation"
+      ],
+      "example_questions": [
+        "How can information be distorted as it moves from a primary source to a tertiary source?"
+      ],
+      "global_doubts": []
+    },
+    "misinformation_vs_disinformation": {
+      "id": "misinformation_vs_disinformation",
+      "name": "Misinformation vs Disinformation",
+      "description": "Misinformation is false or misleading information spread regardless of intent; disinformation is information intentionally created to mislead.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "sift_method"
+      ],
+      "common_misconceptions": [
+        "Any wrong information is an intentional lie"
+      ],
+      "lecture_source": "Evaluating Sources & Fact Checking: Crash Course Scientific Thinking #6",
+      "key_terms": [
+        "intent",
+        "falsehood"
+      ],
+      "example_questions": [
+        "What is the key difference between misinformation and disinformation?"
+      ],
+      "global_doubts": []
+    },
+    "sift_method": {
+      "id": "sift_method",
+      "name": "SIFT Method",
+      "description": "A digital literacy framework for fact-checking: Stop, Investigate the source, Find better coverage, and Trace claims back to the original context.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "secondary_tertiary_source"
+      ],
+      "related_concepts": [
+        "lateral_reading"
+      ],
+      "common_misconceptions": [
+        "Reading a site's 'About Us' page is enough to 'Investigate the source'"
+      ],
+      "lecture_source": "Evaluating Sources & Fact Checking: Crash Course Scientific Thinking #6",
+      "key_terms": [
+        "Stop",
+        "Investigate",
+        "Find",
+        "Trace"
+      ],
+      "example_questions": [
+        "What does the 'T' in SIFT stand for, and why is it important?"
+      ],
+      "global_doubts": []
+    },
+    "lateral_reading": {
+      "id": "lateral_reading",
+      "name": "Lateral Reading",
+      "description": "The practice of verifying a source by leaving the original site and searching for what other reputable sources say about that site or claim.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "sift_method"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Reading an article from top to bottom (vertical reading) is the best way to verify its truth"
+      ],
+      "lecture_source": "Evaluating Sources & Fact Checking: Crash Course Scientific Thinking #6",
+      "key_terms": [
+        "cross-referencing",
+        "external verification"
+      ],
+      "example_questions": [
+        "How does lateral reading differ from traditional reading of a webpage?"
+      ],
+      "global_doubts": []
+    },
+    "empirical_evidence": {
+      "id": "empirical_evidence",
+      "name": "Empirical Evidence",
+      "description": "Information acquired by observation or experimentation that is used to support or refute a scientific hypothesis.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "experimental_science",
+        "observational_science"
+      ],
+      "common_misconceptions": [
+        "Empirical evidence is the same as a personal anecdote"
+      ],
+      "lecture_source": "What Happens When Science Clashes with the Public?: Crash Course Scientific Thinking #7",
+      "key_terms": [
+        "rigorous method",
+        "observable data"
+      ],
+      "example_questions": [
+        "What distinguishes empirical evidence from a logical argument or a personal story?"
+      ],
+      "global_doubts": []
+    },
+    "word_embeddings": {
+      "id": "word_embeddings",
+      "name": "Word Embeddings",
+      "description": "The process of converting words into numerical vectors where similar words are placed close together in a high-dimensional space. The lectures use the example of associating 'Troll 2' and 'Gymkata' with similar numbers because they appear in similar contexts.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "vector_similarity"
+      ],
+      "common_misconceptions": [
+        "Thinking word embeddings are just random numbers assigned to words"
+      ],
+      "lecture_source": "Word Embedding and Word2Vec, Clearly Explained!!!",
+      "key_terms": [
+        "vector",
+        "high-dimensional space",
+        "context"
+      ],
+      "example_questions": [
+        "Why are word embeddings more useful than assigning random numbers to words?"
+      ],
+      "global_doubts": [
+        "If a word like 'bank' can mean a river bank or a financial bank, how does a single vector handle both meanings?",
+        "If a word like 'bank' can mean a river bank or a financial bank, how does a single vector handle both meanings?"
+      ]
+    },
+    "vector_similarity": {
+      "id": "vector_similarity",
+      "name": "Vector Similarity",
+      "description": "Measuring how close two word vectors are using mathematical operations. Specifically, the lectures discuss the Dot Product and Cosine Similarity to determine the similarity between sequences of numbers representing words.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "word_embeddings"
+      ],
+      "related_concepts": [
+        "dot_product_attention"
+      ],
+      "common_misconceptions": [
+        "Assuming dot product and cosine similarity provide the exact same output value"
+      ],
+      "lecture_source": "Attention for Neural Networks, Clearly Explained!!!",
+      "key_terms": [
+        "dot product",
+        "cosine similarity",
+        "magnitude"
+      ],
+      "example_questions": [
+        "How does the dot product help a neural network determine if two words are related?"
+      ],
+      "global_doubts": []
+    },
+    "word2vec_strategies": {
+      "id": "word2vec_strategies",
+      "name": "Word2Vec Strategies",
+      "description": "Two primary methods for creating embeddings: Continuous Bag-of-Words (CBOW), which uses surrounding words to predict a middle word, and Skip-gram, which uses a middle word to predict surrounding words.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "word_embeddings"
+      ],
+      "related_concepts": [
+        "word_embeddings"
+      ],
+      "common_misconceptions": [
+        "Confusing CBOW and Skip-gram objectives"
+      ],
+      "lecture_source": "Word Embedding and Word2Vec, Clearly Explained!!!",
+      "key_terms": [
+        "CBOW",
+        "Skip-gram",
+        "context window"
+      ],
+      "example_questions": [
+        "What is the fundamental difference between the CBOW and Skip-gram approaches?"
+      ],
+      "global_doubts": []
+    },
+    "negative_sampling": {
+      "id": "negative_sampling",
+      "name": "Negative Sampling",
+      "description": "An optimization technique used in Word2Vec to speed up training by only updating a small subset of weights (the target word and a few randomly selected 'negative' words) instead of the entire vocabulary.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "word2vec_strategies"
+      ],
+      "related_concepts": [
+        "word_embeddings"
+      ],
+      "common_misconceptions": [
+        "Thinking negative sampling changes the final meaning of the embeddings"
+      ],
+      "lecture_source": "Word Embedding and Word2Vec, Clearly Explained!!!",
+      "key_terms": [
+        "optimization",
+        "vocabulary",
+        "weights"
+      ],
+      "example_questions": [
+        "How does negative sampling reduce the computational cost of training Word2Vec?"
+      ],
+      "global_doubts": []
+    },
+    "rnn_unrolling": {
+      "id": "rnn_unrolling",
+      "name": "RNN Unrolling",
+      "description": "The conceptual process of visualizing an RNN as a series of copies of the same network, one for each time step in the sequence. This shows how information flows from the first input to the final output through shared weights.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "recurrent_neural_network"
+      ],
+      "related_concepts": [
+        "recurrent_neural_network"
+      ],
+      "common_misconceptions": [
+        "Thinking unrolling creates new, different weights for every time step"
+      ],
+      "lecture_source": "Recurrent Neural Networks (RNNs), Clearly Explained!!!",
+      "key_terms": [
+        "time step",
+        "shared weights",
+        "unfolding"
+      ],
+      "example_questions": [
+        "If you unroll an RNN for 10 time steps, how many sets of weights and biases are being trained?"
+      ],
+      "global_doubts": []
+    },
+    "vanishing_exploding_gradient": {
+      "id": "vanishing_exploding_gradient",
+      "name": "Vanishing and Exploding Gradient Problem",
+      "description": "A training failure in RNNs where gradients become extremely large (exploding) or nearly zero (vanishing) as they are multiplied repeatedly through unrolled steps, making it hard to learn long-term dependencies.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "rnn_unrolling"
+      ],
+      "related_concepts": [
+        "lstm_architecture"
+      ],
+      "common_misconceptions": [
+        "Thinking this problem only happens with weights greater than 1"
+      ],
+      "lecture_source": "Recurrent Neural Networks (RNNs), Clearly Explained!!!",
+      "key_terms": [
+        "gradient descent",
+        "exponential growth",
+        "exponential decay"
+      ],
+      "example_questions": [
+        "Why does a weight of 0.5 in a long RNN chain lead to the vanishing gradient problem?"
+      ],
+      "global_doubts": []
+    },
+    "lstm_architecture": {
+      "id": "lstm_architecture",
+      "name": "Long Short-Term Memory (LSTM)",
+      "description": "An advanced RNN designed to solve the vanishing/exploding gradient problem by using separate paths for long-term memory (cell state) and short-term memory (hidden state).",
+      "difficulty": 0.7,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "vanishing_exploding_gradient"
+      ],
+      "related_concepts": [
+        "lstm_gates"
+      ],
+      "common_misconceptions": [
+        "Thinking LSTM is a completely different architecture rather than an extension of RNNs"
+      ],
+      "lecture_source": "Long Short-Term Memory (LSTM), Clearly Explained",
+      "key_terms": [
+        "cell state",
+        "hidden state",
+        "long-term memory"
+      ],
+      "example_questions": [
+        "How does the LSTM's cell state prevent gradients from vanishing?"
+      ],
+      "global_doubts": []
+    },
+    "lstm_gates": {
+      "id": "lstm_gates",
+      "name": "LSTM Gates",
+      "description": "Three regulatory mechanisms in an LSTM: the Forget Gate (decides what to discard from long-term memory), the Input Gate (decides what to add), and the Output Gate (decides what part of the state to output as the hidden state).",
+      "difficulty": 0.8,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "lstm_architecture"
+      ],
+      "related_concepts": [
+        "lstm_architecture"
+      ],
+      "common_misconceptions": [
+        "Thinking the 'gates' are actual physical gates rather than sigmoid-weighted multiplications"
+      ],
+      "lecture_source": "Long Short-Term Memory (LSTM), Clearly Explained",
+      "key_terms": [
+        "forget gate",
+        "input gate",
+        "output gate",
+        "sigmoid activation"
+      ],
+      "example_questions": [
+        "Which LSTM gate is responsible for completely erasing a piece of information from the long-term memory?"
+      ],
+      "global_doubts": []
+    },
+    "encoder_decoder_architecture": {
+      "id": "encoder_decoder_architecture",
+      "name": "Encoder-Decoder Architecture",
+      "description": "A framework for sequence-to-sequence tasks where one network (encoder) processes the input into a fixed-length representation, and another network (decoder) generates the output sequence from that representation.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "lstm_architecture",
+        "word_embeddings"
+      ],
+      "related_concepts": [
+        "context_vector"
+      ],
+      "common_misconceptions": [
+        "Thinking the encoder and decoder must share the same weights"
+      ],
+      "lecture_source": "Sequence-to-Sequence (seq2seq) Encoder-Decoder Neural Networks, Clearly Explained!!!",
+      "key_terms": [
+        "seq2seq",
+        "translation",
+        "variable length"
+      ],
+      "example_questions": [
+        "Why is an encoder-decoder model better for translation than a simple RNN?"
+      ],
+      "global_doubts": []
+    },
+    "context_vector": {
+      "id": "context_vector",
+      "name": "Context Vector",
+      "description": "The final hidden and cell states of the encoder, which serve as a compressed summary of the entire input sequence and are used to initialize the decoder.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "encoder_decoder_architecture"
+      ],
+      "related_concepts": [
+        "attention_mechanism"
+      ],
+      "common_misconceptions": [
+        "Thinking the context vector can perfectly store an infinitely long sentence without loss"
+      ],
+      "lecture_source": "Sequence-to-Sequence (seq2seq) Encoder-Decoder Neural Networks, Clearly Explained!!!",
+      "key_terms": [
+        "bottleneck",
+        "compressed representation",
+        "initialization"
+      ],
+      "example_questions": [
+        "What happens to the context vector as the input sentence becomes extremely long?"
+      ],
+      "global_doubts": []
+    },
+    "teacher_forcing": {
+      "id": "teacher_forcing",
+      "name": "Teacher Forcing",
+      "description": "A training technique for decoders where the ground-truth output token is used as the next input during training, rather than the model's own (potentially incorrect) prediction.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "encoder_decoder_architecture"
+      ],
+      "related_concepts": [
+        "encoder_decoder_architecture"
+      ],
+      "common_misconceptions": [
+        "Thinking teacher forcing is used during the actual inference/prediction phase"
+      ],
+      "lecture_source": "Sequence-to-Sequence (seq2seq) Encoder-Decoder Neural Networks, Clearly Explained!!!",
+      "key_terms": [
+        "training",
+        "ground truth",
+        "convergence"
+      ],
+      "example_questions": [
+        "How does teacher forcing help a model converge faster during training?"
+      ],
+      "global_doubts": []
+    },
+    "attention_mechanism": {
+      "id": "attention_mechanism",
+      "name": "Attention Mechanism",
+      "description": "A technique that allows the decoder to look back at all individual encoder hidden states for every output token, instead of relying solely on a single fixed-length context vector.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "context_vector",
+        "vector_similarity"
+      ],
+      "related_concepts": [
+        "dot_product_attention"
+      ],
+      "common_misconceptions": [
+        "Thinking attention replaces the encoder instead of enhancing the link to the decoder"
+      ],
+      "lecture_source": "Attention for Neural Networks, Clearly Explained!!!",
+      "key_terms": [
+        "dynamic access",
+        "weighting",
+        "alignment"
+      ],
+      "example_questions": [
+        "How does attention solve the problem of 'forgetting' the beginning of a long sentence in seq2seq models?"
+      ],
+      "global_doubts": []
+    },
+    "dot_product_attention": {
+      "id": "dot_product_attention",
+      "name": "Dot Product Attention",
+      "description": "A specific way to calculate attention weights by taking the dot product between the current decoder state and all encoder states, then passing the results through a softmax function to get percentages.",
+      "difficulty": 0.8,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "attention_mechanism",
+        "vector_similarity"
+      ],
+      "related_concepts": [
+        "query_key_value_mechanism"
+      ],
+      "common_misconceptions": [
+        "Confusing the similarity score (dot product) with the final attention weight (softmax output)"
+      ],
+      "lecture_source": "Attention for Neural Networks, Clearly Explained!!!",
+      "key_terms": [
+        "softmax",
+        "weighted sum",
+        "similarity score"
+      ],
+      "example_questions": [
+        "In the context of attention, what is the purpose of the softmax function after calculating dot products?"
+      ],
+      "global_doubts": []
+    },
+    "positional_encoding": {
+      "id": "positional_encoding",
+      "name": "Positional Encoding",
+      "description": "A method of adding unique numerical values (based on sine and cosine functions) to word embeddings to tell the Transformer the order of words, since it processes all words in parallel.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "word_embeddings"
+      ],
+      "related_concepts": [
+        "self_attention"
+      ],
+      "common_misconceptions": [
+        "Thinking positional encoding is just adding a simple counter (1, 2, 3...) to the vectors"
+      ],
+      "lecture_source": "Transformer Neural Networks, ChatGPT's foundation, Clearly Explained!!!",
+      "key_terms": [
+        "sine/cosine squiggles",
+        "parallel processing",
+        "word order"
+      ],
+      "example_questions": [
+        "Why is positional encoding necessary for a Transformer but not for an RNN?"
+      ],
+      "global_doubts": []
+    },
+    "self_attention": {
+      "id": "self_attention",
+      "name": "Self-Attention",
+      "description": "A mechanism that allows a word in a sequence to look at every other word in the same sequence to determine which words are most relevant to its own meaning in that context.",
+      "difficulty": 0.8,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "positional_encoding",
+        "dot_product_attention"
+      ],
+      "related_concepts": [
+        "query_key_value_mechanism"
+      ],
+      "common_misconceptions": [
+        "Confusing self-attention (within one sequence) with encoder-decoder attention (between two sequences)"
+      ],
+      "lecture_source": "Transformer Neural Networks, ChatGPT's foundation, Clearly Explained!!!",
+      "key_terms": [
+        "contextual encoding",
+        "intra-sequence relationships"
+      ],
+      "example_questions": [
+        "How would self-attention help a model decide if the word 'it' refers to 'pizza' or 'oven' in a sentence?"
+      ],
+      "global_doubts": []
+    },
+    "query_key_value_mechanism": {
+      "id": "query_key_value_mechanism",
+      "name": "Query-Key-Value (QKV) Mechanism",
+      "description": "The mathematical implementation of attention where 'Queries' represent the word looking for info, 'Keys' represent what other words offer, and 'Values' represent the actual content to be aggregated.",
+      "difficulty": 0.9,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "self_attention"
+      ],
+      "related_concepts": [
+        "dot_product_attention"
+      ],
+      "common_misconceptions": [
+        "Thinking Q, K, and V are fixed properties of the word rather than learned linear projections"
+      ],
+      "lecture_source": "Transformer Neural Networks, ChatGPT's foundation, Clearly Explained!!!",
+      "key_terms": [
+        "Query",
+        "Key",
+        "Value",
+        "linear projection"
+      ],
+      "example_questions": [
+        "In a self-attention layer, what is the role of the 'Key' vector?"
+      ],
+      "global_doubts": []
+    },
+    "multi_head_attention": {
+      "id": "multi_head_attention",
+      "name": "Multi-Head Attention",
+      "description": "The practice of stacking multiple self-attention 'heads' (cells) with different weights to capture different types of relationships between words simultaneously.",
+      "difficulty": 0.8,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "query_key_value_mechanism"
+      ],
+      "related_concepts": [
+        "self_attention"
+      ],
+      "common_misconceptions": [
+        "Thinking more heads always linearly increase accuracy"
+      ],
+      "lecture_source": "Transformer Neural Networks, ChatGPT's foundation, Clearly Explained!!!",
+      "key_terms": [
+        "parallel heads",
+        "diverse relationships"
+      ],
+      "example_questions": [
+        "Why use multi-head attention instead of one very large attention head?"
+      ],
+      "global_doubts": []
+    },
+    "residual_connections": {
+      "id": "residual_connections",
+      "name": "Residual Connections",
+      "description": "Shortcuts that add the input of a layer back to its output. This prevents information loss and makes it easier to train very deep networks by allowing gradients to flow more easily.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "multi_head_attention"
+      ],
+      "related_concepts": [
+        "vanishing_exploding_gradient"
+      ],
+      "common_misconceptions": [
+        "Thinking residual connections are just a different way of calculating attention"
+      ],
+      "lecture_source": "Transformer Neural Networks, ChatGPT's foundation, Clearly Explained!!!",
+      "key_terms": [
+        "bypass",
+        "gradient flow",
+        "identity mapping"
+      ],
+      "example_questions": [
+        "How do residual connections help in training deep Transformer models?"
+      ],
+      "global_doubts": []
+    },
+    "masked_self_attention": {
+      "id": "masked_self_attention",
+      "name": "Masked Self-Attention",
+      "description": "A version of self-attention where words are prevented from 'looking ahead' at future tokens in a sequence, ensuring that the prediction for a word only depends on known previous words.",
+      "difficulty": 0.8,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "self_attention"
+      ],
+      "related_concepts": [
+        "decoder_only_transformer"
+      ],
+      "common_misconceptions": [
+        "Thinking masking is only used during training, when it is fundamental to the autoregressive generation process"
+      ],
+      "lecture_source": "Decoder-Only Transformers, ChatGPTs specific Transformer, Clearly Explained!!!",
+      "key_terms": [
+        "causality",
+        "autoregressive",
+        "look-ahead mask"
+      ],
+      "example_questions": [
+        "Why must the self-attention in a decoder be 'masked'?"
+      ],
+      "global_doubts": []
+    },
+    "decoder_only_transformer": {
+      "id": "decoder_only_transformer",
+      "name": "Decoder-Only Transformer",
+      "description": "An architecture (like GPT) that merges the encoder and decoder roles into a single unit using masked self-attention to both process the prompt and generate the next token autoregressively.",
+      "difficulty": 0.9,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "masked_self_attention",
+        "residual_connections"
+      ],
+      "related_concepts": [
+        "encoder_decoder_architecture"
+      ],
+      "common_misconceptions": [
+        "Thinking a decoder-only transformer cannot 'understand' the input because it lacks a separate encoder"
+      ],
+      "lecture_source": "Decoder-Only Transformers, ChatGPTs specific Transformer, Clearly Explained!!!",
+      "key_terms": [
+        "GPT",
+        "generative",
+        "prompting"
+      ],
+      "example_questions": [
+        "What are the three main differences between a standard Transformer and a Decoder-Only Transformer?"
+      ],
+      "global_doubts": []
+    },
+    "antiderivative": {
+      "id": "antiderivative",
+      "name": "Antiderivative",
+      "description": "The process of finding a function whose derivative is equal to the original function. As taught in Essence of Calculus, it is the inverse operation of differentiation.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "inverse_relationship_derivative_integral"
+      ],
+      "common_misconceptions": [
+        "Thinking there is only one unique antiderivative for any given function."
+      ],
+      "lecture_source": "Integration and the fundamental theorem of calculus | Chapter 8, Essence of calculus",
+      "key_terms": [
+        "reverse derivative",
+        "original function"
+      ],
+      "example_questions": [
+        "If the derivative of a function is 2x, what is the original function?"
+      ],
+      "global_doubts": []
+    },
+    "inverse_relationship_derivative_integral": {
+      "id": "inverse_relationship_derivative_integral",
+      "name": "Inverse Relationship Between Derivative and Integral",
+      "description": "The conceptual duality where differentiation finds the rate of change (velocity) and integration recovers the accumulated quantity (distance).",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "antiderivative"
+      ],
+      "related_concepts": [
+        "fundamental_theorem_of_calculus"
+      ],
+      "common_misconceptions": [
+        "Assuming integration and differentiation are identical operations rather than inverses."
+      ],
+      "lecture_source": "Integration and the fundamental theorem of calculus | Chapter 8, Essence of calculus",
+      "key_terms": [
+        "dual",
+        "inverse operation"
+      ],
+      "example_questions": [
+        "Explain how finding a distance function from a velocity function is the inverse of finding velocity from distance."
+      ],
+      "global_doubts": []
+    },
+    "power_rule_integration": {
+      "id": "power_rule_integration",
+      "name": "Power Rule for Integration",
+      "description": "The algorithm for integrating polynomials: increase the exponent by one and divide the term by the new exponent. Example: x^2 becomes (x^3)/3.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "antiderivative"
+      ],
+      "related_concepts": [
+        "negative_exponent_integration"
+      ],
+      "common_misconceptions": [
+        "Subtracting 1 from the power instead of adding 1 (confusing it with the derivative power rule)."
+      ],
+      "lecture_source": "Integration (Calculus)",
+      "key_terms": [
+        "exponent",
+        "division"
+      ],
+      "example_questions": [
+        "Integrate the expression 6x^2."
+      ],
+      "global_doubts": []
+    },
+    "integration_of_constants": {
+      "id": "integration_of_constants",
+      "name": "Integration of Constants",
+      "description": "Integrating a constant value involves simply appending the variable of integration. For example, integrating 5 with respect to x results in 5x.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "power_rule_integration"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Thinking the integral of a constant is 0 because the derivative of a constant is 0."
+      ],
+      "lecture_source": "Integration (Calculus)",
+      "key_terms": [
+        "constant",
+        "variable of integration"
+      ],
+      "example_questions": [
+        "What is the integral of 7 dx?"
+      ],
+      "global_doubts": []
+    },
+    "negative_exponent_integration": {
+      "id": "negative_exponent_integration",
+      "name": "Integration Using Negative Exponents",
+      "description": "Using laws of indices to rewrite fractions (e.g., 1/x^2 as x^-2) before applying the power rule for integration.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "power_rule_integration"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Trying to integrate a fraction as it is without converting it to a power first."
+      ],
+      "lecture_source": "Integration (Calculus)",
+      "key_terms": [
+        "laws of indices",
+        "fractional expressions"
+      ],
+      "example_questions": [
+        "How do you integrate 1/x^3 using the laws of indices?"
+      ],
+      "global_doubts": []
+    },
+    "constant_of_integration": {
+      "id": "constant_of_integration",
+      "name": "Constant of Integration (+C)",
+      "description": "The additive constant 'C' added to indefinite integrals to represent the family of all possible antiderivatives, as the derivative of any constant is zero.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "antiderivative"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Forgetting to add +C in indefinite integrals."
+      ],
+      "lecture_source": "Integration (Calculus)",
+      "key_terms": [
+        "plus C",
+        "indefinite integral"
+      ],
+      "example_questions": [
+        "Why must we add a constant C when finding an antiderivative?"
+      ],
+      "global_doubts": []
+    },
+    "area_under_curve": {
+      "id": "area_under_curve",
+      "name": "Area Under the Curve",
+      "description": "The geometric interpretation of a definite integral as the total area bounded by the function's graph and the horizontal axis.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "inverse_relationship_derivative_integral"
+      ],
+      "related_concepts": [
+        "rectangle_approximation",
+        "signed_area"
+      ],
+      "common_misconceptions": [
+        "Assuming the integral always represents a positive physical area."
+      ],
+      "lecture_source": "Integration and the fundamental theorem of calculus | Chapter 8, Essence of calculus",
+      "key_terms": [
+        "bounded area",
+        "horizontal axis"
+      ],
+      "example_questions": [
+        "How does the area under a velocity-time graph relate to the total distance traveled?"
+      ],
+      "global_doubts": []
+    },
+    "rectangle_approximation": {
+      "id": "rectangle_approximation",
+      "name": "Rectangle Approximation (Riemann Sums)",
+      "description": "Approximating the area under a curve by dividing it into thin rectangles of width dt and height f(t), and summing their areas.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "area_under_curve"
+      ],
+      "related_concepts": [
+        "integral_limit_definition"
+      ],
+      "common_misconceptions": [
+        "Believing that the approximation is the final answer rather than a step toward the limit."
+      ],
+      "lecture_source": "Integration and the fundamental theorem of calculus | Chapter 8, Essence of calculus",
+      "key_terms": [
+        "dt",
+        "summation",
+        "approximation"
+      ],
+      "example_questions": [
+        "If a car moves at a constant velocity for 0.25 seconds, how is the distance traveled visualized as a rectangle?"
+      ],
+      "global_doubts": []
+    },
+    "integral_limit_definition": {
+      "id": "integral_limit_definition",
+      "name": "Integral as a Limit of a Sum",
+      "description": "The definition of an integral as the value a sum of rectangles approaches as the width of those rectangles (dt) approaches zero.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "rectangle_approximation"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Confusing the sigma sum with the continuous integral."
+      ],
+      "lecture_source": "Integration and the fundamental theorem of calculus | Chapter 8, Essence of calculus",
+      "key_terms": [
+        "limit",
+        "dt approaches 0",
+        "continuum"
+      ],
+      "example_questions": [
+        "What happens to the number of rectangles as dt gets smaller in an integral approximation?"
+      ],
+      "global_doubts": []
+    },
+    "signed_area": {
+      "id": "signed_area",
+      "name": "Signed Area",
+      "description": "The concept that area above the x-axis is positive and area below the x-axis is negative. Integrals measure the net signed area.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "area_under_curve"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Thinking that the integral of a function that goes below the axis will always give the total absolute area."
+      ],
+      "lecture_source": "Integration and the fundamental theorem of calculus | Chapter 8, Essence of calculus",
+      "key_terms": [
+        "negative area",
+        "net area"
+      ],
+      "example_questions": [
+        "If a velocity function is negative, what does the corresponding area under the curve represent?"
+      ],
+      "global_doubts": []
+    },
+    "fundamental_theorem_of_calculus": {
+      "id": "fundamental_theorem_of_calculus",
+      "name": "Fundamental Theorem of Calculus",
+      "description": "The theorem stating that the definite integral of a function can be computed by finding its antiderivative F and calculating F(upper_bound) - F(lower_bound).",
+      "difficulty": 0.6,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "antiderivative",
+        "integral_limit_definition"
+      ],
+      "related_concepts": [
+        "definite_integral_evaluation"
+      ],
+      "common_misconceptions": [
+        "Thinking you need to sum an infinite number of rectangles manually to solve a definite integral."
+      ],
+      "lecture_source": "Integration and the fundamental theorem of calculus | Chapter 8, Essence of calculus",
+      "key_terms": [
+        "top bound",
+        "bottom bound",
+        "FTC"
+      ],
+      "example_questions": [
+        "How does the Fundamental Theorem of Calculus allow us to find the area under a curve using only two points?"
+      ],
+      "global_doubts": []
+    },
+    "definite_integral_evaluation": {
+      "id": "definite_integral_evaluation",
+      "name": "Definite Integral Evaluation",
+      "description": "The practical step of plugging the limits of integration into an antiderivative and subtracting the lower bound result from the upper bound result.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "fundamental_theorem_of_calculus"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Subtracting the upper bound from the lower bound instead of vice versa."
+      ],
+      "lecture_source": "Integration and the fundamental theorem of calculus | Chapter 8, Essence of calculus",
+      "key_terms": [
+        "evaluation",
+        "limits of integration"
+      ],
+      "example_questions": [
+        "Evaluate the integral of 8t - t^2 from t=1 to t=7."
+      ],
+      "global_doubts": []
+    },
+    "substitution_rule": {
+      "id": "substitution_rule",
+      "name": "Substitution Rule (u-Substitution)",
+      "description": "A technique to simplify complicated integrands by replacing a part of the function with a new variable 'u', effectively reversing the chain rule.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "antiderivative",
+        "differential_manipulation"
+      ],
+      "related_concepts": [
+        "u_substitution_pattern_recognition"
+      ],
+      "common_misconceptions": [
+        "Forgetting to substitute back the original variable x at the end of the problem."
+      ],
+      "lecture_source": "Integration Using The Substitution Rule",
+      "key_terms": [
+        "u-substitution",
+        "integrand",
+        "reverse chain rule"
+      ],
+      "example_questions": [
+        "Use the substitution rule to integrate 2x * cos(x^2 + 1) dx."
+      ],
+      "global_doubts": []
+    },
+    "differential_manipulation": {
+      "id": "differential_manipulation",
+      "name": "Differential Manipulation",
+      "description": "The algebraic process of converting dx to du by differentiating the substitution u = g(x) to find du = g'(x)dx.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "antiderivative"
+      ],
+      "related_concepts": [
+        "substitution_rule"
+      ],
+      "common_misconceptions": [
+        "Treating dx as a label rather than a mathematical object that can be manipulated algebraically."
+      ],
+      "lecture_source": "Integration Using The Substitution Rule",
+      "key_terms": [
+        "du",
+        "dx",
+        "differential"
+      ],
+      "example_questions": [
+        "If u = x^3 + 1, what is the expression for du in terms of dx?"
+      ],
+      "global_doubts": []
+    },
+    "u_substitution_pattern_recognition": {
+      "id": "u_substitution_pattern_recognition",
+      "name": "Substitution Pattern Recognition",
+      "description": "The skill of identifying when an integrand fits the form f(g(x)) * g'(x), where a function and its derivative are both present.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "substitution_rule"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Trying to apply u-substitution when the derivative of the inner function is not present in the integrand."
+      ],
+      "lecture_source": "Integration Using The Substitution Rule",
+      "key_terms": [
+        "inner function",
+        "g prime",
+        "integrand form"
+      ],
+      "example_questions": [
+        "In the integral of x^2 * sqrt(x^3 + 1), why is x^3 + 1 a good choice for u?"
+      ],
+      "global_doubts": []
+    },
+    "natural_log_integration": {
+      "id": "natural_log_integration",
+      "name": "Integration of Reciprocals (Natural Log)",
+      "description": "The specific integration rule where the integral of 1/u du equals the natural logarithm of the absolute value of u (ln|u|).",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "substitution_rule"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Forgetting the absolute value brackets around u in ln|u|."
+      ],
+      "lecture_source": "Integration Using The Substitution Rule",
+      "key_terms": [
+        "natural log",
+        "absolute value",
+        "ln|u|"
+      ],
+      "example_questions": [
+        "Integrate tan(x) by using the substitution u = cos(x)."
+      ],
+      "global_doubts": []
+    },
+    "integration_by_substitution_trig": {
+      "id": "integration_by_substitution_trig",
+      "name": "Trigonometric Integration via Substitution",
+      "description": "Applying the substitution rule to trigonometric functions, often by substituting a trig function whose derivative is also present (e.g., substituting sine when cosine is present).",
+      "difficulty": 0.6,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "substitution_rule"
+      ],
+      "related_concepts": [
+        "natural_log_integration"
+      ],
+      "common_misconceptions": [
+        "Choosing the wrong trigonometric function as 'u' (e.g., choosing cos for u when only sine is present)."
+      ],
+      "lecture_source": "Integration Using The Substitution Rule",
+      "key_terms": [
+        "trig identities",
+        "sine",
+        "cosine"
+      ],
+      "example_questions": [
+        "Integrate sin^6(x) * cos(x) dx using substitution."
+      ],
+      "global_doubts": []
+    },
+    "matrix_basics": {
+      "id": "matrix_basics",
+      "name": "Matrix Basics",
+      "description": "Definition of a matrix as a rectangular arrangement of elements organized in horizontal rows and vertical columns.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "matrix_indexing"
+      ],
+      "common_misconceptions": [
+        "Thinking only rectangular arrays are matrices, whereas square arrays are also matrices."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "rows",
+        "columns",
+        "rectangular arrangement"
+      ],
+      "example_questions": [
+        "What is the difference between a row and a column in a matrix?"
+      ],
+      "global_doubts": []
+    },
+    "matrix_indexing": {
+      "id": "matrix_indexing",
+      "name": "Matrix Indexing and Order",
+      "description": "Defining the size (order) of a matrix as M x N (rows by columns) and identifying specific elements using the notation a_ij, where i is the row number and j is the column number.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_basics"
+      ],
+      "related_concepts": [
+        "matrix_basics"
+      ],
+      "common_misconceptions": [
+        "Swapping the order of rows and columns (e.g., calling a 3x2 matrix a 2x3 matrix)."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "order",
+        "size",
+        "subscript",
+        "a_ij"
+      ],
+      "example_questions": [
+        "In a 3x5 matrix, what are the indices of the element in the 2nd row and 4th column?"
+      ],
+      "global_doubts": []
+    },
+    "matrix_multiplication": {
+      "id": "matrix_multiplication",
+      "name": "Matrix Multiplication",
+      "description": "The process of computing the product of two matrices, requiring that the number of columns in the first matrix equals the number of rows in the second.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "matrix_basics"
+      ],
+      "common_misconceptions": [
+        "Assuming matrix multiplication is commutative (AB = BA)."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "dot product",
+        "compatibility",
+        "product matrix"
+      ],
+      "example_questions": [
+        "If matrix A is 3x4 and matrix B is 4x2, what is the order of the resulting matrix AB?"
+      ],
+      "global_doubts": []
+    },
+    "matrix_transpose": {
+      "id": "matrix_transpose",
+      "name": "Matrix Transpose",
+      "description": "An operation that flips a matrix over its diagonal, interchanging its row and column indices (A_ij becomes A_ji).",
+      "difficulty": 0.2,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "symmetric_matrix",
+        "skew_symmetric_matrix"
+      ],
+      "common_misconceptions": [
+        "Confusing transpose with the inverse of a matrix.",
+        "Thinking transpose changes the values of the elements"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "reflection",
+        "interchange",
+        "A^T"
+      ],
+      "example_questions": [
+        "Given a 2x3 matrix, what will be the order of its transpose?",
+        "Find the transpose of a 2x3 matrix."
+      ],
+      "global_doubts": []
+    },
+    "symmetric_matrix": {
+      "id": "symmetric_matrix",
+      "name": "Symmetric Matrix",
+      "description": "A square matrix that is equal to its own transpose (A = A^T), meaning elements are mirrored across the principal diagonal.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_transpose",
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "skew_symmetric_matrix"
+      ],
+      "common_misconceptions": [
+        "Thinking any matrix with equal values in the first and last row is symmetric.",
+        "Thinking symmetry only applies to the visual layout and not the mathematical property a_ij = a_ji"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "mirrored",
+        "A = A^T",
+        "mirror image"
+      ],
+      "example_questions": [
+        "Verify if a matrix where a_ij = a_ji for all i, j is symmetric.",
+        "Determine if a given 3x3 matrix is symmetric."
+      ],
+      "global_doubts": []
+    },
+    "skew_symmetric_matrix": {
+      "id": "skew_symmetric_matrix",
+      "name": "Skew-Symmetric Matrix",
+      "description": "A square matrix where A^T = -A, meaning elements across the diagonal have opposite signs, and all principal diagonal elements must be zero.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "matrix_transpose",
+        "symmetric_matrix"
+      ],
+      "related_concepts": [
+        "symmetric_matrix"
+      ],
+      "common_misconceptions": [
+        "Forgetting that the principal diagonal elements must be zero for a matrix to be skew-symmetric.",
+        "Forgetting that diagonal elements must be zero in a skew-symmetric matrix"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "A^T = -A",
+        "zero diagonal"
+      ],
+      "example_questions": [
+        "Why must the diagonal elements of a skew-symmetric matrix always be zero?",
+        "Why must the diagonal elements of a skew-symmetric matrix be zero?"
+      ],
+      "global_doubts": [
+        "If I change a 0 on the diagonal to a 1, does the matrix just stop being skew-symmetric, or does it become something else?",
+        "If I change a 0 on the diagonal to a 1, does the matrix just stop being skew-symmetric, or does it become something else?"
+      ]
+    },
+    "diagonal_matrix": {
+      "id": "diagonal_matrix",
+      "name": "Diagonal Matrix",
+      "description": "A square matrix where all elements outside the principal diagonal are zero.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "identity_matrix"
+      ],
+      "common_misconceptions": [
+        "Thinking the diagonal elements themselves must be non-zero.",
+        "Believing that the diagonal elements themselves must be non-zero"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "principal diagonal",
+        "non-diagonal elements",
+        "off-diagonal zeros"
+      ],
+      "example_questions": [
+        "Is a null matrix also a diagonal matrix?",
+        "Is a matrix with all zeros a diagonal matrix?"
+      ],
+      "global_doubts": []
+    },
+    "identity_matrix": {
+      "id": "identity_matrix",
+      "name": "Identity Matrix",
+      "description": "A special diagonal matrix where all principal diagonal elements are 1 and all other elements are 0.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "diagonal_matrix"
+      ],
+      "related_concepts": [
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Confusing the identity matrix with a matrix of all ones.",
+        "Confusing the identity matrix with a matrix of all ones"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "unit matrix",
+        "I"
+      ],
+      "example_questions": [
+        "What happens when any square matrix A is multiplied by the identity matrix I?",
+        "What is the 2x2 identity matrix?"
+      ],
+      "global_doubts": []
+    },
+    "orthogonal_matrix": {
+      "id": "orthogonal_matrix",
+      "name": "Orthogonal Matrix",
+      "description": "A square matrix A such that A multiplied by its transpose results in the identity matrix (A * A^T = I).",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_multiplication",
+        "matrix_transpose",
+        "identity_matrix"
+      ],
+      "related_concepts": [
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Thinking every matrix with a determinant of 1 is orthogonal."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "perpendicularity",
+        "dot product",
+        "A * A^T = I"
+      ],
+      "example_questions": [
+        "Prove that the determinant of an orthogonal matrix is either 1 or -1."
+      ],
+      "global_doubts": []
+    },
+    "idempotent_matrix": {
+      "id": "idempotent_matrix",
+      "name": "Idempotent Matrix",
+      "description": "A square matrix that, when multiplied by itself, yields the original matrix (A^2 = A).",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_multiplication"
+      ],
+      "related_concepts": [
+        "involutory_matrix"
+      ],
+      "common_misconceptions": [
+        "Thinking A^2 = A implies A must be the identity matrix."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "A^2 = A"
+      ],
+      "example_questions": [
+        "If a matrix is idempotent, what are the possible values for its determinant?"
+      ],
+      "global_doubts": []
+    },
+    "involutory_matrix": {
+      "id": "involutory_matrix",
+      "name": "Involutory Matrix",
+      "description": "A square matrix that is its own inverse, meaning A squared equals the identity matrix (A^2 = I).",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_multiplication",
+        "identity_matrix"
+      ],
+      "related_concepts": [
+        "idempotent_matrix",
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Confusing involutory matrices (A^2 = I) with idempotent matrices (A^2 = A)."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "A^2 = I",
+        "self-inverse"
+      ],
+      "example_questions": [
+        "If A is involutory, what is A inverse?"
+      ],
+      "global_doubts": []
+    },
+    "nilpotent_matrix": {
+      "id": "nilpotent_matrix",
+      "name": "Nilpotent Matrix",
+      "description": "A non-zero square matrix A such that some positive integer power n results in the zero matrix (A^n = 0). The smallest such n is called the index of nilpotency.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_multiplication"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Thinking the matrix must be the zero matrix to satisfy A^n = 0."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "index of nilpotency",
+        "A^n = 0"
+      ],
+      "example_questions": [
+        "Find the index of nilpotency for a matrix if A^3 = 0 but A^2 != 0."
+      ],
+      "global_doubts": []
+    },
+    "matrix_minor_cofactor": {
+      "id": "matrix_minor_cofactor",
+      "name": "Matrix Minors and Cofactors",
+      "description": "A minor is the determinant of a submatrix formed by deleting a specific row and column. A cofactor is a minor multiplied by (-1)^(i+j).",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "matrix_determinant"
+      ],
+      "common_misconceptions": [
+        "Forgetting to apply the alternating sign (-1)^(i+j) when calculating cofactors."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "submatrix",
+        "alternating sign",
+        "cofactor"
+      ],
+      "example_questions": [
+        "Calculate the cofactor of the element a_12 in a 3x3 matrix."
+      ],
+      "global_doubts": []
+    },
+    "matrix_determinant": {
+      "id": "matrix_determinant",
+      "name": "Matrix Determinant",
+      "description": "A scalar value derived from a square matrix, computed as the sum of elements of any row or column multiplied by their corresponding cofactors.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_minor_cofactor",
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "matrix_singularity",
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Trying to calculate the determinant of a non-square matrix."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "Laplace expansion",
+        "scalar value",
+        "det(A)"
+      ],
+      "example_questions": [
+        "Compute the determinant of a 3x3 matrix using expansion along the second column."
+      ],
+      "global_doubts": []
+    },
+    "determinant_properties": {
+      "id": "determinant_properties",
+      "name": "Properties of Determinants",
+      "description": "Rules for determinants, such as |A^T| = |A|, |kA| = k^n|A|, and the fact that swapping two rows changes the sign of the determinant.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "matrix_determinant",
+        "matrix_transpose"
+      ],
+      "related_concepts": [
+        "matrix_determinant"
+      ],
+      "common_misconceptions": [
+        "Thinking |kA| = k|A| instead of k to the power of n times |A|."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "scalar multiplication",
+        "row swap",
+        "linear transformation"
+      ],
+      "example_questions": [
+        "If |A| = 5 and A is a 3x3 matrix, what is |2A|?"
+      ],
+      "global_doubts": []
+    },
+    "adjoint_matrix": {
+      "id": "adjoint_matrix",
+      "name": "Adjoint Matrix",
+      "description": "The transpose of the cofactor matrix of a square matrix A.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_minor_cofactor",
+        "matrix_transpose"
+      ],
+      "related_concepts": [
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Confusing the adjoint matrix with the inverse matrix."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "cofactor matrix transpose",
+        "adj(A)"
+      ],
+      "example_questions": [
+        "What is the relationship between A, adj(A), and det(A)?"
+      ],
+      "global_doubts": []
+    },
+    "matrix_inverse": {
+      "id": "matrix_inverse",
+      "name": "Matrix Inverse",
+      "description": "A square matrix A inverse such that A * A inverse = I. It is computed as (1/det(A)) * adj(A).",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_determinant",
+        "adjoint_matrix",
+        "identity_matrix"
+      ],
+      "related_concepts": [
+        "matrix_singularity",
+        "orthogonal_matrix"
+      ],
+      "common_misconceptions": [
+        "Assuming every square matrix has an inverse.",
+        "Thinking that the inverse is simply the reciprocal of each element"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "multiplicative inverse",
+        "A^-1",
+        "non-singular",
+        "invertible"
+      ],
+      "example_questions": [
+        "Find the inverse of a 2x2 matrix using the adjoint method.",
+        "Find the inverse of a 2x2 matrix."
+      ],
+      "global_doubts": []
+    },
+    "matrix_singularity": {
+      "id": "matrix_singularity",
+      "name": "Matrix Singularity",
+      "description": "A square matrix is called singular if its determinant is zero, meaning it does not have an inverse.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_determinant"
+      ],
+      "related_concepts": [
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Thinking a matrix with a zero element on the diagonal is automatically singular."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "singular",
+        "non-singular",
+        "det(A) = 0"
+      ],
+      "example_questions": [
+        "How can you determine if a matrix is singular without finding its inverse?"
+      ],
+      "global_doubts": []
+    },
+    "row_echelon_form": {
+      "id": "row_echelon_form",
+      "name": "Row Echelon Form (REF)",
+      "description": "A matrix form where all zero rows are at the bottom and the number of leading zeros in a row is strictly greater than the number of leading zeros in the row above it.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_basics"
+      ],
+      "related_concepts": [
+        "matrix_rank"
+      ],
+      "common_misconceptions": [
+        "Confusing Row Echelon Form with Reduced Row Echelon Form (RREF)."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "leading non-zero element",
+        "row transformation",
+        "pivot"
+      ],
+      "example_questions": [
+        "Convert a given 3x4 matrix into Row Echelon Form using elementary row operations."
+      ],
+      "global_doubts": []
+    },
+    "matrix_rank": {
+      "id": "matrix_rank",
+      "name": "Matrix Rank",
+      "description": "The dimension of the vector space generated by its rows or columns, practically found as the number of non-zero rows in its Row Echelon Form.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "row_echelon_form",
+        "matrix_minor_cofactor"
+      ],
+      "related_concepts": [
+        "linear_system_consistency"
+      ],
+      "common_misconceptions": [
+        "Thinking the rank is just the number of non-zero elements in the matrix."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "rank",
+        "non-zero rows",
+        "rho(A)"
+      ],
+      "example_questions": [
+        "What is the maximum possible rank of a 3x5 matrix?"
+      ],
+      "global_doubts": []
+    },
+    "augmented_matrix": {
+      "id": "augmented_matrix",
+      "name": "Augmented Matrix",
+      "description": "A matrix formed by appending the constant vector B as an additional column to the coefficient matrix A in a system of linear equations.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_basics"
+      ],
+      "related_concepts": [
+        "linear_system_consistency"
+      ],
+      "common_misconceptions": [
+        "Incorrectly adding the constant vector as a row instead of a column."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "coefficient matrix",
+        "constant matrix",
+        "augmentation"
+      ],
+      "example_questions": [
+        "Write the augmented matrix for a system of three equations with three unknowns."
+      ],
+      "global_doubts": []
+    },
+    "linear_system_consistency": {
+      "id": "linear_system_consistency",
+      "name": "Consistency of Linear Systems",
+      "description": "The analysis of whether a system AX=B has solutions. It is consistent if rank(A) = rank(A|B). It has a unique solution if this rank equals the number of unknowns, and infinite solutions otherwise.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "matrix_rank",
+        "augmented_matrix"
+      ],
+      "related_concepts": [
+        "homogeneous_linear_systems"
+      ],
+      "common_misconceptions": [
+        "Thinking a system with rank(A) < n always has no solution."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "consistent",
+        "inconsistent",
+        "unique solution",
+        "infinite solutions"
+      ],
+      "example_questions": [
+        "Given rank(A) = 2 and rank(A|B) = 3, does the system have a solution?"
+      ],
+      "global_doubts": []
+    },
+    "homogeneous_linear_systems": {
+      "id": "homogeneous_linear_systems",
+      "name": "Homogeneous Linear Systems",
+      "description": "A system of equations AX=0. These systems are always consistent and always possess the trivial solution (X=0). Non-trivial solutions exist only if det(A) = 0.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "linear_system_consistency",
+        "matrix_determinant"
+      ],
+      "related_concepts": [
+        "linear_system_consistency"
+      ],
+      "common_misconceptions": [
+        "Thinking a homogeneous system can be inconsistent (have no solution)."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "trivial solution",
+        "non-trivial solution",
+        "AX = 0"
+      ],
+      "example_questions": [
+        "Under what condition does a homogeneous system have non-trivial solutions?"
+      ],
+      "global_doubts": []
+    },
+    "linear_combination": {
+      "id": "linear_combination",
+      "name": "Linear Combination",
+      "description": "An expression formed by multiplying vectors by scalars and adding the results (e.g., k1V1 + k2V2 + ... + knVn).",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_basics"
+      ],
+      "related_concepts": [
+        "linear_independence"
+      ],
+      "common_misconceptions": [
+        "Thinking linear combinations only involve adding vectors without scalar multiplication.",
+        "Assuming coefficients must be integers"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "scalars",
+        "vector sum",
+        "weighted sum",
+        "scaling",
+        "vector addition",
+        "coefficients"
+      ],
+      "example_questions": [
+        "Express the vector [3, 4] as a linear combination of [1, 0] and [0, 1].",
+        "Express vector b as a linear combination of vectors v1 and v2."
+      ],
+      "global_doubts": []
+    },
+    "linear_independence": {
+      "id": "linear_independence",
+      "name": "Linear Independence",
+      "description": "A set of vectors is linearly independent if the only scalars that satisfy the linear combination k1V1 + ... + knVn = 0 are k1 = k2 = ... = kn = 0.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "linear_combination",
+        "matrix_determinant"
+      ],
+      "related_concepts": [
+        "matrix_rank"
+      ],
+      "common_misconceptions": [
+        "Thinking that if vectors are not parallel, they must be linearly independent in 3D space.",
+        "Assuming vectors are independent just because they aren't parallel (true for 2, not necessarily for 3+)"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "linearly dependent",
+        "trivial solution",
+        "spanning set",
+        "non-trivial solution",
+        "dependency"
+      ],
+      "example_questions": [
+        "Determine if the set of vectors {[1, 0], [0, 1], [1, 1]} is linearly independent.",
+        "Test whether a set of three vectors in R3 is linearly independent."
+      ],
+      "global_doubts": []
+    },
+    "matrix_definition": {
+      "id": "matrix_definition",
+      "name": "Matrix Definition",
+      "description": "A rectangular array of elements organized into horizontal rows and vertical columns, denoted by capital letters.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "remember",
+      "prerequisites": [],
+      "related_concepts": [
+        "matrix_order"
+      ],
+      "common_misconceptions": [
+        "Confusing rows with columns when identifying elements"
+      ],
+      "lecture_source": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "key_terms": [
+        "array",
+        "row",
+        "column"
+      ],
+      "example_questions": [
+        "What is a matrix in linear algebra?"
+      ],
+      "global_doubts": []
+    },
+    "matrix_order": {
+      "id": "matrix_order",
+      "name": "Matrix Order (Size)",
+      "description": "The dimensions of a matrix expressed as m by n (m x n), where m is the number of rows and n is the number of columns.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_definition"
+      ],
+      "related_concepts": [
+        "square_matrix"
+      ],
+      "common_misconceptions": [
+        "Listing columns before rows (n x m instead of m x n)"
+      ],
+      "lecture_source": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "key_terms": [
+        "m by n",
+        "dimensions"
+      ],
+      "example_questions": [
+        "If a matrix has 3 rows and 4 columns, what is its order?"
+      ],
+      "global_doubts": []
+    },
+    "square_matrix": {
+      "id": "square_matrix",
+      "name": "Square Matrix",
+      "description": "A matrix where the number of rows equals the number of columns (m = n).",
+      "difficulty": 0.1,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_order"
+      ],
+      "related_concepts": [
+        "diagonal_matrix",
+        "identity_matrix"
+      ],
+      "common_misconceptions": [
+        "Thinking all matrices must be square to have a determinant"
+      ],
+      "lecture_source": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "key_terms": [
+        "n by n"
+      ],
+      "example_questions": [
+        "Is a 3x2 matrix a square matrix?"
+      ],
+      "global_doubts": []
+    },
+    "principal_diagonal": {
+      "id": "principal_diagonal",
+      "name": "Principal Diagonal",
+      "description": "The collection of elements a_ii in a square matrix where the row index equals the column index.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "square_matrix"
+      ],
+      "related_concepts": [
+        "matrix_trace",
+        "diagonal_matrix"
+      ],
+      "common_misconceptions": [
+        "Confusing the principal diagonal with the anti-diagonal"
+      ],
+      "lecture_source": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "key_terms": [
+        "a_ii",
+        "diagonal elements"
+      ],
+      "example_questions": [
+        "Identify the principal diagonal elements of a 3x3 matrix."
+      ],
+      "global_doubts": []
+    },
+    "matrix_trace": {
+      "id": "matrix_trace",
+      "name": "Matrix Trace",
+      "description": "The sum of all elements on the principal diagonal of a square matrix.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "principal_diagonal"
+      ],
+      "related_concepts": [
+        "eigenvalue"
+      ],
+      "common_misconceptions": [
+        "Attempting to calculate the trace of a non-square matrix"
+      ],
+      "lecture_source": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "key_terms": [
+        "sum of diagonal",
+        "Tr(A)"
+      ],
+      "example_questions": [
+        "Calculate the trace of a matrix with diagonal elements 2, -1, and 5."
+      ],
+      "global_doubts": []
+    },
+    "row_picture": {
+      "id": "row_picture",
+      "name": "Row Picture of Linear Equations",
+      "description": "Viewing a system of linear equations as the intersection of geometric objects (lines in 2D, planes in 3D) where each equation represents one object.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "linear_combination"
+      ],
+      "related_concepts": [
+        "column_picture"
+      ],
+      "common_misconceptions": [
+        "Thinking that three planes always meet at a single point"
+      ],
+      "lecture_source": "1. The Geometry of Linear Equations",
+      "key_terms": [
+        "lines meeting",
+        "intersecting planes"
+      ],
+      "example_questions": [
+        "Describe the row picture for a 2x2 system of equations."
+      ],
+      "global_doubts": []
+    },
+    "column_picture": {
+      "id": "column_picture",
+      "name": "Column Picture of Linear Equations",
+      "description": "Viewing a system Ax = b as finding the right linear combination of the columns of A that produces vector b.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "linear_combination",
+        "matrix_definition"
+      ],
+      "related_concepts": [
+        "row_picture",
+        "span"
+      ],
+      "common_misconceptions": [
+        "Confusing the column picture with the row picture (mixing up intersections and combinations)"
+      ],
+      "lecture_source": "1. The Geometry of Linear Equations",
+      "key_terms": [
+        "column space",
+        "vector combination"
+      ],
+      "example_questions": [
+        "How does the column picture differ from the row picture in solving Ax = b?"
+      ],
+      "global_doubts": []
+    },
+    "matrix_vector_multiplication": {
+      "id": "matrix_vector_multiplication",
+      "name": "Matrix-Vector Multiplication",
+      "description": "The process of multiplying a matrix A by a vector x, which can be interpreted as a linear combination of the columns of A weighted by the entries of x.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_definition",
+        "linear_combination"
+      ],
+      "related_concepts": [
+        "column_picture"
+      ],
+      "common_misconceptions": [
+        "Multiplying element-by-element instead of using the dot product/combination method"
+      ],
+      "lecture_source": "1. The Geometry of Linear Equations",
+      "key_terms": [
+        "dot product",
+        "linear combination of columns"
+      ],
+      "example_questions": [
+        "Multiply a 2x2 matrix by a 2x1 vector using the column interpretation."
+      ],
+      "global_doubts": []
+    },
+    "span": {
+      "id": "span",
+      "name": "Span",
+      "description": "The set of all possible linear combinations of a given set of vectors, representing the portion of space they can reach.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "linear_combination"
+      ],
+      "related_concepts": [
+        "linear_independence",
+        "basis"
+      ],
+      "common_misconceptions": [
+        "Thinking that the span of two vectors is always a 2D plane (they could be collinear)"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "reachable space",
+        "vector coverage"
+      ],
+      "example_questions": [
+        "What is the span of two non-parallel vectors in R2?"
+      ],
+      "global_doubts": []
+    },
+    "gaussian_elimination": {
+      "id": "gaussian_elimination",
+      "name": "Gaussian Elimination",
+      "description": "A systematic process of using elementary row operations (swapping, scaling, adding) to transform a matrix into a simpler form to solve linear systems.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_definition",
+        "linear_combination"
+      ],
+      "related_concepts": [
+        "reduced_row_echelon_form",
+        "pivot_position"
+      ],
+      "common_misconceptions": [
+        "Thinking that row operations change the solution set of the system"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "row operations",
+        "elimination"
+      ],
+      "example_questions": [
+        "Use Gaussian elimination to solve a 3x3 system of equations."
+      ],
+      "global_doubts": []
+    },
+    "reduced_row_echelon_form": {
+      "id": "reduced_row_echelon_form",
+      "name": "Reduced Row Echelon Form (RREF)",
+      "description": "The simplest version of a matrix after Gaussian elimination, where each leading entry is 1 and is the only non-zero entry in its column.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "gaussian_elimination"
+      ],
+      "related_concepts": [
+        "pivot_position"
+      ],
+      "common_misconceptions": [
+        "Stopping at row echelon form and thinking it is RREF"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "leading one",
+        "simplest form"
+      ],
+      "example_questions": [
+        "Convert a given matrix into its RREF."
+      ],
+      "global_doubts": []
+    },
+    "pivot_position": {
+      "id": "pivot_position",
+      "name": "Pivot Position",
+      "description": "The first non-zero entry in a row of a matrix in row echelon form, used to determine the number of solutions and the rank.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "gaussian_elimination"
+      ],
+      "related_concepts": [
+        "reduced_row_echelon_form"
+      ],
+      "common_misconceptions": [
+        "Assuming pivots must be 1 in the initial matrix"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "leading entry",
+        "rank"
+      ],
+      "example_questions": [
+        "How many pivot positions are in the RREF of a given matrix?"
+      ],
+      "global_doubts": []
+    },
+    "determinant": {
+      "id": "determinant",
+      "name": "Determinant",
+      "description": "A scalar value derived from a square matrix that describes whether the matrix is invertible and how the associated transformation changes volume/orientation.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "square_matrix"
+      ],
+      "related_concepts": [
+        "matrix_inverse",
+        "linear_independence"
+      ],
+      "common_misconceptions": [
+        "Believing that a zero determinant means the matrix is 'empty' rather than singular"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "singular",
+        "volume scaling"
+      ],
+      "example_questions": [
+        "Calculate the determinant of a 3x3 matrix."
+      ],
+      "global_doubts": []
+    },
+    "basis": {
+      "id": "basis",
+      "name": "Basis",
+      "description": "The smallest possible set of linearly independent vectors that span a given vector space.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "span",
+        "linear_independence"
+      ],
+      "related_concepts": [
+        "dimension"
+      ],
+      "common_misconceptions": [
+        "Thinking that there is only one unique basis for a space"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "minimal spanning set",
+        "independent set"
+      ],
+      "example_questions": [
+        "Find a basis for the span of three given vectors."
+      ],
+      "global_doubts": []
+    },
+    "dimension": {
+      "id": "dimension",
+      "name": "Dimension",
+      "description": "The number of vectors present in any basis of a vector space.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "basis"
+      ],
+      "related_concepts": [
+        "span"
+      ],
+      "common_misconceptions": [
+        "Confusing the dimension of a subspace with the number of components in its vectors"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "basis size",
+        "degrees of freedom"
+      ],
+      "example_questions": [
+        "What is the dimension of R3?"
+      ],
+      "global_doubts": []
+    },
+    "linear_transformation": {
+      "id": "linear_transformation",
+      "name": "Linear Transformation",
+      "description": "A mapping between vectors that preserves vector addition and scalar multiplication, often represented by matrix multiplication.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "matrix_vector_multiplication",
+        "linear_combination"
+      ],
+      "related_concepts": [
+        "eigenvalue",
+        "determinant"
+      ],
+      "common_misconceptions": [
+        "Thinking that all functions mapping vectors to vectors are linear"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "mapping",
+        "preservation",
+        "transformation matrix"
+      ],
+      "example_questions": [
+        "How does a matrix transform the basis vectors of R2?"
+      ],
+      "global_doubts": []
+    },
+    "eigenvalue": {
+      "id": "eigenvalue",
+      "name": "Eigenvalue",
+      "description": "A scalar lambda such that Ax = lambda*x for some non-zero vector x. It represents the scaling factor of the eigenvector during transformation.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_vector_multiplication",
+        "characteristic_equation"
+      ],
+      "related_concepts": [
+        "eigenvector",
+        "matrix_trace"
+      ],
+      "common_misconceptions": [
+        "Assuming eigenvalues must be real numbers (they can be complex)"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "lambda",
+        "scaling factor"
+      ],
+      "example_questions": [
+        "Find the eigenvalues of a 2x2 matrix."
+      ],
+      "global_doubts": []
+    },
+    "eigenvector": {
+      "id": "eigenvector",
+      "name": "Eigenvector",
+      "description": "A non-zero vector x that changes only in magnitude (not direction) when multiplied by a matrix A: Ax = lambda*x.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_vector_multiplication",
+        "eigenvalue"
+      ],
+      "related_concepts": [
+        "linear_transformation"
+      ],
+      "common_misconceptions": [
+        "Including the zero vector as an eigenvector"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "invariant direction",
+        "characteristic vector"
+      ],
+      "example_questions": [
+        "Find the eigenvector corresponding to a specific eigenvalue."
+      ],
+      "global_doubts": []
+    },
+    "characteristic_equation": {
+      "id": "characteristic_equation",
+      "name": "Characteristic Equation",
+      "description": "The equation det(A - lambda*I) = 0, whose roots are the eigenvalues of matrix A.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "determinant",
+        "identity_matrix",
+        "square_matrix"
+      ],
+      "related_concepts": [
+        "eigenvalue"
+      ],
+      "common_misconceptions": [
+        "Forgetting to subtract lambda from the diagonal elements before calculating the determinant"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "characteristic polynomial",
+        "det(A - lambdaI)"
+      ],
+      "example_questions": [
+        "Derive the characteristic equation for a given 2x2 matrix."
+      ],
+      "global_doubts": []
+    }
+  },
+  "courses": [
+    {
+      "course_name": "Crash Course Geology",
+      "channel": "CrashCourse",
+      "playlist_id": "PL8dPuuaLjXtMuxfQl-TBfSHokgpbLvKX9",
+      "lectures": [
+        {
+          "index": 0,
+          "title": "Crash Course Geology Preview",
+          "video_id": "YokkwzdZX2A"
+        },
+        {
+          "index": 1,
+          "title": "Intro to Geology: Crash Course Geology #1",
+          "video_id": "ypH6dR7YGfU"
+        },
+        {
+          "index": 2,
+          "title": "How did Earth form?: Crash Course Geology #2",
+          "video_id": "3JdpD3X2Md8"
+        },
+        {
+          "index": 3,
+          "title": "Earth's Crust and Mantle Explained: Crash Course Geology #3",
+          "video_id": "bouvNyq8xCY"
+        }
+      ],
+      "concept_ids": [
+        "fields_of_geology",
+        "earth_internal_structure_overview",
+        "lithosphere_definition",
+        "geological_exploration_methods",
+        "earth_mantle_properties",
+        "moon_giant_impact_theory",
+        "planetesimal_to_planet_formation",
+        "geological_history_early_scientists",
+        "earth_crust_properties",
+        "earth_interconnected_system",
+        "asthenosphere_definition",
+        "solar_system_formation",
+        "geology_definition",
+        "sinestia_theory",
+        "continental_vs_oceanic_crust",
+        "isotopic_signatures",
+        "late_heavy_bombardment",
+        "earth_water_origin",
+        "mantle_convection",
+        "plate_tectonics_introduction",
+        "mineral_density_pressure_effects",
+        "geology_human_impact",
+        "hadean_eon",
+        "geological_history_indigenous"
+      ],
+      "ingested_at": "2026-05-02T08:28:57.562277+00:00"
+    },
+    {
+      "course_name": "Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+      "channel": "Umar Jamil",
+      "playlist_id": "8Q_tqwpTpVU",
+      "lectures": [
+        {
+          "index": 0,
+          "title": "Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math",
+          "video_id": "8Q_tqwpTpVU"
+        }
+      ],
+      "concept_ids": [
+        "recurrent_neural_network",
+        "convolutional_neural_network",
+        "rnn_non_parallel_training",
+        "quadratic_scaling_transformer",
+        "state_space_models",
+        "transformer_model",
+        "proportional_growth_model",
+        "continuous_signals",
+        "vanishing_exploding_gradients",
+        "transformer_parallel_training",
+        "sequence_modeling",
+        "rnn_constant_inference_cost",
+        "convolutional_kernel",
+        "discrete_signals",
+        "self_attention_mechanism",
+        "rnn_hidden_state",
+        "cnn_parallelizable_computation",
+        "transformer_non_constant_inference_cost",
+        "differential_equations_introduction",
+        "ideal_sequence_model_properties",
+        "rate_of_change",
+        "mamba_model"
+      ],
+      "ingested_at": "2026-05-02T09:06:51.083201+00:00"
+    },
+    {
+      "course_name": "How A Miracle Drug Disappeared Overnight",
+      "channel": "Veritasium",
+      "playlist_id": "ksn5yrsC3Wg",
+      "lectures": [
+        {
+          "index": 0,
+          "title": "How A Miracle Drug Disappeared Overnight",
+          "video_id": "ksn5yrsC3Wg"
+        }
+      ],
+      "concept_ids": [
+        "metastability",
+        "disappearing_polymorphs",
+        "drug_dissolution_testing",
+        "quality_assurance_emergency_protocol",
+        "crystal_polymorphism",
+        "silver_fulminate_vs_cyanate",
+        "thermodynamic_stability",
+        "solubility",
+        "crystallization",
+        "bioavailability",
+        "chemical_reproducibility",
+        "chemical_composition",
+        "stoichiometry",
+        "nucleation_and_seeding",
+        "chemical_isomerism"
+      ],
+      "ingested_at": "2026-05-02T10:03:12.607674+00:00"
+    },
+    {
+      "course_name": "Scientific Thinking",
+      "channel": "CrashCourse",
+      "playlist_id": "PL8dPuuaLjXtN6j3y85b7xbJDC8LTgdRJG",
+      "lectures": [
+        {
+          "index": 0,
+          "title": "Crash Course Scientific Thinking Preview",
+          "video_id": "Y45KrixWRNg"
+        },
+        {
+          "index": 1,
+          "title": "Introduction to Cognitive Bias: Crash Course Scientific Thinking #1",
+          "video_id": "d2r7Bk1NlgU"
+        },
+        {
+          "index": 2,
+          "title": "Statistical Thinking in Science: Crash Course Scientific Thinking #2",
+          "video_id": "Lw4oMXTEAkw"
+        },
+        {
+          "index": 3,
+          "title": "How Does Science Really Work? The Myth of the Great Experiment: Crash Course Scientific Thinking #3",
+          "video_id": "ba1YKP28RKY"
+        },
+        {
+          "index": 4,
+          "title": "Peer Review and the Quest for Truth: Crash Course Scientific Thinking #4",
+          "video_id": "qsgjKBvxnYA"
+        },
+        {
+          "index": 5,
+          "title": "How Scientists Build Consensus: Crash Course Scientific Thinking #5",
+          "video_id": "9wSAeV0xX0M"
+        },
+        {
+          "index": 6,
+          "title": "Evaluating Sources & Fact Checking: Crash Course Scientific Thinking #6",
+          "video_id": "Fm0MpfKIs5w"
+        },
+        {
+          "index": 7,
+          "title": "What Happens When Science Clashes with the Public?: Crash Course Scientific Thinking #7",
+          "video_id": "NaMcw8_10Yg"
+        }
+      ],
+      "concept_ids": [
+        "confidence_interval",
+        "causation",
+        "cognitive_bias",
+        "double_blind_study",
+        "empirical_evidence",
+        "observational_science",
+        "peer_review",
+        "scientific_consensus",
+        "statistical_significance",
+        "central_tendency",
+        "standard_deviation",
+        "cognitive_flexibility",
+        "randomized_control_trial",
+        "sampling",
+        "correlation",
+        "confounding_variable",
+        "lateral_reading",
+        "availability_bias",
+        "explanatory_power",
+        "secondary_tertiary_source",
+        "confirmation_bias",
+        "misinformation_vs_disinformation",
+        "heuristics",
+        "primary_source",
+        "sift_method",
+        "scientific_retraction",
+        "experimental_science",
+        "replication",
+        "absolute_vs_relative_risk"
+      ],
+      "ingested_at": "2026-05-02T23:06:36.523860+00:00"
+    },
+    {
+      "course_name": "Transformers Step by Step - StatQuest",
+      "channel": "Nash Mu\u00f1oz",
+      "playlist_id": "PLiQS_AeJ-uMDTfUiBZ0WtE5PEe7DOGeDm",
+      "lectures": [
+        {
+          "index": 0,
+          "title": "Word Embedding and Word2Vec, Clearly Explained!!!",
+          "video_id": "viZrOnJclY0"
+        },
+        {
+          "index": 1,
+          "title": "Recurrent Neural Networks (RNNs), Clearly Explained!!!",
+          "video_id": "AsNTP8Kwu80"
+        },
+        {
+          "index": 2,
+          "title": "Long Short-Term Memory (LSTM), Clearly Explained",
+          "video_id": "YCzL96nL7j0"
+        },
+        {
+          "index": 3,
+          "title": "Sequence-to-Sequence (seq2seq) Encoder-Decoder Neural Networks, Clearly Explained!!!",
+          "video_id": "L8HKweZIOmg"
+        },
+        {
+          "index": 4,
+          "title": "Attention for Neural Networks, Clearly Explained!!!",
+          "video_id": "PSs6nxngL6k"
+        },
+        {
+          "index": 5,
+          "title": "Transformer Neural Networks, ChatGPT's foundation, Clearly Explained!!!",
+          "video_id": "zxQyTK8quyY"
+        },
+        {
+          "index": 6,
+          "title": "Decoder-Only Transformers, ChatGPTs specific Transformer, Clearly Explained!!!",
+          "video_id": "bQ5BoolX9Ag"
+        }
+      ],
+      "concept_ids": [
+        "word_embeddings",
+        "multi_head_attention",
+        "negative_sampling",
+        "positional_encoding",
+        "lstm_architecture",
+        "rnn_unrolling",
+        "decoder_only_transformer",
+        "word2vec_strategies",
+        "self_attention",
+        "recurrent_neural_network",
+        "query_key_value_mechanism",
+        "dot_product_attention",
+        "masked_self_attention",
+        "vector_similarity",
+        "lstm_gates",
+        "residual_connections",
+        "context_vector",
+        "encoder_decoder_architecture",
+        "vanishing_exploding_gradient",
+        "attention_mechanism",
+        "teacher_forcing"
+      ],
+      "ingested_at": "2026-05-03T07:33:07.849692+00:00"
+    },
+    {
+      "course_name": "Integration (Auto-curated)",
+      "channel": "Multiple Sources",
+      "playlist_id": "topic_integration",
+      "lectures": [
+        {
+          "index": 0,
+          "title": "Integration (Calculus)",
+          "video_id": "IQ15BnVUgis"
+        },
+        {
+          "index": 1,
+          "title": "Integration and the fundamental theorem of calculus | Chapter 8, Essence of calculus",
+          "video_id": "rfG8ce4nNh0"
+        },
+        {
+          "index": 2,
+          "title": "Integration Using The Substitution Rule",
+          "video_id": "sci1pls4Lc8"
+        }
+      ],
+      "concept_ids": [
+        "natural_log_integration",
+        "area_under_curve",
+        "antiderivative",
+        "inverse_relationship_derivative_integral",
+        "constant_of_integration",
+        "power_rule_integration",
+        "fundamental_theorem_of_calculus",
+        "negative_exponent_integration",
+        "definite_integral_evaluation",
+        "substitution_rule",
+        "integration_by_substitution_trig",
+        "u_substitution_pattern_recognition",
+        "differential_manipulation",
+        "integration_of_constants",
+        "rectangle_approximation",
+        "signed_area",
+        "integral_limit_definition"
+      ],
+      "ingested_at": "2026-05-03T08:04:13.774898+00:00"
+    },
+    {
+      "course_name": "Linear Algebra (Auto-curated)",
+      "channel": "Multiple Sources",
+      "playlist_id": "topic_linear_algebra",
+      "lectures": [
+        {
+          "index": 0,
+          "title": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+          "video_id": "TLRiju0jFEI"
+        },
+        {
+          "index": 1,
+          "title": "ALL of linear algebra in 7 minutes.",
+          "video_id": "QL4_4GAWvPs"
+        },
+        {
+          "index": 2,
+          "title": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+          "video_id": "tQrCmSy32S4"
+        },
+        {
+          "index": 3,
+          "title": "1. The Geometry of Linear Equations",
+          "video_id": "J7DzL2_Na80"
+        }
+      ],
+      "concept_ids": [
+        "matrix_trace",
+        "reduced_row_echelon_form",
+        "eigenvector",
+        "basis",
+        "skew_symmetric_matrix",
+        "square_matrix",
+        "matrix_transpose",
+        "linear_independence",
+        "row_picture",
+        "determinant_properties",
+        "characteristic_equation",
+        "matrix_determinant",
+        "adjoint_matrix",
+        "determinant",
+        "linear_transformation",
+        "diagonal_matrix",
+        "matrix_rank",
+        "matrix_inverse",
+        "symmetric_matrix",
+        "pivot_position",
+        "dimension",
+        "orthogonal_matrix",
+        "identity_matrix",
+        "nilpotent_matrix",
+        "principal_diagonal",
+        "matrix_multiplication",
+        "matrix_indexing",
+        "augmented_matrix",
+        "linear_combination",
+        "matrix_minor_cofactor",
+        "idempotent_matrix",
+        "matrix_order",
+        "matrix_definition",
+        "involutory_matrix",
+        "matrix_vector_multiplication",
+        "matrix_basics",
+        "linear_system_consistency",
+        "gaussian_elimination",
+        "homogeneous_linear_systems",
+        "column_picture",
+        "eigenvalue",
+        "span",
+        "row_echelon_form",
+        "matrix_singularity"
+      ],
+      "ingested_at": "2026-05-03T09:42:26.636415+00:00"
+    }
+  ],
+  "hierarchy": {
+    "course_name": "Linear Algebra (Auto-curated)",
+    "channel": "Multiple Sources",
+    "lectures": [
+      {
+        "index": 0,
+        "title": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+        "video_id": "TLRiju0jFEI"
+      },
+      {
+        "index": 1,
+        "title": "ALL of linear algebra in 7 minutes.",
+        "video_id": "QL4_4GAWvPs"
+      },
+      {
+        "index": 2,
+        "title": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+        "video_id": "tQrCmSy32S4"
+      },
+      {
+        "index": 3,
+        "title": "1. The Geometry of Linear Equations",
+        "video_id": "J7DzL2_Na80"
+      }
+    ]
+  },
+  "metadata": {
+    "total_concepts": 171,
+    "total_edges": 312,
+    "total_courses": 7
+  }
+}

@@ -1,0 +1,1 @@
+{"doubt_resolution": [{"concept_name": "Sorting", "doubt": "Why is quicksort faster?", "answer": "Average case O(n log n).", "misconception_type": "none", "misconception_explanation": "", "follow_up_question": "What is the worst case?"}], "evaluation": [], "total_approved": 1}

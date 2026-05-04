@@ -1,0 +1,1157 @@
+{
+  "course_name": "Linear Algebra (Auto-curated)",
+  "channel": "Multiple Sources",
+  "concepts": [
+    {
+      "id": "matrix_basics",
+      "name": "Matrix Basics",
+      "description": "Definition of a matrix as a rectangular arrangement of elements organized in horizontal rows and vertical columns.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "understand",
+      "prerequisites": [],
+      "related_concepts": [
+        "matrix_indexing"
+      ],
+      "common_misconceptions": [
+        "Thinking only rectangular arrays are matrices, whereas square arrays are also matrices."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "rows",
+        "columns",
+        "rectangular arrangement"
+      ],
+      "example_questions": [
+        "What is the difference between a row and a column in a matrix?"
+      ]
+    },
+    {
+      "id": "matrix_indexing",
+      "name": "Matrix Indexing and Order",
+      "description": "Defining the size (order) of a matrix as M x N (rows by columns) and identifying specific elements using the notation a_ij, where i is the row number and j is the column number.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_basics"
+      ],
+      "related_concepts": [
+        "matrix_basics"
+      ],
+      "common_misconceptions": [
+        "Swapping the order of rows and columns (e.g., calling a 3x2 matrix a 2x3 matrix)."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "order",
+        "size",
+        "subscript",
+        "a_ij"
+      ],
+      "example_questions": [
+        "In a 3x5 matrix, what are the indices of the element in the 2nd row and 4th column?"
+      ]
+    },
+    {
+      "id": "matrix_multiplication",
+      "name": "Matrix Multiplication",
+      "description": "The process of computing the product of two matrices, requiring that the number of columns in the first matrix equals the number of rows in the second.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "matrix_basics"
+      ],
+      "common_misconceptions": [
+        "Assuming matrix multiplication is commutative (AB = BA)."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "dot product",
+        "compatibility",
+        "product matrix"
+      ],
+      "example_questions": [
+        "If matrix A is 3x4 and matrix B is 4x2, what is the order of the resulting matrix AB?"
+      ]
+    },
+    {
+      "id": "matrix_transpose",
+      "name": "Matrix Transpose",
+      "description": "An operation that flips a matrix over its diagonal, interchanging its row and column indices (A_ij becomes A_ji).",
+      "difficulty": 0.2,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "symmetric_matrix",
+        "skew_symmetric_matrix"
+      ],
+      "common_misconceptions": [
+        "Confusing transpose with the inverse of a matrix.",
+        "Thinking transpose changes the values of the elements"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "reflection",
+        "interchange",
+        "A^T"
+      ],
+      "example_questions": [
+        "Given a 2x3 matrix, what will be the order of its transpose?",
+        "Find the transpose of a 2x3 matrix."
+      ]
+    },
+    {
+      "id": "symmetric_matrix",
+      "name": "Symmetric Matrix",
+      "description": "A square matrix that is equal to its own transpose (A = A^T), meaning elements are mirrored across the principal diagonal.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_transpose",
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "skew_symmetric_matrix"
+      ],
+      "common_misconceptions": [
+        "Thinking any matrix with equal values in the first and last row is symmetric.",
+        "Thinking symmetry only applies to the visual layout and not the mathematical property a_ij = a_ji"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "mirrored",
+        "A = A^T",
+        "mirror image"
+      ],
+      "example_questions": [
+        "Verify if a matrix where a_ij = a_ji for all i, j is symmetric.",
+        "Determine if a given 3x3 matrix is symmetric."
+      ]
+    },
+    {
+      "id": "skew_symmetric_matrix",
+      "name": "Skew-Symmetric Matrix",
+      "description": "A square matrix where A^T = -A, meaning elements across the diagonal have opposite signs, and all principal diagonal elements must be zero.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "matrix_transpose",
+        "symmetric_matrix"
+      ],
+      "related_concepts": [
+        "symmetric_matrix"
+      ],
+      "common_misconceptions": [
+        "Forgetting that the principal diagonal elements must be zero for a matrix to be skew-symmetric.",
+        "Forgetting that diagonal elements must be zero in a skew-symmetric matrix"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "A^T = -A",
+        "zero diagonal"
+      ],
+      "example_questions": [
+        "Why must the diagonal elements of a skew-symmetric matrix always be zero?",
+        "Why must the diagonal elements of a skew-symmetric matrix be zero?"
+      ]
+    },
+    {
+      "id": "diagonal_matrix",
+      "name": "Diagonal Matrix",
+      "description": "A square matrix where all elements outside the principal diagonal are zero.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "identity_matrix"
+      ],
+      "common_misconceptions": [
+        "Thinking the diagonal elements themselves must be non-zero.",
+        "Believing that the diagonal elements themselves must be non-zero"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "principal diagonal",
+        "non-diagonal elements",
+        "off-diagonal zeros"
+      ],
+      "example_questions": [
+        "Is a null matrix also a diagonal matrix?",
+        "Is a matrix with all zeros a diagonal matrix?"
+      ]
+    },
+    {
+      "id": "identity_matrix",
+      "name": "Identity Matrix",
+      "description": "A special diagonal matrix where all principal diagonal elements are 1 and all other elements are 0.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "remember",
+      "prerequisites": [
+        "diagonal_matrix"
+      ],
+      "related_concepts": [
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Confusing the identity matrix with a matrix of all ones.",
+        "Confusing the identity matrix with a matrix of all ones"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "unit matrix",
+        "I"
+      ],
+      "example_questions": [
+        "What happens when any square matrix A is multiplied by the identity matrix I?",
+        "What is the 2x2 identity matrix?"
+      ]
+    },
+    {
+      "id": "orthogonal_matrix",
+      "name": "Orthogonal Matrix",
+      "description": "A square matrix A such that A multiplied by its transpose results in the identity matrix (A * A^T = I).",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_multiplication",
+        "matrix_transpose",
+        "identity_matrix"
+      ],
+      "related_concepts": [
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Thinking every matrix with a determinant of 1 is orthogonal."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "perpendicularity",
+        "dot product",
+        "A * A^T = I"
+      ],
+      "example_questions": [
+        "Prove that the determinant of an orthogonal matrix is either 1 or -1."
+      ]
+    },
+    {
+      "id": "idempotent_matrix",
+      "name": "Idempotent Matrix",
+      "description": "A square matrix that, when multiplied by itself, yields the original matrix (A^2 = A).",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_multiplication"
+      ],
+      "related_concepts": [
+        "involutory_matrix"
+      ],
+      "common_misconceptions": [
+        "Thinking A^2 = A implies A must be the identity matrix."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "A^2 = A"
+      ],
+      "example_questions": [
+        "If a matrix is idempotent, what are the possible values for its determinant?"
+      ]
+    },
+    {
+      "id": "involutory_matrix",
+      "name": "Involutory Matrix",
+      "description": "A square matrix that is its own inverse, meaning A squared equals the identity matrix (A^2 = I).",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_multiplication",
+        "identity_matrix"
+      ],
+      "related_concepts": [
+        "idempotent_matrix",
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Confusing involutory matrices (A^2 = I) with idempotent matrices (A^2 = A)."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "A^2 = I",
+        "self-inverse"
+      ],
+      "example_questions": [
+        "If A is involutory, what is A inverse?"
+      ]
+    },
+    {
+      "id": "nilpotent_matrix",
+      "name": "Nilpotent Matrix",
+      "description": "A non-zero square matrix A such that some positive integer power n results in the zero matrix (A^n = 0). The smallest such n is called the index of nilpotency.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_multiplication"
+      ],
+      "related_concepts": [],
+      "common_misconceptions": [
+        "Thinking the matrix must be the zero matrix to satisfy A^n = 0."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "index of nilpotency",
+        "A^n = 0"
+      ],
+      "example_questions": [
+        "Find the index of nilpotency for a matrix if A^3 = 0 but A^2 != 0."
+      ]
+    },
+    {
+      "id": "matrix_minor_cofactor",
+      "name": "Matrix Minors and Cofactors",
+      "description": "A minor is the determinant of a submatrix formed by deleting a specific row and column. A cofactor is a minor multiplied by (-1)^(i+j).",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "matrix_determinant"
+      ],
+      "common_misconceptions": [
+        "Forgetting to apply the alternating sign (-1)^(i+j) when calculating cofactors."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "submatrix",
+        "alternating sign",
+        "cofactor"
+      ],
+      "example_questions": [
+        "Calculate the cofactor of the element a_12 in a 3x3 matrix."
+      ]
+    },
+    {
+      "id": "matrix_determinant",
+      "name": "Matrix Determinant",
+      "description": "A scalar value derived from a square matrix, computed as the sum of elements of any row or column multiplied by their corresponding cofactors.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_minor_cofactor",
+        "matrix_indexing"
+      ],
+      "related_concepts": [
+        "matrix_singularity",
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Trying to calculate the determinant of a non-square matrix."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "Laplace expansion",
+        "scalar value",
+        "det(A)"
+      ],
+      "example_questions": [
+        "Compute the determinant of a 3x3 matrix using expansion along the second column."
+      ]
+    },
+    {
+      "id": "determinant_properties",
+      "name": "Properties of Determinants",
+      "description": "Rules for determinants, such as |A^T| = |A|, |kA| = k^n|A|, and the fact that swapping two rows changes the sign of the determinant.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "matrix_determinant",
+        "matrix_transpose"
+      ],
+      "related_concepts": [
+        "matrix_determinant"
+      ],
+      "common_misconceptions": [
+        "Thinking |kA| = k|A| instead of k to the power of n times |A|."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "scalar multiplication",
+        "row swap",
+        "linear transformation"
+      ],
+      "example_questions": [
+        "If |A| = 5 and A is a 3x3 matrix, what is |2A|?"
+      ]
+    },
+    {
+      "id": "adjoint_matrix",
+      "name": "Adjoint Matrix",
+      "description": "The transpose of the cofactor matrix of a square matrix A.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_minor_cofactor",
+        "matrix_transpose"
+      ],
+      "related_concepts": [
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Confusing the adjoint matrix with the inverse matrix."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "cofactor matrix transpose",
+        "adj(A)"
+      ],
+      "example_questions": [
+        "What is the relationship between A, adj(A), and det(A)?"
+      ]
+    },
+    {
+      "id": "matrix_inverse",
+      "name": "Matrix Inverse",
+      "description": "A square matrix A inverse such that A * A inverse = I. It is computed as (1/det(A)) * adj(A).",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_determinant",
+        "adjoint_matrix",
+        "identity_matrix"
+      ],
+      "related_concepts": [
+        "matrix_singularity",
+        "orthogonal_matrix"
+      ],
+      "common_misconceptions": [
+        "Assuming every square matrix has an inverse.",
+        "Thinking that the inverse is simply the reciprocal of each element"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "multiplicative inverse",
+        "A^-1",
+        "non-singular",
+        "invertible"
+      ],
+      "example_questions": [
+        "Find the inverse of a 2x2 matrix using the adjoint method.",
+        "Find the inverse of a 2x2 matrix."
+      ]
+    },
+    {
+      "id": "matrix_singularity",
+      "name": "Matrix Singularity",
+      "description": "A square matrix is called singular if its determinant is zero, meaning it does not have an inverse.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_determinant"
+      ],
+      "related_concepts": [
+        "matrix_inverse"
+      ],
+      "common_misconceptions": [
+        "Thinking a matrix with a zero element on the diagonal is automatically singular."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "singular",
+        "non-singular",
+        "det(A) = 0"
+      ],
+      "example_questions": [
+        "How can you determine if a matrix is singular without finding its inverse?"
+      ]
+    },
+    {
+      "id": "row_echelon_form",
+      "name": "Row Echelon Form (REF)",
+      "description": "A matrix form where all zero rows are at the bottom and the number of leading zeros in a row is strictly greater than the number of leading zeros in the row above it.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_basics"
+      ],
+      "related_concepts": [
+        "matrix_rank"
+      ],
+      "common_misconceptions": [
+        "Confusing Row Echelon Form with Reduced Row Echelon Form (RREF)."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "leading non-zero element",
+        "row transformation",
+        "pivot"
+      ],
+      "example_questions": [
+        "Convert a given 3x4 matrix into Row Echelon Form using elementary row operations."
+      ]
+    },
+    {
+      "id": "matrix_rank",
+      "name": "Matrix Rank",
+      "description": "The dimension of the vector space generated by its rows or columns, practically found as the number of non-zero rows in its Row Echelon Form.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "row_echelon_form",
+        "matrix_minor_cofactor"
+      ],
+      "related_concepts": [
+        "linear_system_consistency"
+      ],
+      "common_misconceptions": [
+        "Thinking the rank is just the number of non-zero elements in the matrix."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "rank",
+        "non-zero rows",
+        "rho(A)"
+      ],
+      "example_questions": [
+        "What is the maximum possible rank of a 3x5 matrix?"
+      ]
+    },
+    {
+      "id": "augmented_matrix",
+      "name": "Augmented Matrix",
+      "description": "A matrix formed by appending the constant vector B as an additional column to the coefficient matrix A in a system of linear equations.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_basics"
+      ],
+      "related_concepts": [
+        "linear_system_consistency"
+      ],
+      "common_misconceptions": [
+        "Incorrectly adding the constant vector as a row instead of a column."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "coefficient matrix",
+        "constant matrix",
+        "augmentation"
+      ],
+      "example_questions": [
+        "Write the augmented matrix for a system of three equations with three unknowns."
+      ]
+    },
+    {
+      "id": "linear_system_consistency",
+      "name": "Consistency of Linear Systems",
+      "description": "The analysis of whether a system AX=B has solutions. It is consistent if rank(A) = rank(A|B). It has a unique solution if this rank equals the number of unknowns, and infinite solutions otherwise.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "matrix_rank",
+        "augmented_matrix"
+      ],
+      "related_concepts": [
+        "homogeneous_linear_systems"
+      ],
+      "common_misconceptions": [
+        "Thinking a system with rank(A) < n always has no solution."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "consistent",
+        "inconsistent",
+        "unique solution",
+        "infinite solutions"
+      ],
+      "example_questions": [
+        "Given rank(A) = 2 and rank(A|B) = 3, does the system have a solution?"
+      ]
+    },
+    {
+      "id": "homogeneous_linear_systems",
+      "name": "Homogeneous Linear Systems",
+      "description": "A system of equations AX=0. These systems are always consistent and always possess the trivial solution (X=0). Non-trivial solutions exist only if det(A) = 0.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "linear_system_consistency",
+        "matrix_determinant"
+      ],
+      "related_concepts": [
+        "linear_system_consistency"
+      ],
+      "common_misconceptions": [
+        "Thinking a homogeneous system can be inconsistent (have no solution)."
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "trivial solution",
+        "non-trivial solution",
+        "AX = 0"
+      ],
+      "example_questions": [
+        "Under what condition does a homogeneous system have non-trivial solutions?"
+      ]
+    },
+    {
+      "id": "linear_combination",
+      "name": "Linear Combination",
+      "description": "An expression formed by multiplying vectors by scalars and adding the results (e.g., k1V1 + k2V2 + ... + knVn).",
+      "difficulty": 0.4,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_basics"
+      ],
+      "related_concepts": [
+        "linear_independence"
+      ],
+      "common_misconceptions": [
+        "Thinking linear combinations only involve adding vectors without scalar multiplication.",
+        "Assuming coefficients must be integers"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "scalars",
+        "vector sum",
+        "weighted sum",
+        "scaling",
+        "vector addition",
+        "coefficients"
+      ],
+      "example_questions": [
+        "Express the vector [3, 4] as a linear combination of [1, 0] and [0, 1].",
+        "Express vector b as a linear combination of vectors v1 and v2."
+      ]
+    },
+    {
+      "id": "linear_independence",
+      "name": "Linear Independence",
+      "description": "A set of vectors is linearly independent if the only scalars that satisfy the linear combination k1V1 + ... + knVn = 0 are k1 = k2 = ... = kn = 0.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "linear_combination",
+        "matrix_determinant"
+      ],
+      "related_concepts": [
+        "matrix_rank"
+      ],
+      "common_misconceptions": [
+        "Thinking that if vectors are not parallel, they must be linearly independent in 3D space.",
+        "Assuming vectors are independent just because they aren't parallel (true for 2, not necessarily for 3+)"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "linearly dependent",
+        "trivial solution",
+        "spanning set",
+        "non-trivial solution",
+        "dependency"
+      ],
+      "example_questions": [
+        "Determine if the set of vectors {[1, 0], [0, 1], [1, 1]} is linearly independent.",
+        "Test whether a set of three vectors in R3 is linearly independent."
+      ]
+    },
+    {
+      "id": "matrix_definition",
+      "name": "Matrix Definition",
+      "description": "A rectangular array of elements organized into horizontal rows and vertical columns, denoted by capital letters.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "remember",
+      "prerequisites": [],
+      "related_concepts": [
+        "matrix_order"
+      ],
+      "common_misconceptions": [
+        "Confusing rows with columns when identifying elements"
+      ],
+      "lecture_source": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "key_terms": [
+        "array",
+        "row",
+        "column"
+      ],
+      "example_questions": [
+        "What is a matrix in linear algebra?"
+      ]
+    },
+    {
+      "id": "matrix_order",
+      "name": "Matrix Order (Size)",
+      "description": "The dimensions of a matrix expressed as m by n (m x n), where m is the number of rows and n is the number of columns.",
+      "difficulty": 0.1,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_definition"
+      ],
+      "related_concepts": [
+        "square_matrix"
+      ],
+      "common_misconceptions": [
+        "Listing columns before rows (n x m instead of m x n)"
+      ],
+      "lecture_source": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "key_terms": [
+        "m by n",
+        "dimensions"
+      ],
+      "example_questions": [
+        "If a matrix has 3 rows and 4 columns, what is its order?"
+      ]
+    },
+    {
+      "id": "square_matrix",
+      "name": "Square Matrix",
+      "description": "A matrix where the number of rows equals the number of columns (m = n).",
+      "difficulty": 0.1,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "matrix_order"
+      ],
+      "related_concepts": [
+        "diagonal_matrix",
+        "identity_matrix"
+      ],
+      "common_misconceptions": [
+        "Thinking all matrices must be square to have a determinant"
+      ],
+      "lecture_source": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "key_terms": [
+        "n by n"
+      ],
+      "example_questions": [
+        "Is a 3x2 matrix a square matrix?"
+      ]
+    },
+    {
+      "id": "principal_diagonal",
+      "name": "Principal Diagonal",
+      "description": "The collection of elements a_ii in a square matrix where the row index equals the column index.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "square_matrix"
+      ],
+      "related_concepts": [
+        "matrix_trace",
+        "diagonal_matrix"
+      ],
+      "common_misconceptions": [
+        "Confusing the principal diagonal with the anti-diagonal"
+      ],
+      "lecture_source": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "key_terms": [
+        "a_ii",
+        "diagonal elements"
+      ],
+      "example_questions": [
+        "Identify the principal diagonal elements of a 3x3 matrix."
+      ]
+    },
+    {
+      "id": "matrix_trace",
+      "name": "Matrix Trace",
+      "description": "The sum of all elements on the principal diagonal of a square matrix.",
+      "difficulty": 0.2,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "principal_diagonal"
+      ],
+      "related_concepts": [
+        "eigenvalue"
+      ],
+      "common_misconceptions": [
+        "Attempting to calculate the trace of a non-square matrix"
+      ],
+      "lecture_source": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "key_terms": [
+        "sum of diagonal",
+        "Tr(A)"
+      ],
+      "example_questions": [
+        "Calculate the trace of a matrix with diagonal elements 2, -1, and 5."
+      ]
+    },
+    {
+      "id": "row_picture",
+      "name": "Row Picture of Linear Equations",
+      "description": "Viewing a system of linear equations as the intersection of geometric objects (lines in 2D, planes in 3D) where each equation represents one object.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "linear_combination"
+      ],
+      "related_concepts": [
+        "column_picture"
+      ],
+      "common_misconceptions": [
+        "Thinking that three planes always meet at a single point"
+      ],
+      "lecture_source": "1. The Geometry of Linear Equations",
+      "key_terms": [
+        "lines meeting",
+        "intersecting planes"
+      ],
+      "example_questions": [
+        "Describe the row picture for a 2x2 system of equations."
+      ]
+    },
+    {
+      "id": "column_picture",
+      "name": "Column Picture of Linear Equations",
+      "description": "Viewing a system Ax = b as finding the right linear combination of the columns of A that produces vector b.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "linear_combination",
+        "matrix_definition"
+      ],
+      "related_concepts": [
+        "row_picture",
+        "span"
+      ],
+      "common_misconceptions": [
+        "Confusing the column picture with the row picture (mixing up intersections and combinations)"
+      ],
+      "lecture_source": "1. The Geometry of Linear Equations",
+      "key_terms": [
+        "column space",
+        "vector combination"
+      ],
+      "example_questions": [
+        "How does the column picture differ from the row picture in solving Ax = b?"
+      ]
+    },
+    {
+      "id": "matrix_vector_multiplication",
+      "name": "Matrix-Vector Multiplication",
+      "description": "The process of multiplying a matrix A by a vector x, which can be interpreted as a linear combination of the columns of A weighted by the entries of x.",
+      "difficulty": 0.3,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_definition",
+        "linear_combination"
+      ],
+      "related_concepts": [
+        "column_picture"
+      ],
+      "common_misconceptions": [
+        "Multiplying element-by-element instead of using the dot product/combination method"
+      ],
+      "lecture_source": "1. The Geometry of Linear Equations",
+      "key_terms": [
+        "dot product",
+        "linear combination of columns"
+      ],
+      "example_questions": [
+        "Multiply a 2x2 matrix by a 2x1 vector using the column interpretation."
+      ]
+    },
+    {
+      "id": "span",
+      "name": "Span",
+      "description": "The set of all possible linear combinations of a given set of vectors, representing the portion of space they can reach.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "linear_combination"
+      ],
+      "related_concepts": [
+        "linear_independence",
+        "basis"
+      ],
+      "common_misconceptions": [
+        "Thinking that the span of two vectors is always a 2D plane (they could be collinear)"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "reachable space",
+        "vector coverage"
+      ],
+      "example_questions": [
+        "What is the span of two non-parallel vectors in R2?"
+      ]
+    },
+    {
+      "id": "gaussian_elimination",
+      "name": "Gaussian Elimination",
+      "description": "A systematic process of using elementary row operations (swapping, scaling, adding) to transform a matrix into a simpler form to solve linear systems.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_definition",
+        "linear_combination"
+      ],
+      "related_concepts": [
+        "reduced_row_echelon_form",
+        "pivot_position"
+      ],
+      "common_misconceptions": [
+        "Thinking that row operations change the solution set of the system"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "row operations",
+        "elimination"
+      ],
+      "example_questions": [
+        "Use Gaussian elimination to solve a 3x3 system of equations."
+      ]
+    },
+    {
+      "id": "reduced_row_echelon_form",
+      "name": "Reduced Row Echelon Form (RREF)",
+      "description": "The simplest version of a matrix after Gaussian elimination, where each leading entry is 1 and is the only non-zero entry in its column.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "gaussian_elimination"
+      ],
+      "related_concepts": [
+        "pivot_position"
+      ],
+      "common_misconceptions": [
+        "Stopping at row echelon form and thinking it is RREF"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "leading one",
+        "simplest form"
+      ],
+      "example_questions": [
+        "Convert a given matrix into its RREF."
+      ]
+    },
+    {
+      "id": "pivot_position",
+      "name": "Pivot Position",
+      "description": "The first non-zero entry in a row of a matrix in row echelon form, used to determine the number of solutions and the rank.",
+      "difficulty": 0.4,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "gaussian_elimination"
+      ],
+      "related_concepts": [
+        "reduced_row_echelon_form"
+      ],
+      "common_misconceptions": [
+        "Assuming pivots must be 1 in the initial matrix"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "leading entry",
+        "rank"
+      ],
+      "example_questions": [
+        "How many pivot positions are in the RREF of a given matrix?"
+      ]
+    },
+    {
+      "id": "determinant",
+      "name": "Determinant",
+      "description": "A scalar value derived from a square matrix that describes whether the matrix is invertible and how the associated transformation changes volume/orientation.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "square_matrix"
+      ],
+      "related_concepts": [
+        "matrix_inverse",
+        "linear_independence"
+      ],
+      "common_misconceptions": [
+        "Believing that a zero determinant means the matrix is 'empty' rather than singular"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "singular",
+        "volume scaling"
+      ],
+      "example_questions": [
+        "Calculate the determinant of a 3x3 matrix."
+      ]
+    },
+    {
+      "id": "basis",
+      "name": "Basis",
+      "description": "The smallest possible set of linearly independent vectors that span a given vector space.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "span",
+        "linear_independence"
+      ],
+      "related_concepts": [
+        "dimension"
+      ],
+      "common_misconceptions": [
+        "Thinking that there is only one unique basis for a space"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "minimal spanning set",
+        "independent set"
+      ],
+      "example_questions": [
+        "Find a basis for the span of three given vectors."
+      ]
+    },
+    {
+      "id": "dimension",
+      "name": "Dimension",
+      "description": "The number of vectors present in any basis of a vector space.",
+      "difficulty": 0.5,
+      "bloom_ceiling": "understand",
+      "prerequisites": [
+        "basis"
+      ],
+      "related_concepts": [
+        "span"
+      ],
+      "common_misconceptions": [
+        "Confusing the dimension of a subspace with the number of components in its vectors"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "basis size",
+        "degrees of freedom"
+      ],
+      "example_questions": [
+        "What is the dimension of R3?"
+      ]
+    },
+    {
+      "id": "linear_transformation",
+      "name": "Linear Transformation",
+      "description": "A mapping between vectors that preserves vector addition and scalar multiplication, often represented by matrix multiplication.",
+      "difficulty": 0.6,
+      "bloom_ceiling": "analyse",
+      "prerequisites": [
+        "matrix_vector_multiplication",
+        "linear_combination"
+      ],
+      "related_concepts": [
+        "eigenvalue",
+        "determinant"
+      ],
+      "common_misconceptions": [
+        "Thinking that all functions mapping vectors to vectors are linear"
+      ],
+      "lecture_source": "ALL of linear algebra in 7 minutes.",
+      "key_terms": [
+        "mapping",
+        "preservation",
+        "transformation matrix"
+      ],
+      "example_questions": [
+        "How does a matrix transform the basis vectors of R2?"
+      ]
+    },
+    {
+      "id": "eigenvalue",
+      "name": "Eigenvalue",
+      "description": "A scalar lambda such that Ax = lambda*x for some non-zero vector x. It represents the scaling factor of the eigenvector during transformation.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_vector_multiplication",
+        "characteristic_equation"
+      ],
+      "related_concepts": [
+        "eigenvector",
+        "matrix_trace"
+      ],
+      "common_misconceptions": [
+        "Assuming eigenvalues must be real numbers (they can be complex)"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "lambda",
+        "scaling factor"
+      ],
+      "example_questions": [
+        "Find the eigenvalues of a 2x2 matrix."
+      ]
+    },
+    {
+      "id": "eigenvector",
+      "name": "Eigenvector",
+      "description": "A non-zero vector x that changes only in magnitude (not direction) when multiplied by a matrix A: Ax = lambda*x.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "matrix_vector_multiplication",
+        "eigenvalue"
+      ],
+      "related_concepts": [
+        "linear_transformation"
+      ],
+      "common_misconceptions": [
+        "Including the zero vector as an eigenvector"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "invariant direction",
+        "characteristic vector"
+      ],
+      "example_questions": [
+        "Find the eigenvector corresponding to a specific eigenvalue."
+      ]
+    },
+    {
+      "id": "characteristic_equation",
+      "name": "Characteristic Equation",
+      "description": "The equation det(A - lambda*I) = 0, whose roots are the eigenvalues of matrix A.",
+      "difficulty": 0.7,
+      "bloom_ceiling": "apply",
+      "prerequisites": [
+        "determinant",
+        "identity_matrix",
+        "square_matrix"
+      ],
+      "related_concepts": [
+        "eigenvalue"
+      ],
+      "common_misconceptions": [
+        "Forgetting to subtract lambda from the diagonal elements before calculating the determinant"
+      ],
+      "lecture_source": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "key_terms": [
+        "characteristic polynomial",
+        "det(A - lambdaI)"
+      ],
+      "example_questions": [
+        "Derive the characteristic equation for a given 2x2 matrix."
+      ]
+    }
+  ],
+  "lectures": [
+    {
+      "index": 0,
+      "title": "Engineering Mathematics | Linear Algebra (Matrices) | GATE 2023 | For All Branches",
+      "video_id": "TLRiju0jFEI"
+    },
+    {
+      "index": 1,
+      "title": "ALL of linear algebra in 7 minutes.",
+      "video_id": "QL4_4GAWvPs"
+    },
+    {
+      "index": 2,
+      "title": "Engineering Mathematics 01 | Linear Algebra (Part 01) | GATE 2025 series | All Branch",
+      "video_id": "tQrCmSy32S4"
+    },
+    {
+      "index": 3,
+      "title": "1. The Geometry of Linear Equations",
+      "video_id": "J7DzL2_Na80"
+    }
+  ],
+  "playlist_id": "topic_linear_algebra"
+}
