@@ -4,7 +4,7 @@
 
 A knowledge graph-augmented personalised learning system that combines six DSPy-compiled LLM agents with a psychologically-grounded Bayesian mastery engine to deliver adaptive, constructivist instruction from YouTube lecture content.
 
-### 📄 [Research Paper (PDF)](main.pdf) &nbsp;&nbsp;&nbsp; 🎬 [Demo Video (MP4)](video.mp4)
+### 📄 [Research Paper (PDF)](main.pdf) &nbsp;&nbsp;&nbsp; 📊 [Presentation (PDF)](PersonalisedLearningSystem.pdf) &nbsp;&nbsp;&nbsp; 🎬 [Demo Video (MP4)](video.mp4)
 
 ---
 
