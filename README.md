@@ -4,9 +4,15 @@
 
 A knowledge graph-augmented personalised learning system that combines six DSPy-compiled LLM agents with a psychologically-grounded Bayesian mastery engine to deliver adaptive, constructivist instruction from YouTube lecture content.
 
-### 📄 [Research Paper (PDF)](main.pdf) &nbsp;&nbsp;&nbsp; 📊 [Presentation (PDF)](PersonalisedLearningSystem.pdf) &nbsp;&nbsp;&nbsp; 🎬 [Demo Video (MP4)](video.mp4)
+### 📄 [Research Paper (PDF)](main.pdf) &nbsp;&nbsp;&nbsp; 📊 [Presentation (PDF)](PersonalisedLearningSystem.pdf)
 
 ---
+
+## Project status and navigation
+
+This is the canonical full-system repository for the personalised tutor project. The [earlier tutor prototype](https://github.com/J10Official/AoLM-Personalized-Tutor) is retained as a historical reference. [AoLM-RAG](https://github.com/J10Official/AoLM-RAG) documents the related knowledge-graph retrieval component.
+
+For a first look, read the [paper](main.pdf) and [presentation](PersonalisedLearningSystem.pdf), then follow Quick Start below. A learner session moves from source selection and concept tracking to an explanation, doubt resolution, questions, and mastery updates. The learner interface and admin dashboard expose different parts of that workflow.
 
 ## Table of Contents
 
@@ -27,7 +33,8 @@ A knowledge graph-augmented personalised learning system that combines six DSPy-
 
 ```bash
 # 1. Clone and enter the project
-cd PersonalisedLearningSystem
+git clone https://github.com/J10Official/AoLM-Personalized-Tutor-Final-Submission.git
+cd AoLM-Personalized-Tutor-Final-Submission
 
 # 2. Create and activate virtual environment
 python3 -m venv .venv
